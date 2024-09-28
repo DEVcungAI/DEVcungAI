@@ -14,10 +14,16 @@ __So what is in this part?__
 
 2. Computers
 
-3. Database
+3. Data Structures & Algorithms
 
-4. Network
+4. Databases
 
-5. Security
+5. Network
 
-6. System
+6. Security
+
+7. System
+
+
+
+Last updated on: *14:59 2024-09-28 (GMT+7)*
