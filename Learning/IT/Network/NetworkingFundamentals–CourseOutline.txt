@@ -1,0 +1,63 @@
+Networking Fundamentals – Course Outline
+Below is the outline for the full Networking Fundamentals course. Keep in mind, the topics are still being scoped, so this outline is subject to change.
+Module 1 – How Data moves through the Internet (Available for free, see above)
+Module 2 – IP Addresses and Subnetting
+Module 3 – Host Configuration and Verification
+Windows
+Linux
+Windows Server
+Module 4 – TCP and UDP
+Module 5 – VLANs
+Module 6 – NAT
+Module 7 – Network Designs
+Self Hosting vs Managed Hosting
+Firewalls
+Load Balancers
+Network Topology: Inside and Outside
+Network Topology: DMZ
+NIC Bonding / NIC Teaming (Port-Channel / EtherChannel)
+Virtual Machines (VMs) and Hypervisors
+Module 8 – Address Resolution Protocol
+Traditional ARP
+Gratuitous ARP
+Proxy ARP
+ARP Probe and ARP Announcements
+Module 9 – Troubleshooting Tools
+Ping
+Traceroute
+TCP Traceroute
+MTR
+PathPing
+iperf
+Netstat
+Nmap
+Wireshark
+TCP Dump
+Module 10 – Network Protocols
+DHCP
+DNS
+HTTP
+HTTPS / SSL / TLS
+SSH
+FTP
+TFTP
+SCP
+SNMP
+NTP
+Module 11 – IPv6
+Module 12 – Cloud Networking Basics
+What is the Cloud?
+“something” as a Service: IaaS, PaaS, SaaS (DaaS, FaaS)
+Cloud Basics: Amazon AWS
+Cloud Basics: Google GCP
+Cloud Basics: Microsoft Azure
+Module 13 – Network Engineering: (Possibly in it’s own Network Engineering addendum course)
+STP
+Port-Channel / Ether-Channel
+FHRP (HSRP, VRRP, GLBP)
+Advanced Routing and Routing Tables Concepts
+RIP
+OSPF
+EIGRP
+BGP
+When complete, this course will be the “must watch” course for anyone looking to get into Networking or understand how Networking works.
