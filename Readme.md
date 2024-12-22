@@ -11,6 +11,7 @@ Try this: https://e.vnexpress.net/
 *Or*: https://thesaigontimes.vn/
 
 
+
 **Viewing night life vlogs** at some places in Ho Chi Minh City?
 
 This: https://www.youtube.com/watch?v=w38nLosdCLA
