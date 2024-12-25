@@ -25,3 +25,5 @@ Contact me:
 Whatsapp: +84346928135
 
 Telegram: @nminhanh
+
+LotusChat: @nminhanh
