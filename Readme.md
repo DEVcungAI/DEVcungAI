@@ -1,4 +1,9 @@
-﻿# Life in Vietnam?
+﻿<div align="center">
+<img src="./HappyNewYear.png" width="520" alt="devcungai.com">
+</div>
+
+
+# Life in Vietnam?
 
 **Reading news?**
 
