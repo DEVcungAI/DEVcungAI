@@ -1,6 +1,4 @@
-﻿<div align="center">
-<img src="./HappyNewYear.png" width="520" alt="devcungai.com">
-</div>
+﻿[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Montserrat+Alternatives&weight=300&size=25&duration=2000&pause=3000&color=F7B31D&background=FFFFFF00&center=true&vCenter=true&width=640&height=90&lines=Hi!;Welcome+to+my+GitHub+project.;My+name+is+MINH+ANH+(ALVIN)+%F0%9F%91%8B;I'm+experienced+I.T.+Vietnamese+guy.)](https://git.io/typing-svg)
 
 
 # Life in Vietnam?
