@@ -2,32 +2,32 @@
 
 
 # Viewing the previous project commits?
-Check it here: https://github.com/DEVcungAI/DEVcungAI/commits/main/
+* Check it here: https://github.com/DEVcungAI/DEVcungAI/commits/main/
 
 
 # Life in Vietnam?
 
 **Reading news?**
 
-Try this: https://e.vnexpress.net/
+* Try this: https://e.vnexpress.net/
 
-*Or*: https://en.vneconomy.vn/
+* *Or*: https://en.vneconomy.vn/
 
-*Or*: https://english.thesaigontimes.vn/
+* *Or*: https://english.thesaigontimes.vn/
 
 
 **Viewing night life vlogs** at some places in Ho Chi Minh City?
 
-This: https://www.youtube.com/watch?v=w38nLosdCLA
+* This: https://www.youtube.com/watch?v=w38nLosdCLA
 
-Another one: https://www.youtube.com/watch?v=Mvsa17OMq-I
+* Another one: https://www.youtube.com/watch?v=Mvsa17OMq-I
 
 
 # Wanna something else?
 Contact me:
 
-Whatsapp: +84346928135
+* Whatsapp: +84346928135
 
-Telegram: @nminhanh
+* Telegram: @nminhanh
 
-LotusChat: @nminhanh
+* LotusChat: @nminhanh
