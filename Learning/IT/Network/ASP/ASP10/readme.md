@@ -1,106 +1,838 @@
-Overview of ASP.NET Core
+# For full reading experience, please access the following URL:
+
+https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-10.0
+
+
+
+➡➡➡➡➡
+
+
+
+# Overview of ASP.NET Core
 
 Article • 06/18/2024
+
 By Daniel Roth , Rick Anderson , and Shaun Luttin
 
+
 Why choose ASP.NET Core?
+
 Build web APIs and web UI using ASP.NET Core MVC
+
 Client-side development
+
 ASP.NET Core target frameworks
+
 Recommended learning path
+
 Migrate from .NET Framework
+
 How to download a sample
+
 Preprocessor directives in sample code
+
 Breaking changes and security advisories
+
 Next steps
 
 
-Choose between ASP.NET 4.x and ASP.NET Core
+
+# Choose between ASP.NET 4.x and ASP.NET Core
 
 Article • 04/10/2024
 
 ASP.NET Core
+
 ASP.NET 4.x
+
 Framework selection
+
 ASP.NET Core scenarios
+
 ASP.NET 4.x scenarios
+
 Additional resources
 
 
-.NET vs. .NET Framework for server apps
+
+# .NET vs. .NET Framework for server apps
 
 Article • 11/22/2024
 
 Choose .NET
+
 When to choose .NET Framework
+
 See also
 
 
 
-Tutorial: Get started with ASP.NET Core
+# Tutorial: Get started with ASP.NET Core
 
 Article • 09/18/2024
 
 Prerequisites
+
 Create a web app project
+
 Run the app
+
 Edit a Razor page
+
 Next steps
 
 
-What's new in ASP.NET Core 9.0
+
+# What's new in ASP.NET Core 9.0
 
 Article • 11/19/2024
 
 
 Static asset delivery optimization
+
 Enabling dynamic compression on the server vs using MapStaticAssets
+
 Blazor
+
 .NET MAUI Blazor Hybrid and Web App solution template
+
 Detect rendering location, interactivity, and assigned render mode at runtime
+
 Improved server-side reconnection experience:
+
 Simplified authentication state serialization for Blazor Web Apps
+
 Add static server-side rendering (SSR) pages to a globally-interactive Blazor Web App
+
 Constructor injection
+
 Websocket compression for Interactive Server components
+
 Handle keyboard composition events in Blazor
+
 Added OverscanCount parameter to QuickGrid
+
 InputNumber component supports the type="range" attribute
+
 New enhanced navigation events
+
 SignalR
+
 Polymorphic type support in SignalR Hubs
+
 Improved Activities for SignalR
+
 .NET SignalR server ActivitySource
+
 .NET SignalR client ActivitySource
+
 SignalR supports trimming and Native AOT
+
 Getting started
+
 Limitations
+
 Minimal APIs
+
 Added InternalServerError and InternalServerError<TValue> to TypedResults
+
 Call ProducesProblem and ProducesValidationProblem on route groups
+
 Problem and ValidationProblem result types support construction with IEnumerable<KeyValuePair<string, object?>> values
+
 OpenAPI
+
 Built-in support for OpenAPI document generation
+
 Microsoft.AspNetCore.OpenApi supports trimming and Native AOT
+
 Get started
+
 Authentication and authorization
+
 OpenIdConnectHandler adds support for Pushed Authorization Requests (PAR)
+
 OIDC and OAuth Parameter Customization
+
 Configure HTTP.sys extended authentication flags
+
 Miscellaneous
+
 New HybridCache library
+
 A note on object reuse
+
 Other HybridCache features
+
 Developer exception page improvements
+
 Dictionary debugging improvements
+
 Fix for 503's during app recycle in IIS
+
 ASP0026: Analyzer to warn when [Authorize] is overridden by [AllowAnonymous] from "farther away"
+
 Improved Kestrel connection metrics
+
 Customize Kestrel named pipe endpoints
+
 ExceptionHandlerMiddleware option to choose the status code based on the exception type
+
 Opt-out of HTTP metrics on certain endpoints and requests
+
 Data Protection support for deleting keys
+
 Middleware supports Keyed DI
+
 Trust the ASP.NET Core HTTPS development certificate on Linux
+
 Templates updated to latest Bootstrap, jQuery, and jQuery Validation versions
+
+
+# What's new in ASP.NET Core 8.0
+
+Blazor
+
+Full-stack web UI
+
+New article on class libraries with static server-side rendering (static SSR)
+
+New article on HTTP caching issues
+
+New Blazor Web App template
+
+New JS initializers for Blazor Web Apps
+
+Split of prerendering and integration guidance
+
+Persist component state in a Blazor Web App
+
+Form handling and model binding
+
+Enhanced navigation and form handling
+
+New article on static rendering with enhanced navigation for JS interop
+
+Streaming rendering
+
+Inject keyed services into components
+
+Access HttpContext as a cascading parameter
+
+Render Razor components outside of ASP.NET Core
+
+Sections support
+
+Error page support
+
+QuickGrid
+
+Route to named elements
+
+Root-level cascading values
+
+Virtualize empty content
+
+Close circuits when there are no remaining interactive server components
+
+Monitor SignalR circuit activity
+
+Faster runtime performance with the Jiterpreter
+
+Ahead-of-time (AOT) SIMD and exception handling
+
+Web-friendly Webcil packaging
+
+Blazor WebAssembly debugging improvements
+
+Content Security Policy (CSP) compatibility
+
+Handle caught exceptions outside of a Razor component's lifecycle
+
+Configure the .NET WebAssembly runtime
+
+Configuration of connection timeouts in HubConnectionBuilder
+
+Project templates shed Open Iconic
+
+Support for dialog cancel and close events
+
+Blazor Identity UI
+
+Secure Blazor WebAssembly with ASP.NET Core Identity
+
+Blazor Server with Yarp routing
+
+Multiple Blazor Web Apps per server project
+
+Blazor Hybrid
+
+[Parameter] attribute is no longer required when supplied from the query string
+
+SignalR
+
+New approach to set the server timeout and Keep-Alive interval
+
+Prior approach for JavaScript clients
+
+New approach for JavaScript clients
+
+Prior approach for the JavaScript client of a Blazor Server app
+
+New approach for the JavaScript client of server-side Blazor app
+
+Prior approach for .NET clients
+
+New approach for .NET clients
+
+SignalR stateful reconnect
+
+Minimal APIs
+
+User override culture
+
+Binding to forms
+
+Antiforgery with minimal APIs
+
+New IResettable interface in ObjectPool
+
+Native AOT
+
+Libraries and Native AOT
+
+New project template
+
+New CreateSlimBuilder method
+
+New CreateEmptyBuilder method
+
+Reduced app size with configurable HTTPS support
+
+JSON serialization of compiler-generated IAsyncEnumerable<T> types
+
+Top-level APIs annotated for trim warnings
+
+Request delegate generator
+
+Improved performance using Interceptors
+
+Logging and exception handling in compile-time generated minimal APIs
+
+AOT and System.Text.Json
+
+Libraries and Native AOT
+
+Kestrel and HTTP.sys servers
+
+Support for named pipes in Kestrel
+
+Performance improvements to named pipes transport
+
+HTTP/2 over TLS (HTTPS) support on macOS in Kestrel
+
+Certificate file watching in Kestrel
+
+Warning when specified HTTP protocols won't be used
+
+HTTP_PORTS and HTTPS_PORTS config keys
+
+SNI host name in ITlsHandshakeFeature
+
+IHttpSysRequestTimingFeature
+
+HTTP.sys: opt-in support for kernel-mode response buffering
+
+Authentication and authorization
+
+Identity API endpoints
+
+IAuthorizationRequirementData
+
+Securing Swagger UI endpoints
+
+Miscellaneous
+
+Keyed services support in Dependency Injection
+
+Visual Studio project templates for SPA apps with ASP.NET Core backend
+
+Support for generic attributes
+
+Code analysis in ASP.NET Core apps
+
+Route tooling
+
+ASP.NET Core metrics
+
+IExceptionHandler
+
+Improved debugging experience
+
+IPNetwork.Parse and TryParse
+
+Redis-based output caching
+
+Short-circuit middleware after routing
+
+HTTP logging middleware extensibility
+
+New APIs in ProblemDetails to support more resilient integrations
+
+Additional resources
+
+
+
+# What's new in ASP.NET Core 7.0
+
+Rate limiting middleware in ASP.NET Core
+
+Authentication uses single scheme as DefaultScheme
+
+MVC and Razor pages
+
+Support for nullable models in MVC views and Razor Pages
+
+Bind with IParsable<T>.TryParse in MVC and API Controllers
+
+Customize the cookie consent value
+
+API controllers
+
+Parameter binding with DI in API controllers
+
+JSON property names in validation errors
+
+Minimal APIs
+
+Filters in Minimal API apps
+
+Bind arrays and string values from headers and query strings
+
+Bind the request body as a Stream or PipeReader
+
+New Results.Stream overloads
+
+Typed results for minimal APIs
+
+Improved unit testability for minimal route handlers
+
+New HttpResult interfaces
+
+OpenAPI improvements for minimal APIs
+
+Microsoft.AspNetCore.OpenApi NuGet package
+
+Call WithOpenApi with parameters
+
+Provide endpoint descriptions and summaries
+
+File uploads using IFormFile and IFormFileCollection
+
+[AsParameters] attribute enables parameter binding for argument lists
+
+Minimal APIs and API controllers
+
+New problem details service
+
+Route groups
+
+gRPC
+
+JSON transcoding
+
+gRPC health checks in ASP.NET Core
+
+Improved call credentials support
+
+SignalR
+
+Client results
+
+Dependency injection for SignalR hub methods
+
+Blazor
+
+Handle location changing events and navigation state
+
+Empty Blazor project templates
+
+Blazor custom elements
+
+Bind modifiers ( @bind:after , @bind:get , @bind:set )
+
+Hot Reload improvements
+
+Dynamic authentication requests with MSAL in Blazor WebAssembly
+
+Blazor WebAssembly debugging improvements
+
+System.Security.Cryptography support on WebAssembly
+
+Inject services into custom validation attributes
+
+Input\* components outside of an EditContext / EditForm
+
+Project template changes
+
+Experimental QuickGrid component
+
+Virtualization enhancements
+
+MouseEventArgs updates
+
+New Blazor loading page
+
+Improved diagnostics for authentication in Blazor WebAssembly
+
+JavaScript interop on WebAssembly
+
+Conditional registration of the authentication state provider
+
+Improvements to the .NET WebAssembly build tools
+
+Blazor Hybrid
+
+External URLs
+
+Security
+
+Performance
+
+Output caching middleware
+
+HTTP/3 improvements
+
+HTTP/2 Performance improvements
+
+Http/2 WebSockets support
+
+Kestrel performance improvements on high core machines
+
+ServerReady event to measure startup time
+
+Server
+
+New ServerReady event for measuring startup time
+
+IIS
+
+Shadow copying in IIS
+
+Miscellaneous
+
+Kestrel full certificate chain improvements
+
+dotnet watch
+
+Improved console output for dotnet watch
+
+Configure dotnet watch to always restart for rude edits
+
+Developer exception page dark mode
+
+Project template option to use Program.Main method instead of top-level statements
+
+Updated Angular and React templates
+
+Manage JSON Web Tokens in development with dotnet user-jwts
+
+Support for additional request headers in W3CLogger
+
+Request decompression
+
+
+
+# What's new in ASP.NET Core 6.0
+
+ASP.NET Core MVC and Razor improvements
+
+Minimal APIs
+
+SignalR
+
+Long running activity tag for SignalR connections
+
+SignalR performance improvements
+
+Razor compiler
+
+Razor compiler updated to use source generators
+
+Razor compiler no longer produces a separate Views assembly
+
+ASP.NET Core performance and API improvements
+
+Reduced memory footprint for idle TLS connections
+
+Reduce the size of System.IO.Pipelines.Pipe
+
+Pool SocketSender
+
+Zero bytes reads with SslStream
+
+Zero byte reads with PipeReader
+
+Remove slabs from the SlabMemoryPool
+
+IAsyncDisposable supported
+
+Vcpkg port for SignalR C++ client
+
+Blazor
+
+Project template changes
+
+Blazor WebAssembly native dependencies support
+
+WebAssembly Ahead-of-time (AOT) compilation and runtime relinking
+
+Persist prerendered state
+
+Error boundaries
+
+SVG support
+
+Blazor Server support for byte array transfer in JS Interop
+
+Query string enhancements
+
+Binding to select multiple
+
+Head ( <head> ) content control
+
+Generate Angular and React components
+
+Render components from JavaScript
+
+Custom elements
+
+Infer component generic types from ancestor components
+
+Dynamically rendered components
+
+Improved Blazor accessibility
+
+Custom event argument support
+
+Required parameters
+
+Collocation of JavaScript files with pages, views, and components
+
+JavaScript initializers
+
+Streaming JavaScript interop
+
+Generic type constraints
+
+WebAssembly deployment layout
+
+New Blazor articles
+
+Build Blazor Hybrid apps with .NET MAUI, WPF, and Windows Forms
+
+Kestrel
+
+New Kestrel logging categories for selected logging
+
+Emit KestrelServerOptions via EventSource event
+
+New DiagnosticSource event for rejected HTTP requests
+
+Create a ConnectionContext from an Accept Socket
+
+Kestrel is the default launch profile for Visual Studio
+
+Localhost ports for Kestrel are random
+
+Authentication and authorization
+
+Authentication servers
+
+Delayed client certificate negotiation
+
+OnCheckSlidingExpiration event for controlling cookie renewal
+
+Miscellaneous
+
+Hot Reload
+
+Improved single-page app (SPA) templates
+
+Draft HTTP/3 support in .NET 6
+
+Nullable Reference Type Annotations
+
+Source Code Analysis
+
+Web app template improvements
+
+Template generated ports for Kestrel
+
+New logging defaults
+
+Developer exception page Middleware added automatically
+
+Support for Latin1 encoded request headers in HttpSysServer
+
+The ASP.NET Core Module logs include timestamps and PID
+
+Configurable unconsumed incoming buffer size for IIS
+
+View Components Tag Helpers
+
+Angular template updated to Angular 12
+
+Configurable buffer threshold before writing to disk in Json.NET output formatter
+
+Faster get and set for HTTP headers
+
+Async streaming
+
+HTTP logging middleware
+
+IConnectionSocketFeature
+
+Generic type constraints in Razor
+
+Smaller SignalR, Blazor Server, and MessagePack scripts
+
+Enable Redis profiling sessions
+
+Shadow copying in IIS
+
+Additional resources
+
+
+
+# What's new in ASP.NET Core 5.0
+
+ASP.NET Core MVC and Razor improvements
+
+Model binding DateTime as UTC
+
+Model binding and validation with C\# 9 record types
+
+Improvements to DynamicRouteValueTransformer
+
+Miscellaneous
+
+Web API
+
+OpenAPI Specification on by default
+
+Azure API Management Import
+
+Better launch experience for web API projects
+
+Blazor
+
+Performance improvements
+
+CSS isolation
+
+New InputFile component
+
+New InputRadio and InputRadioGroup components
+
+Component virtualization
+
+ontoggle event support
+
+Set UI focus in Blazor apps
+
+Custom validation CSS class attributes
+
+IAsyncDisposable support
+
+JavaScript isolation and object references
+
+Form components support display name
+
+Catch-all route parameters
+
+Debugging improvements
+
+Microsoft Identity v2.0 and MSAL v2.0
+
+Protected Browser Storage for Blazor Server
+
+Blazor WebAssembly prerendering
+
+Trimming/linking improvements
+
+Browser compatibility analyzer
+
+Lazy load assemblies
+
+Updated globalization support
+
+gRPC
+
+SignalR
+
+SignalR Hub filters
+
+SignalR parallel hub invocations
+
+Added Messagepack support in SignalR Java client
+
+Kestrel
+
+Kestrel endpoint-specific options via configuration
+
+Performance improvements
+
+HTTP//2
+
+Containers
+
+Authentication and authorization
+
+Microsoft Entra ID authentication with Microsoft.Identity.Web
+
+Allow anonymous access to an endpoint
+
+Custom handling of authorization failures
+
+Authorization when using endpoint routing
+
+Role-based access control with Kerberos authentication and LDAP on Linux
+
+API improvements
+
+JSON extension methods for HttpRequest and HttpResponse
+
+System.Diagnostics.Activity
+
+FromBodyAttribute
+
+Miscellaneous improvements
+
+Control Startup class activation
+
+Auto refresh with dotnet watch
+
+Console Logger Formatter
+
+JSON Console Logger
+
+
+
+# What's new in ASP.NET Core 3.1
+
+Partial class support for Razor components
+
+Component Tag Helper and pass parameters to top-level components
+
+Support for shared queues in HTTP.sys
+
+Breaking changes for SameSite cookies
+
+Prevent default actions for events in Blazor apps
+
+Stop event propagation in Blazor apps
+
+Detailed errors during Blazor app development
+
 
