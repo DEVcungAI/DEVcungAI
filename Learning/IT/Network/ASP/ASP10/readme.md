@@ -41,6 +41,7 @@ Next steps
 
 Article • 04/10/2024
 
+
 ASP.NET Core
 
 ASP.NET 4.x
@@ -59,6 +60,7 @@ Additional resources
 
 Article • 11/22/2024
 
+
 Choose .NET
 
 When to choose .NET Framework
@@ -70,6 +72,7 @@ See also
 # Tutorial: Get started with ASP.NET Core
 
 Article • 09/18/2024
+
 
 Prerequisites
 
@@ -189,7 +192,11 @@ Trust the ASP.NET Core HTTPS development certificate on Linux
 Templates updated to latest Bootstrap, jQuery, and jQuery Validation versions
 
 
+
 # What's new in ASP.NET Core 8.0
+
+Article • 11/06/2024
+
 
 Blazor
 
@@ -385,6 +392,9 @@ Additional resources
 
 # What's new in ASP.NET Core 7.0
 
+Article • 09/27/2024
+
+
 Rate limiting middleware in ASP.NET Core
 
 Authentication uses single scheme as DefaultScheme
@@ -544,6 +554,9 @@ Request decompression
 
 
 # What's new in ASP.NET Core 6.0
+
+Article • 10/18/2024
+
 
 ASP.NET Core MVC and Razor improvements
 
@@ -707,6 +720,9 @@ Additional resources
 
 # What's new in ASP.NET Core 5.0
 
+Article • 09/27/2024
+
+
 ASP.NET Core MVC and Razor improvements
 
 Model binding DateTime as UTC
@@ -783,7 +799,7 @@ Kestrel endpoint-specific options via configuration
 
 Performance improvements
 
-HTTP//2
+HTTP/2
 
 Containers
 
@@ -821,6 +837,9 @@ JSON Console Logger
 
 # What's new in ASP.NET Core 3.1
 
+Article • 09/25/2023
+
+
 Partial class support for Razor components
 
 Component Tag Helper and pass parameters to top-level components
@@ -834,5 +853,399 @@ Prevent default actions for events in Blazor apps
 Stop event propagation in Blazor apps
 
 Detailed errors during Blazor app development
+
+
+# What's new in ASP.NET Core 3.0
+
+Article • 09/27/2023
+
+
+Blazor
+
+Blazor Server
+
+Blazor WebAssembly (Preview)
+
+Razor components
+
+gRPC
+
+SignalR
+
+New JSON serialization
+
+New Razor directives
+
+IdentityServer4 supports authentication and authorization for web APIs and SPAs
+
+Certificate and Kerberos authentication
+
+Template changes
+
+Generic Host
+
+Host configuration
+
+Changes to Startup constructor injection
+
+Kestrel
+
+HTTP/2 enabled by default
+
+EventCounters on request
+
+Endpoint routing
+
+Health Checks
+
+Pipes on HttpContext
+
+Improved error reporting in IIS
+
+Worker Service and Worker SDK
+
+Forwarded Headers Middleware improvements
+
+Performance improvements
+
+ASP.NET Core 3.0 only runs on .NET Core 3.0
+
+Use the ASP.NET Core shared framework
+
+Assemblies removed from the ASP.NET Core shared framework
+
+
+# What's new in ASP.NET Core 2.2
+
+Article • 08/14/2024
+
+
+OpenAPI Analyzers & Conventions
+
+Problem details support
+
+Endpoint Routing
+
+Health checks
+
+HTTP/2 in Kestrel
+
+Kestrel configuration
+
+IIS in-process hosting
+
+SignalR Java client
+
+CORS improvements
+
+Response compression
+
+Project templates
+
+Validation performance
+
+HTTP Client performance
+
+Additional information
+
+
+
+# What's new in ASP.NET Core 2.1
+
+Article • 08/30/2024
+
+
+SignalR
+
+Razor class libraries
+
+Identity UI library & scaffolding
+
+HTTPS
+
+On by default
+
+HTTPS redirection and enforcement
+
+Configuration for production
+
+GDPR
+
+Integration tests
+
+[ApiController], ActionResult<T>
+
+IHttpClientFactory
+
+Kestrel libuv transport configuration
+
+Generic host builder
+
+Updated SPA templates
+
+Razor Pages search for Razor assets
+
+Razor Pages in an area
+
+MVC compatibility version
+
+Migrate from 2.0 to 2.1
+
+Additional information
+
+
+
+# What's new in ASP.NET Core 2.0
+
+Article • 09/18/2024
+
+
+Razor Pages
+
+ASP.NET Core metapackage
+
+Runtime Store
+
+.NET Standard 2.0
+
+Configuration update
+
+Logging update
+
+Authentication update
+
+Identity update
+
+SPA templates
+
+Kestrel improvements
+
+WebListener renamed to HTTP.sys
+
+Enhanced HTTP header support
+
+Hosting startup and Application Insights
+
+Automatic use of antiforgery tokens
+
+Automatic precompilation
+
+Razor support for C# 7.1
+
+Other documentation updates for 2.0
+
+Migration guidance
+
+Additional Information
+
+
+
+# What's new in ASP.NET Core 1.1
+
+Article • 06/03/2022
+
+
+Choosing between versions 1.0 and 1.1 of ASP.NET Core
+
+Additional Information
+
+
+
+# ASP.NET Core documentation - what's new?
+
+
+Find ASP.NET Core docs updates
+
+WHAT'S NEW
+
+June 2024
+
+May 2024
+
+April 2024
+
+March 2024
+
+February 2024
+
+January 2024
+
+
+Get involved - contribute to ASP.NET Core docs
+
+OVERVIEW
+
+ASP.NET Core docs repository
+
+Project structure and labels for issues and pull requests
+
+
+CONCEPT
+
+Contributor guide
+
+ASP.NET Core docs contributor guide
+
+ASP.NET Core API reference docs contributor guide
+
+
+Community
+
+WHAT'S NEW
+
+Community
+
+
+Related what's new pages
+
+WHAT'S NEW
+
+Xamarin docs updates
+
+.NET Core release notes
+
+ASP.NET Core release notes
+
+C# compiler (Roslyn) release notes
+
+Visual Studio release notes
+
+Visual Studio for Mac release notes
+
+Visual Studio Code release notes
+
+
+
+# Choose an ASP.NET Core web UI
+
+Article • 10/21/2024
+
+
+ASP.NET Core Blazor
+
+ASP.NET Core Razor Pages
+
+ASP.NET Core MVC
+
+ASP.NET Core Single Page Applications (SPA) with frontend JavaScript frameworks
+
+Combine multiple web UI solutions: ASP.NET Core MVC or Razor Pages plus Blazor
+
+Next steps
+
+
+
+# Tutorial: Create a Razor Pages web app with ASP.NET Core
+
+Article • 07/01/2024
+
+
+This series includes the following tutorials:
+
+1. Create a Razor Pages web app
+
+2. Add a model to a Razor Pages app
+
+3. Scaffold (generate) Razor pages
+
+4. Work with a database
+
+5. Update Razor pages
+
+6. Add search
+
+7. Add a new field
+
+8. Add validation
+
+
+
+# Tutorial: Get started with Razor Pages in ASP.NET Core
+
+Article • 08/05/2024
+
+
+Prerequisites
+
+Create a Razor Pages web app
+
+Run the app
+
+Examine the project files
+
+Pages folder
+
+wwwroot folder
+
+```appsettings.json```
+
+Program.cs
+
+Troubleshooting with the completed sample
+
+Next steps
+
+
+
+# Part 2, add a model to a Razor Pages app in ASP.NET Core
+
+Article • 10/29/2024
+
+
+Add a data model
+
+Scaffold the movie model
+
+Files created and updated
+
+Create the initial database schema using EF's migration feature
+
+Test the app
+
+Examine the context registered with dependency injection
+
+Troubleshooting with the completed sample
+
+Next steps
+
+
+
+# Part 3, scaffolded Razor Pages in ASP.NET Core
+
+Article • 07/01/2024
+
+
+The Create, Delete, Details, and Edit pages
+
+The @page directive
+
+The @model directive
+
+The layout page
+
+ViewData and layout
+
+Update the layout
+
+The Create page model
+
+The Create Razor Page
+
+Next steps
+
+
+
+# Part 4 of tutorial series on Razor Pages
+
+Article • 09/17/2024
+
+
+Seed the database
+
+Add the seed initializer
+
+Test the app
+
+Next steps
 
 
