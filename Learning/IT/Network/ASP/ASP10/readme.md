@@ -1249,3 +1249,157 @@ Test the app
 Next steps
 
 
+
+# Part 5, update the generated pages in an ASP.NET Core app
+
+Article • 07/01/2024
+
+Update the model
+
+Add route template
+
+Review concurrency exception handling
+
+Posting and binding review
+
+Next steps
+
+
+
+# Part 6, add search to ASP.NET Core Razor Pages
+
+Article • 07/01/2024
+
+Search by genre
+
+Add search by genre to the Razor Page
+
+Next steps
+
+
+
+# Part 7, add a new field to a Razor Page in ASP.NET Core
+
+Article • 07/01/2024
+
+Adding a Rating Property to the Movie Model
+
+Add a migration for the rating field
+
+Next steps
+
+
+
+# Part 8 of tutorial series on Razor Pages
+
+Article • 07/01/2024
+
+Validation
+
+Add validation rules to the movie model
+
+Validation Error UI in Razor Pages
+
+Server-side validation
+
+Use DataType Attributes
+
+Apply migrations
+
+Publish to Azure
+
+Additional resources
+
+Next steps
+
+
+
+# Get started with ASP.NET Core MVC
+
+Article • 07/30/2024
+
+Prerequisites
+
+Create a web app
+
+Run the app
+
+
+
+# Part 2, add a controller to an ASP.NET Core MVC app
+
+Article • 07/30/2024
+
+Add a controller
+
+
+
+# Part 3, add a view to an ASP.NET Core MVC app
+
+Article • 07/30/2024
+
+Add a view
+
+Change views and layout pages
+
+Change the title, footer, and menu link in the layout file
+
+Passing Data from the Controller to the View
+
+
+
+# Part 4, add a model to an ASP.NET Core MVC app
+
+Article • 07/30/2024
+
+Add a data model class
+
+Add NuGet packages
+
+Scaffold movie pages
+
+Initial migration
+
+Test the app
+
+Examine the generated database context class and registration
+
+Dependency injection
+
+Examine the generated database connection string
+
+The InitialCreate class
+
+Dependency injection in the controller
+
+Strongly typed models and the @model directive
+
+Additional resources
+
+
+
+# Part 5, work with a database in an ASP.NET Core MVC app
+
+Article • 09/10/2024
+
+SQL Server Express LocalDB
+
+Examine the database
+
+Seed the database
+
+Add the seed initializer
+
+
+
+# Part 6, controller methods and views in ASP.NET Core
+
+Article • 09/18/2024
+
+Processing the POST Request
+
+Additional resources
+
+
+
+# 
