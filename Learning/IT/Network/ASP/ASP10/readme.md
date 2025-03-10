@@ -1402,4 +1402,238 @@ Additional resources
 
 
 
+# Part 7, add search to an ASP.NET Core MVC app
+
+Article • 09/18/2024
+
+Add Search by genre
+
+Add search by genre to the Index view
+
+
+
+# Part 8, add a new field to an ASP.NET Core MVC app
+
+Article • 07/30/2024
+
+Add a Rating Property to the Movie Model
+
+
+
+# Part 9, add validation to an ASP.NET Core MVC app
+
+Article • 07/30/2024
+
+Keeping things DRY
+
+Delete the previously edited data
+
+Add validation rules to the movie model
+
+Validation Error UI
+
+How validation works
+
+Using DataType Attributes
+
+Additional resources
+
+
+
+# Part 10, examine the Details and Delete methods of an ASP.NET Core app
+
+Article • 08/05/2024
+
+Publish to Azure
+
+Reliable web app patterns
+
+
+
+# ASP.NET Core Blazor tutorials
+
+Article • 11/18/2024
+
+Build your first Blazor app
+
+Build a Blazor todo list app (Blazor Web App)
+
+Build a Blazor movie database app (Overview) (Blazor Web App)
+
+Use ASP.NET Core SignalR with Blazor (Blazor Web App)
+
+ASP.NET Core Blazor Hybrid tutorials
+
+Microsoft Learn
+
+Blazor Learning Path
+
+Blazor Learn Modules
+
+
+
+# Tutorial: Create a web API with ASP.NET Core
+
+Article • 08/23/2024
+
+Overview
+
+Prerequisites
+
+Create a web project
+
+Add a NuGet package
+
+Test the project
+
+Add a model class
+
+Add a database context
+
+Register the database context
+
+Scaffold a controller
+
+Update the PostTodoItem create method
+
+Test PostTodoItem
+
+Test the location header URI
+
+Examine the GET methods
+
+Routing and URL paths
+
+Return values
+
+The PutTodoItem method
+
+Test the PutTodoItem method
+
+The DeleteTodoItem method
+
+Test the DeleteTodoItem method
+
+Test with other tools
+
+Prevent over-posting
+
+Call the web API with JavaScript
+
+Web API video series
+
+Reliable web app patterns
+
+Add authentication support to a web API
+
+Publish to Azure
+
+Additional resources
+
+
+
+# Create a web API with ASP.NET Core and MongoDB
+
+Article • 04/25/2024
+
+Prerequisites
+
+Configure MongoDB
+
+Create the ASP.NET Core web API project
+
+Add an entity model
+
+Add a configuration model
+
+Add a CRUD operations service
+
+Add a controller
+
+Test the web API
+
+Configure JSON serialization options
+
+Add authentication support to a web API
+
+
+
+# Tutorial: Call an ASP.NET Core web API with JavaScript
+
+Article • 04/25/2024
+
+Prerequisites
+
+Call the web API with JavaScript
+
+Get a list of to-do items
+
+Add a to-do item
+
+Update a to-do item
+
+Delete a to-do item
+
+
+
+# Create backend services for native mobile apps with ASP.NET Core
+
+Article • 07/23/2024
+
+The Sample Native Mobile App
+
+Features
+
+Creating the ASP.NET Core Project
+
+Creating the Controller
+
+Test the API using curl
+
+Install curl and jq
+
+Reading Items
+
+Creating Items
+
+Updating Items
+
+Deleting Items
+
+Prevent over-posting
+
+Common Web API Conventions
+
+Additional resources
+
+
+
+# Publish an ASP.NET Core web API to Azure API Management with Visual Studio
+
+Article • 06/18/2024
+
+Set up
+
+Create an ASP.NET Core web API
+
+Explore the code
+
+Ensure the Swagger definitions are always generated
+
+Change the API routing
+
+Publish the web API to Azure App Service
+
+Publish the API app to Azure App Service
+
+Configure the published API name
+
+Verify the web API is working
+
+Clean up
+
+Additional resources
+
+
+
 # 
