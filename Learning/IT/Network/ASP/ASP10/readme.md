@@ -1636,4 +1636,552 @@ Additional resources
 
 
 
+# Tutorial: Create a minimal API with ASP.NET Core
+
+Article • 08/21/2024
+
+Overview
+
+Prerequisites
+
+Create an API project
+
+Examine the code
+
+Run the app
+
+Add NuGet packages
+
+The model and database context classes
+
+Add the API code
+
+Test posting data
+
+Examine the GET endpoints
+
+Test the GET endpoints
+
+Return values
+
+Examine the PUT endpoint
+
+Test the PUT endpoint
+
+Examine and test the DELETE endpoint
+
+Use the MapGroup API
+
+Use the TypedResults API
+
+Prevent over-posting
+
+Troubleshooting with the completed sample
+
+Next steps
+
+Learn more
+
+
+
+# Tutorial: Get started with ASP.NET Core SignalR
+
+Article • 11/16/2023
+
+Prerequisites
+
+Create a web app project
+
+Add the SignalR client library
+
+Create a SignalR hub
+
+Configure SignalR
+
+Add SignalR client code
+
+Run the app
+
+Publish to Azure
+
+Next steps
+
+
+
+
+# Tutorial: Get started with ASP.NET Core SignalR using TypeScript and Webpack
+
+Article • 11/16/2023
+
+Prerequisites
+
+Create the ASP.NET Core web app
+
+Configure the server
+
+Configure the client
+
+Test the app
+
+Next steps
+
+Additional resources
+
+
+
+# Use ASP.NET Core SignalR with Blazor
+
+Article • 06/21/2024
+
+Prerequisites
+
+Sample app
+
+Create a Blazor Web App
+
+Add the SignalR client library
+
+Add a SignalR hub
+
+Add services and an endpoint for the SignalR hub
+
+Add Razor component code for chat
+
+Run the app
+
+Next steps
+
+Additional resources
+
+
+
+
+# Tutorial: Create a gRPC client and server in ASP.NET Core
+
+Article • 06/18/2024
+
+Prerequisites
+
+Create a gRPC service
+
+Run the service
+
+Examine the project files
+
+Create the gRPC client in a .NET console app
+
+Add required NuGet packages
+
+PMC option to install packages
+
+Manage NuGet Packages option to install packages
+
+Add greet.proto
+
+Create the Greeter client
+
+Test the gRPC client with the gRPC Greeter service
+
+Next steps
+
+
+
+
+# Razor Pages with Entity Framework Core in ASP.NET Core - Tutorial 1 of 8
+
+Article • 09/27/2024
+
+Prerequisites
+
+Database engines
+
+Troubleshooting
+
+The sample app
+
+Optional: Build the sample download
+
+Create the web app project
+
+Set up the site style
+
+The data model
+
+The Student entity
+
+The Enrollment entity
+
+The Course entity
+
+Scaffold Student pages
+
+Database connection string
+
+Update the database context class
+
+Program.cs
+
+Add the database exception filter
+
+Create the database
+
+Test the app
+
+Seed the database
+
+View the database
+
+Asynchronous EF methods in ASP.NET Core web apps
+
+Performance considerations
+
+Next steps
+
+
+
+# Part 2, Razor Pages with EF Core in ASP.NET Core - CRUD
+
+Article • 07/26/2024
+
+No repository
+
+Update the Details page
+
+Read enrollments
+
+Display enrollments
+
+Ways to read one entity
+
+Route data vs. query string
+
+Update the Create page
+
+TryUpdateModelAsync
+
+Overposting
+
+View model
+
+Update the Edit page
+
+Entity States
+
+Update the Delete page
+
+Next steps
+
+
+
+# Part 3, Razor Pages with EF Core in ASP.NET Core - Sort, Filter, Paging
+
+Article • 04/10/2024
+
+Add sorting
+
+Add column heading hyperlinks to the Student Index page
+
+Add filtering
+
+Update the OnGetAsync method
+
+IQueryable vs. IEnumerable
+
+Update the Razor page
+
+Add paging
+
+Create the PaginatedList class
+
+Add page size to configuration
+
+Add paging to IndexModel
+
+Add paging links
+
+Grouping
+
+Create the view model
+
+Create the Razor Page
+
+Create the page model
+
+Next steps
+
+
+
+# Part 4, Razor Pages with EF Core migrations in ASP.NET Core
+
+Article • 05/31/2024
+
+Drop the database
+
+Create an initial migration
+
+Remove EnsureCreated
+
+Up and Down methods
+
+The migrations history table
+
+The data model snapshot
+
+Applying migrations in production
+
+Troubleshooting
+
+Additional resources
+
+Next steps
+
+
+
+# Part 5, Razor Pages with EF Core in ASP.NET Core - Data Model
+
+Article • 04/10/2024
+
+The Student entity
+
+The FullName calculated property
+
+The DataType attribute
+
+The DisplayFormat attribute
+
+The StringLength attribute
+
+The Column attribute
+
+The Required attribute
+
+The Display attribute
+
+Create a migration
+
+The Instructor Entity
+
+Navigation properties
+
+The OfficeAssignment entity
+
+The Key attribute
+
+The Instructor navigation property
+
+The Course Entity
+
+The DatabaseGenerated attribute
+
+Foreign key and navigation properties
+
+The Department entity
+
+The Column attribute
+
+Foreign key and navigation properties
+
+The Enrollment foreign key and navigation properties
+
+Many-to-Many Relationships
+
+Update the database context
+
+Fluent API alternative to attributes
+
+Seed the database
+
+Apply the migration or drop and re-create
+
+Drop and re-create the database
+
+Next steps
+
+
+
+# Part 6, Razor Pages with EF Core in ASP.NET Core - Read Related Data
+
+Article • 04/10/2024
+
+Eager, explicit, and lazy loading
+
+Create Course pages
+
+Scaffold Course pages
+
+Display the department name
+
+Loading related data with Select
+
+Create Instructor pages
+
+Create a view model
+
+Scaffold Instructor pages
+
+Update the instructors Index page
+
+Next steps
+
+
+
+# Part 7, Razor Pages with EF Core in ASP.NET Core - Update Related Data
+
+Article • 04/10/2024
+
+Update the Course Create and Edit pages
+
+Create a base class for Course Create and Edit
+
+Update the Course Create page model
+
+Update the Course Create Razor page
+
+Update the Course Edit page model
+
+Update the Course Edit Razor page
+
+Update the Course page models
+
+Update the Course Razor pages
+
+Test the Course pages
+
+Update the instructor Create and Edit pages
+
+Create a class for assigned courses data
+
+Create an Instructor page model base class
+
+Handle office location
+
+Update the Instructor Edit page model
+
+Update the Instructor Edit Razor page
+
+Update the Instructor Create page
+
+Update the Instructor Delete page
+
+Next steps
+
+
+
+# Part 8, Razor Pages with EF Core in ASP.NET Core - Concurrency
+
+Article • 04/10/2024
+
+Concurrency conflicts
+
+Pessimistic concurrency
+
+Optimistic concurrency
+
+Conflict detection in EF Core
+
+Add a migration
+
+Scaffold Department pages
+
+Add a utility class
+
+Update the Index page
+
+Update the Edit page model
+
+The concurrency updates
+
+SQL Server vs SQLite code differences
+
+Update the Edit Razor page
+
+Test concurrency conflicts with the Edit page
+
+Update the Delete page model
+
+Update the Delete Razor page
+
+Test concurrency conflicts
+
+Additional resources
+
+Next steps
+
+
+
+# ASP.NET Core MVC with EF Core - tutorial series
+
+Article • 04/10/2024
+
+1. Get started
+
+2. Create, Read, Update, and Delete operations
+
+3. Sorting, filtering, paging, and grouping
+
+4. Migrations
+
+5. Create a complex data model
+
+6. Reading related data
+
+7. Updating related data
+
+8. Handle concurrency conflicts
+
+9. Inheritance
+
+10. Advanced topics
+
+
+# Tutorial: Get started with EF Core in an ASP.NET MVC web app
+
+Article • 04/10/2024
+
+Prerequisites
+
+Database engines
+
+Solve problems and troubleshoot
+
+Contoso University web app
+
+Create web app
+
+Set up the site style
+
+EF Core NuGet packages
+
+Create the data model
+
+The Student entity
+
+The Enrollment entity
+
+The Course entity
+
+Create the database context
+
+Register the SchoolContext
+
+Add the database exception filter
+
+SQL Server Express LocalDB
+
+Initialize DB with test data
+
+Create controller and views
+
+View the database
+
+Conventions
+
+Asynchronous code
+
+Limit entities fetched
+
+SQL Logging of Entity Framework Core
+
+
+
 # 
