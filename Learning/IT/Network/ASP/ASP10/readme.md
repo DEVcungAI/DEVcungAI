@@ -2184,4 +2184,624 @@ SQL Logging of Entity Framework Core
 
 
 
+# Tutorial: Implement CRUD Functionality - ASP.NET MVC with EF Core
+
+Article • 04/10/2024
+
+Prerequisites
+ 
+Customize the Details page
+
+Route data
+
+Add enrollments to the Details view
+
+Update the Create page
+
+Security note about overposting
+
+Test the Create page
+
+Update the Edit page
+
+Recommended HttpPost Edit code: Read and update
+
+Alternative HttpPost Edit code: Create and attach
+
+Entity States
+
+Test the Edit page
+
+Update the Delete page
+
+The read-first approach to HttpPost Delete
+
+The create-and-attach approach to HttpPost Delete
+
+Update the Delete view
+
+Close database connections
+
+Handle transactions
+
+No-tracking queries
+
+Get the code
+
+Next steps
+
+
+
+# Tutorial: Add sorting, filtering, and paging - ASP.NET MVC with EF Core
+
+Article • 04/10/2024
+
+Prerequisites
+
+Add column sort links
+
+Add sorting Functionality to the Index method
+
+Add column heading hyperlinks to the Student Index view
+
+Add a Search box
+
+Add filtering functionality to the Index method
+
+Add a Search Box to the Student Index View
+
+Add paging to Students Index
+
+Add paging to Index method
+
+Add paging links
+
+Create an About page
+
+Create the view model
+
+Modify the Home Controller
+
+Create the About View
+
+Get the code
+
+Next steps
+
+
+
+# Tutorial: Part 5, apply migrations to the Contoso University sample
+
+Article • 05/31/2024
+
+Prerequisites
+
+About migrations
+
+Drop the database
+
+Create an initial migration
+
+Examine Up and Down methods
+
+The data model snapshot
+
+Apply the migration
+
+Compare CLI and PMC
+
+Get the code
+
+Next step
+
+
+
+# Tutorial: Create a complex data model - ASP.NET MVC with EF Core
+
+Article • 04/10/2024
+
+Prerequisites
+
+Customize the Data model
+
+The DataType attribute
+
+The StringLength attribute
+
+The Column attribute
+
+Changes to Student entity
+
+The Required attribute
+
+The Display attribute
+
+The FullName calculated property
+
+Create Instructor entity
+
+The CourseAssignments and OfficeAssignment navigation properties
+
+Create OfficeAssignment entity
+
+The Key attribute
+
+The Instructor navigation property
+
+Modify Course entity
+
+The DatabaseGenerated attribute
+
+Foreign key and navigation properties
+
+Create Department entity
+
+The Column attribute
+
+Foreign key and navigation properties
+
+Modify Enrollment entity
+
+Foreign key and navigation properties
+
+Many-to-Many relationships
+
+The CourseAssignment entity
+
+Join entity names
+
+Composite key
+
+Update the database context
+
+About a fluent API alternative
+
+Entity Diagram Showing Relationships
+
+Seed database with test data
+
+Add a migration
+
+Change the connection string
+
+Update the database
+
+Get the code
+
+Next steps
+
+
+
+# Tutorial: Read related data - ASP.NET MVC with EF Core
+
+Article • 04/10/2024
+
+Prerequisites
+
+Learn how to load related data
+
+Performance considerations
+
+Create a Courses page
+
+Create an Instructors page
+
+Create a view model for the Instructor Index view
+
+Create the Instructor controller and views
+
+Tracking vs no-tracking
+
+Modify the Instructor Index view
+
+About explicit loading
+
+Get the code
+
+Next steps
+
+
+
+# Tutorial: Update related data - ASP.NET MVC with EF Core
+
+Article • 04/10/2024
+
+Prerequisites
+ 
+Customize Courses pages
+
+Add .AsNoTracking to Details and Delete methods
+
+Modify the Course views
+
+Test the Course pages
+ 
+Add Instructors Edit page
+
+Update the Instructors controller
+ 
+Update the Instructor Edit view
+ 
+Add courses to Edit page
+
+Update the Instructors controller
+
+Update the Instructor views
+
+Update Delete page
+
+Add office location and courses to Create page
+
+Handling Transactions
+
+Get the code
+
+Next steps
+
+
+
+# Tutorial: Handle concurrency - ASP.NET MVC with EF Core
+
+Article • 07/09/2024
+
+Prerequisites
+
+Concurrency conflicts
+
+Pessimistic concurrency (locking)
+
+Optimistic Concurrency
+
+Detecting concurrency conflicts
+
+Add a tracking property
+
+Create Departments controller and views
+ 
+Update Index view
+
+Update Edit methods
+
+Update Edit view
+
+Test concurrency conflicts
+
+Update the Delete page
+
+Update the Delete methods in the Departments controller
+
+Update the Delete view
+
+Update Details and Create views
+
+Get the code
+
+Additional resources
+
+Next steps
+
+
+
+# Tutorial: Implement inheritance - ASP.NET MVC with EF Core
+
+Article • 04/10/2024
+
+Prerequisites
+
+Map inheritance to database
+
+Create the Person class
+
+Update Instructor and Student
+
+Add Person to the model
+
+Create and update migrations
+
+Test the implementation
+
+Get the code
+
+Additional resources
+
+Next steps
+
+
+
+# Tutorial: Learn about advanced scenarios - ASP.NET MVC with EF Core
+
+Article • 04/10/2024
+
+Prerequisites
+
+Perform raw SQL queries
+
+Call a query to return entities
+
+Call a query to return other types
+
+Call an update query
+
+Examine SQL queries
+
+Create an abstraction layer
+
+Automatic change detection
+
+EF Core source code and development plans
+
+Reverse engineer from existing database
+
+Use dynamic LINQ to simplify code
+
+Acknowledgments
+
+Troubleshoot common errors
+
+ContosoUniversity.dll used by another process
+
+Migration scaffolded with no code in Up and Down methods
+
+Errors while running database update
+
+Error locating SQL Server instance
+
+Get the code
+
+Additional resources
+
+Next steps
+
+
+
+# ASP.NET Core fundamentals overview
+
+Article • 11/14/2024
+
+Program.cs
+
+Dependency injection (services)
+
+Middleware
+
+Host
+
+Non-web scenarios
+
+Servers
+
+Configuration
+
+Environments
+
+Logging
+
+Routing
+
+Error handling
+
+Make HTTP requests
+
+Content root
+
+Web root
+
+Additional resources
+
+
+
+# App startup in ASP.NET Core
+
+Article • 12/12/2024
+
+Extend Startup with startup filters
+
+Add configuration at startup from an external assembly
+
+Startup, ConfigureServices, and Configure
+
+
+
+# Dependency injection in ASP.NET Core
+
+Article • 09/18/2024
+
+Overview of dependency injection
+
+Register groups of services with extension methods
+
+Service lifetimes
+
+Service registration methods
+
+Keyed services
+
+Keyed services in Middleware
+
+Constructor injection behavior
+
+Entity Framework contexts
+
+Lifetime and registration options
+
+Resolve a service at app start up
+
+Scope validation
+
+Request Services
+
+Design services for dependency injection
+
+Disposal of services
+
+Services not created by the service container
+
+IDisposable guidance for Transient and shared instances
+
+Default service container replacement
+
+Recommendations
+
+Recommended patterns for multi-tenancy in DI
+
+Framework-provided services
+
+Additional resources
+
+
+
+# ASP.NET Core support for Native AOT
+
+Article • 09/18/2024
+
+Why use Native AOT with ASP.NET Core
+
+ASP.NET Core and Native AOT compatibility
+
+Native AOT publishing
+
+The Web API (Native AOT) template
+
+Changes to support source generation
+
+Changes to launchSettings.json
+
+The CreateSlimBuilder method
+
+CreateSlimBuilder vs CreateBuilder
+
+Source generators
+
+Libraries and Native AOT
+
+Minimal APIs and JSON payloads
+
+Known issues
+
+See also
+
+
+
+# Tutorial: Publish an ASP.NET Core app using Native AOT
+
+Article • 07/26/2024
+
+Prerequisites
+
+Create a web app with Native AOT
+
+Publish the Native AOT app
+
+Libraries and Native AOT
+
+See also
+
+
+
+# Turn Map methods into request delegates with the ASP.NET Core Request Delegate Generator
+
+Article • 07/26/2024
+
+Diagnostics for unsupported RDG scenarios
+
+
+
+# ASP.NET Core Request Delegate Generator (RDG) diagnostics
+
+Article • 07/26/2024
+
+RDG002: Unable to resolve endpoint handler
+
+RDG004: Unable to resolve anonymous type
+
+RDG005: Invalid abstract type
+
+RDG006: Invalid constructor parameters
+
+RDG007: No valid constructor found
+
+RDG008: Multiple public constructors
+
+RDG009: Invalid nested AsParameters
+
+RDG010: InvalidAsParameters Nullable
+
+RDG011: Type parameters not supported
+
+RDG012: Unable to resolve inaccessible type
+
+RDG013: Invalid source attributes
+
+
+
+# RDG002: Unable to resolve endpoint handler
+
+Article • 07/26/2024
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# RDG004: Unable to resolve anonymous type
+
+Article • 07/26/2024
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# RDG005: Invalid abstract type
+
+Article • 07/26/2024
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# RDG006: Invalid constructor parameters
+
+Article • 07/26/2024
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# RDG007: No valid constructor found
+
+Article • 07/26/2024
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
 # 
