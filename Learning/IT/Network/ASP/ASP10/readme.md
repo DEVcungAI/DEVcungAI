@@ -2817,3 +2817,187 @@ How to fix violations
 When to suppress warnings
 
 
+
+
+
+# RDG009: Invalid nested AsParameters
+
+Article • 07/26/2024
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# RDG010: InvalidAsParameters Nullable
+
+Article • 07/26/2024
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# RDG011: Type parameters not supported
+
+Article • 07/26/2024
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# RDG012: Unable to resolve inaccessible type
+
+Article • 07/26/2024
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# RDG013: Invalid source attributes
+
+Article • 07/26/2024
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP.NET Core Middleware
+
+Article • 06/17/2024
+
+Middleware code analysis
+
+Create a middleware pipeline with WebApplication
+
+Short-circuiting the request pipeline
+
+Run delegates
+
+Prefer app.Use overload that requires passing the context to next
+
+Middleware order
+
+UseCors and UseStaticFiles order
+
+Forwarded Headers Middleware order
+
+Branch the middleware pipeline
+
+Built-in middleware
+
+Additional resources
+
+
+
+# Rate limiting middleware in ASP.NET Core
+
+Article • 06/17/2024
+
+Rate limiter algorithms
+
+Fixed window limiter
+
+Sliding window limiter
+
+Token bucket limiter
+
+Concurrency limiter
+
+Create chained limiters
+
+EnableRateLimiting and DisableRateLimiting attributes
+
+Applying attributes to Razor Pages
+
+Limiter algorithm comparison
+
+Rate limiter samples
+
+Limiter with OnRejected , RetryAfter , and GlobalLimiter
+
+Limiter with authorization
+
+Limiter with ConcurrencyLimiter, TokenBucketRateLimiter, and authorization
+
+Testing endpoints with rate limiting
+
+Additional resources
+
+
+
+# Middleware in Minimal API apps
+
+Article • 07/26/2024
+
+
+
+# Test ASP.NET Core middleware
+
+Article • 01/11/2024
+
+Set up the TestServer
+
+Send requests with HttpClient
+
+Send requests with HttpContext
+
+Add request routes
+
+TestServer limitations
+
+Content-Length and Transfer-Encoding headers
+
+
+
+# Response Caching Middleware in ASP.NET Core
+
+Article • 07/16/2024
+
+Configuration
+
+Options
+
+VaryByQueryKeys
+
+HTTP headers used by Response Caching Middleware
+
+Caching respects request Cache-Control directives
+
+Troubleshooting
+
+Conditions for caching
+
+Additional resources
+
+
+
+# 
