@@ -3000,4 +3000,416 @@ Additional resources
 
 
 
+# Write custom ASP.NET Core middleware
+
+Article • 07/26/2024
+
+Middleware class
+
+Middleware dependencies
+
+Per-request middleware dependencies
+
+Additional resources
+
+
+
+# Request and response operations in ASP.NET Core
+
+Article • 07/26/2024
+
+Stream examples
+
+Pipelines
+
+Adapters
+
+StartAsync
+
+Additional resources
+
+
+
+# Request decompression in ASP.NET Core
+
+Article • 09/27/2024
+
+Configuration
+
+Default decompression providers
+
+Custom decompression providers
+
+Request size limits
+
+Additional Resources
+
+
+
+# Factory-based middleware activation in ASP.NET Core
+
+Article • 07/26/2024
+
+IMiddleware
+
+IMiddlewareFactory
+
+Additional resources
+
+
+
+# Middleware activation with a third-party container in ASP.NET Core
+
+Article • 07/26/2024
+
+IMiddlewareFactory
+
+IMiddleware
+
+Additional resources
+
+
+
+# WebApplication and WebApplicationBuilder in Minimal API apps
+
+Article • 07/26/2024
+
+WebApplication
+
+Working with ports
+
+Multiple ports
+
+Set the port from the command line
+
+Read the port from environment
+
+Set the ports via the ASPNETCORE_URLS environment variable
+
+Listen on all interfaces
+
+http://*:3000
+
+http://+:3000
+
+http://0.0.0.0:3000
+
+Listen on all interfaces using ASPNETCORE_URLS
+
+Listen on all interfaces using ASPNETCORE_HTTPS_PORTS
+
+Specify HTTPS with development certificate
+
+Specify HTTPS using a custom certificate
+
+Specify the custom certificate with appsettings.json
+
+Specify the custom certificate via configuration
+
+Use the certificate APIs
+
+Read the environment
+
+Configuration
+
+Logging
+
+Access the Dependency Injection (DI) container
+
+WebApplicationBuilder
+
+Change the content root, application name, and environment
+
+Change the content root, app name, and environment by using environment variables or command line
+
+Add configuration providers
+
+Read configuration
+
+Read the environment
+
+Add logging providers
+
+Add services
+
+Customize the IHostBuilder
+
+Customize the IWebHostBuilder
+
+Change the web root
+
+Custom dependency injection (DI) container
+
+Add Middleware
+
+Developer exception page
+
+
+
+# .NET Generic Host in ASP.NET Core
+
+Article • 09/10/2024
+
+Host definition
+
+Set up a host
+
+Default builder settings
+
+Framework-provided services
+
+IHostApplicationLifetime
+
+IHostLifetime
+
+IHostEnvironment
+
+Host configuration
+
+App configuration
+
+Settings for all app types
+
+ApplicationName
+
+EnvironmentName
+
+ShutdownTimeout
+
+Disable app configuration reload on change
+
+Settings for web apps
+
+CaptureStartupErrors
+
+DetailedErrors
+
+HostingStartupAssemblies
+
+HostingStartupExcludeAssemblies
+
+HTTPS_Port
+
+HTTPS_Ports
+
+PreferHostingUrls
+
+PreventHostingStartup
+
+StartupAssembly
+
+SuppressStatusMessages
+
+URLs
+
+WebRoot
+
+Manage the host lifetime
+
+Run
+
+RunAsync
+
+RunConsoleAsync
+
+Start
+
+StartAsync
+
+StopAsync
+
+WaitForShutdown
+
+WaitForShutdownAsync
+
+Additional resources
+
+
+
+# ASP.NET Core Web Host
+
+Article • 09/10/2024
+
+Set up a host
+
+Host configuration values
+
+Application Key (Name)
+
+Capture Startup Errors
+
+Content root
+
+Detailed Errors
+
+Environment
+
+Hosting Startup Assemblies
+
+HTTPS Port
+
+HTTPS Ports
+
+Hosting Startup Exclude Assemblies
+
+Prefer Hosting URLs
+
+Prevent Hosting Startup
+
+Server URLs
+
+Shutdown Timeout
+
+Startup Assembly
+
+Web root
+
+Override configuration
+
+Manage the host
+
+IWebHostEnvironment interface
+
+IHostApplicationLifetime interface
+
+Scope validation
+
+Additional resources
+
+
+
+# Configuration in ASP.NET Core
+
+Article • 10/30/2024
+
+Application and Host Configuration
+
+Default application configuration sources
+
+Default host configuration sources
+
+Host variables
+
+Application configuration providers
+
+appsettings.json
+
+Comments in appsettings.json
+
+Bind hierarchical configuration data using the options pattern
+
+Combining service collection
+
+Security and user secrets
+
+Non-prefixed environment variables
+
+Naming of environment variables
+
+Environment variables set in generated launchSettings.json
+
+Escape environment variables on Linux
+
+Display environment variables
+
+Command-line
+
+Command-line arguments
+
+Switch mappings
+
+Set environment and command-line arguments with Visual Studio
+
+Hierarchical configuration data
+
+Configuration keys and values
+
+Configuration providers
+
+Connection string prefixes
+
+File configuration provider
+
+INI configuration provider
+
+JSON configuration provider
+
+XML configuration provider
+
+Key-per-file configuration provider
+
+Memory configuration provider
+
+Kestrel endpoint configuration
+
+GetValue
+
+GetSection, GetChildren, and Exists
+
+GetSection
+
+GetChildren and Exists
+
+Bind an array
+
+Custom configuration provider
+
+Access configuration with Dependency Injection (DI)
+
+Access configuration in Razor Pages
+
+Access configuration in a MVC view file
+
+Access configuration in Program.cs
+
+Configure options with a delegate
+
+Host versus app configuration
+
+Default host configuration
+
+Other configuration
+
+Add configuration from an external assembly
+
+Configuration-binding source generator
+
+Additional resources
+
+
+
+# Options pattern in ASP.NET Core
+
+Article • 10/18/2024
+
+Bind hierarchical configuration
+
+The Options Pattern
+
+Options interfaces
+
+Use IOptionsSnapshot to read updated data
+
+IOptionsMonitor
+
+Named options support using IConfigureNamedOptions
+
+OptionsBuilder API
+
+Use DI services to configure options
+
+Options validation
+
+IValidateOptions<TOptions> and IValidatableObject
+
+ValidateOnStart
+
+Options post-configuration
+ 
+Access options in Program.cs
+
+Additional resources
+
+
+
 # 
