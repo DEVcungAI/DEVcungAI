@@ -12,7 +12,7 @@ https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=a
 
 Article • 06/18/2024
 
-By Daniel Roth , Rick Anderson , and Shaun Luttin
+By Daniel Roth, Rick Anderson, and Shaun Luttin
 
 
 Why choose ASP.NET Core?
@@ -469,7 +469,7 @@ Empty Blazor project templates
 
 Blazor custom elements
 
-Bind modifiers ( @bind:after , @bind:get , @bind:set )
+Bind modifiers ( @bind:after, @bind:get, @bind:set )
 
 Hot Reload improvements
 
@@ -2942,7 +2942,7 @@ Limiter algorithm comparison
 
 Rate limiter samples
 
-Limiter with OnRejected , RetryAfter , and GlobalLimiter
+Limiter with OnRejected, RetryAfter, and GlobalLimiter
 
 Limiter with authorization
 
@@ -3407,6 +3407,486 @@ ValidateOnStart
 Options post-configuration
  
 Access options in Program.cs
+
+Additional resources
+
+
+
+# Use multiple environments in ASP.NET Core
+
+Article • 09/18/2024
+
+Environments
+
+Create EnvironmentsSample
+
+Set environment on the command line
+
+Development and launchSettings.json
+
+Production
+
+Set the environment by setting an environment variable
+
+Azure App Service
+
+Windows - Set environment variable for a process
+
+Windows - Set environment variable globally
+
+Windows - Use web.config
+
+Windows - IIS deployments
+
+macOS
+
+Linux
+
+Set the environment in code
+
+Configuration by environment
+
+Configure services and middleware by environment
+
+Additional resources
+
+
+
+# Logging in .NET Core and ASP.NET Core
+
+Article • 09/18/2024
+
+Logging providers
+
+Create logs
+
+Configure logging
+
+Log in Program.cs
+
+Set log level by command line, environment variables, and other configuration
+
+How filtering rules are applied
+
+Logging output from dotnet run and Visual Studio
+
+Log category
+
+Log level
+
+Log event ID
+
+Log message template
+
+Log exceptions
+
+Default log level
+
+Filter function
+
+ASP.NET Core categories
+
+Log scopes
+
+Built-in logging providers
+
+Console
+
+Debug
+
+Event Source
+
+dotnet-trace tooling
+
+Perfview
+
+Windows EventLog
+
+Azure App Service
+
+Azure log streaming
+
+Azure Application Insights
+
+Third-party logging providers
+
+No asynchronous logger methods
+
+Change log levels in a running app
+
+ILogger and ILoggerFactory
+
+Apply log filter rules in code
+
+Automatically log scope with SpanId, TraceId, ParentId, Baggage, and Tags .
+
+Create a custom logger
+
+Additional resources
+
+
+
+# HTTP logging in ASP.NET Core
+
+Article • 06/17/2024
+
+Enable HTTP logging
+
+HTTP logging options
+
+LoggingFields
+
+RequestHeaders and ResponseHeaders
+
+MediaTypeOptions
+
+MediaTypeOptions methods
+
+RequestBodyLogLimit and ResponseBodyLogLimit
+
+CombineLogs
+
+Endpoint-specific configuration
+
+IHttpLoggingInterceptor
+
+Logging configuration order of precedence
+
+
+
+# W3CLogger in ASP.NET Core
+
+Article • 07/26/2024
+
+Enable W3CLogger
+
+W3CLogger options
+
+LoggingFields
+
+
+
+# Health checks in ASP.NET Core
+
+Article • 07/23/2024
+
+Basic health probe
+
+Docker HEALTHCHECK
+
+Create health checks
+
+Register health check services
+
+Use Health Checks Routing
+
+Require host
+
+Require authorization
+
+Enable Cross-Origin Requests (CORS)
+
+Health check options
+
+Filter health checks
+
+Customize the HTTP status code
+
+Suppress cache headers
+
+Customize output
+
+Database probe
+
+Entity Framework Core DbContext probe
+
+Separate readiness and liveness probes
+
+Kubernetes example
+
+Distribute a health check library
+
+Health Check Publisher
+
+Individual Healthchecks
+
+Dependency Injection and Health Checks
+
+UseHealthChecks vs. MapHealthChecks
+
+Additional resources
+
+
+
+# ASP.NET Core metrics
+
+Article • 11/14/2024
+
+Using metrics
+
+Create the starter app
+
+View metrics with dotnet-counters
+
+Enrich the ASP.NET Core request metric
+
+Opt-out of HTTP metrics on certain endpoints and requests
+
+Create custom metrics
+
+Creating metrics in ASP.NET Core apps with IMeterFactory
+
+View metrics in Grafana with OpenTelemetry and Prometheus
+
+Overview
+
+View metrics from sample app
+
+Set up and configure Prometheus
+
+Start Prometheus
+
+Show metrics on a Grafana dashboard
+
+Test metrics in ASP.NET Core apps
+
+ASP.NET Core meters and counters
+
+
+
+# ASP.NET Core metrics
+
+Article • 02/05/2024
+
+Microsoft.AspNetCore.Hosting
+
+Metric: http.server.request.duration
+
+Metric: http.server.active_requests
+
+Microsoft.AspNetCore.Routing
+
+Metric: aspnetcore.routing.match_attempts
+
+Microsoft.AspNetCore.Diagnostics
+
+Metric: aspnetcore.diagnostics.exceptions
+
+Microsoft.AspNetCore.RateLimiting
+
+Metric: aspnetcore.rate_limiting.active_request_leases
+
+Metric: aspnetcore.rate_limiting.request_lease.duration
+
+Metric: aspnetcore.rate_limiting.queued_requests
+
+Metric: aspnetcore.rate_limiting.request.time_in_queue
+
+Metric: aspnetcore.rate_limiting.requests
+
+Microsoft.AspNetCore.HeaderParsing
+
+Metric: aspnetcore.header_parsing.parse_errors
+
+Metric: aspnetcore.header_parsing.cache_accesses
+
+Microsoft.AspNetCore.Server.Kestrel
+
+Metric: kestrel.active_connections
+
+Metric: kestrel.connection.duration
+
+Metric: kestrel.rejected_connections
+
+Metric: kestrel.queued_connections
+
+Metric: kestrel.queued_requests
+
+Metric: kestrel.upgraded_connections
+
+Metric: kestrel.tls_handshake.duration
+
+Metric: kestrel.active_tls_handshakes
+
+Microsoft.AspNetCore.Http.Connections
+
+Metric: signalr.server.connection.duration
+
+Metric: signalr.server.active_connections
+
+
+
+# Use HttpContext in ASP.NET Core
+
+Article • 10/30/2024
+
+HttpRequest
+
+Get request headers
+
+Read request body
+
+Enable request body buffering
+
+BodyReader
+
+HttpResponse
+
+Set response headers
+
+Write response body
+
+BodyWriter
+
+Set response trailers
+
+RequestAborted
+
+Abort()
+
+User
+
+Features
+
+HttpContext isn't thread safe
+
+
+
+# Routing in ASP.NET Core
+
+Article • 09/18/2024
+
+Routing basics
+
+Endpoints
+
+Endpoint metadata
+
+Routing concepts
+
+ASP.NET Core endpoint definition
+
+Compare terminal middleware with routing
+
+URL matching
+
+Route template precedence and endpoint selection order
+
+URL generation concepts
+
+Middleware example
+
+Route templates
+
+Complex segments
+
+Routing with special characters
+
+Route constraints
+
+Regular expressions in constraints
+
+Custom route constraints
+
+Parameter transformers
+
+URL generation reference
+
+Troubleshooting URL generation with logging
+
+Addresses
+
+Ambient values and explicit values
+
+URL generation process
+
+Optional route parameter order
+
+Problems with route value invalidation
+
+Parse URL paths with LinkParser
+
+Configure endpoint metadata
+
+Host matching in routes with RequireHost
+
+Route groups
+
+Performance guidance for routing
+
+Potentially expensive routing features
+
+Guidance for large route tables
+
+How to determine if an app is running into the large route table problem
+
+How to address this issue
+
+Short-circuit middleware after routing
+
+Guidance for library authors
+
+Define endpoints
+
+Creating routing-integrated middleware
+
+Debug diagnostics
+
+Additional resources
+
+
+
+# Handle errors in ASP.NET Core
+
+Article • 09/21/2024
+
+Developer exception page
+
+Exception handler page
+
+Access the exception
+
+Exception handler lambda
+
+IExceptionHandler
+
+UseStatusCodePages
+
+UseStatusCodePages with format string
+
+UseStatusCodePages with lambda
+
+UseStatusCodePagesWithRedirects
+
+UseStatusCodePagesWithReExecute
+
+Disable status code pages
+
+Exception-handling code
+
+Response headers
+
+Server exception handling
+
+Startup exception handling
+
+Database error page
+
+Exception filters
+
+Model state errors
+
+Problem details
+
+Customize problem details
+
+CustomizeProblemDetails operation
+
+Custom IProblemDetailsWriter
+
+Problem details from Middleware
+
+Produce a ProblemDetails payload for exceptions
 
 Additional resources
 
