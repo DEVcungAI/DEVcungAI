@@ -3892,4 +3892,507 @@ Additional resources
 
 
 
+# Make HTTP requests using IHttpClientFactory in ASP.NET Core
+
+Article • 07/26/2024
+
+
+Consumption patterns
+
+Basic usage
+
+Named clients
+
+CreateClient
+
+Typed clients
+
+Generated clients
+
+Make POST, PUT, and DELETE requests
+
+Outgoing request middleware
+
+Use DI in outgoing request middleware
+
+Use Polly-based handlers
+
+Handle transient faults
+
+Dynamically select policies
+
+Add multiple Polly handlers
+
+Add policies from the Polly registry
+
+HttpClient and lifetime management
+
+Alternatives to IHttpClientFactory
+
+Logging
+
+Configure the HttpMessageHandler
+
+Cookies
+
+Use IHttpClientFactory in a console app
+
+Header propagation middleware
+
+Additional resources
+
+
+
+# Static files in ASP.NET Core
+
+Article • 11/05/2024
+
+
+Serve static files
+
+MapStaticAssets
+
+Serve files in web root
+
+Serve files outside of web root
+
+Set HTTP response headers
+
+Static file authorization
+
+Directory browsing
+
+Serve default documents
+
+UseFileServer for default documents
+
+FileExtensionContentTypeProvider
+
+Non-standard content types
+
+Serve files from multiple locations
+
+Security considerations for static files
+
+Serve files outside wwwroot by updating IWebHostEnvironment.WebRootPath
+
+Additional resources
+
+
+
+# dotnet-scaffold telemetry
+
+Article • 11/11/2024
+
+
+How to opt out
+
+Disclosure
+
+Data points
+
+Additional resources
+
+
+
+# Choose an ASP.NET Core web UI
+
+Article • 10/21/2024
+
+
+ASP.NET Core Blazor
+
+ASP.NET Core Razor Pages
+
+ASP.NET Core MVC
+
+ASP.NET Core Single Page Applications (SPA) with frontend JavaScript frameworks
+
+Combine multiple web UI solutions: ASP.NET Core MVC or Razor Pages plus Blazor
+
+Next steps
+
+
+
+# Introduction to Razor Pages in ASP.NET Core
+
+Article • 09/27/2024
+
+
+Prerequisites
+
+Create a Razor Pages project
+
+Razor Pages
+
+Write a basic form
+
+The home page
+
+The Edit.cshtml file
+
+Validation
+
+CSS isolation
+
+CSS preprocessor support
+
+CSS isolation configuration
+
+Customize scope identifier format
+
+Change base path for static web assets
+
+Disable automatic bundling
+
+Razor class library (RCL) support
+
+Handle HEAD requests with an OnGet handler fallback
+
+XSRF/CSRF and Razor Pages
+
+Using Layouts, partials, templates, and Tag Helpers with Razor Pages
+
+URL generation for Pages
+
+ViewData attribute
+
+TempData
+
+Multiple handlers per page
+
+Custom routes
+
+Collocation of JavaScript (JS) files
+
+Advanced configuration and settings
+
+Specify that Razor Pages are at the content root
+
+Specify that Razor Pages are at a custom root directory
+
+Additional resources
+
+
+
+# Tutorial: Create a Razor Pages web app with ASP.NET Core
+
+Article • 07/01/2024
+
+
+1. Create a Razor Pages web app
+
+2. Add a model to a Razor Pages app
+
+3. Scaffold (generate) Razor pages
+
+4. Work with a database
+
+5. Update Razor pages
+
+6. Add search
+
+7. Add a new field
+
+8. Add validation
+
+
+
+# Tutorial: Get started with Razor Pages in ASP.NET Core
+
+Article • 08/05/2024
+
+Prerequisites
+
+Create a Razor Pages web app
+
+Run the app
+
+Examine the project files
+
+Pages folder
+
+wwwroot folder
+
+appsettings.json
+
+Program.cs
+
+Troubleshooting with the completed sample
+
+Next steps
+
+
+
+# Part 2, add a model to a Razor Pages app in ASP.NET Core
+
+Article • 10/29/2024
+
+
+Add a data model
+
+Scaffold the movie model
+
+Files created and updated
+
+Create the initial database schema using EF's migration feature
+
+Test the app
+
+Examine the context registered with dependency injection
+
+Troubleshooting with the completed sample
+
+Next steps
+
+
+
+# Part 3, scaffolded Razor Pages in ASP.NET Core
+
+Article • 07/01/2024
+
+
+The Create, Delete, Details, and Edit pages
+
+The @page directive
+
+The @model directive
+
+The layout page
+
+ViewData and layout
+
+Update the layout
+
+The Create page model
+
+The Create Razor Page
+
+Next steps
+
+
+
+# Part 4 of tutorial series on Razor Pages
+
+Article • 09/17/2024
+
+
+SQL Server Express LocalDB
+
+Seed the database
+
+Add the seed initializer
+
+Test the app
+
+Next steps
+
+
+
+# Part 5, update the generated pages in an ASP.NET Core app
+
+Article • 07/01/2024
+
+
+Update the model
+
+Add route template
+
+Review concurrency exception handling
+
+Posting and binding review
+
+Next steps
+
+
+
+# Part 6, add search to ASP.NET Core Razor Pages
+
+Article • 07/01/2024
+
+
+Search by genre
+
+Add search by genre to the Razor Page
+
+Next steps
+
+
+
+# Part 7, add a new field to a Razor Page in ASP.NET Core
+
+Article • 07/01/2024
+
+
+Adding a Rating Property to the Movie Model
+
+Add a migration for the rating field
+
+
+
+# Part 8 of tutorial series on Razor Pages
+
+Article • 07/01/2024
+
+
+Validation
+
+Add validation rules to the movie model
+
+Validation Error UI in Razor Pages
+
+Server-side validation
+
+Use DataType Attributes
+
+Apply migrations
+
+Publish to Azure
+
+Additional resources
+
+Next steps
+
+
+
+# Filter methods for Razor Pages in ASP.NET Core
+
+Article • 04/10/2024
+
+
+Implement Razor Page filters globally
+
+Implement Razor Page filters by overriding filter methods
+
+Implement a filter attribute
+
+Authorize filter attribute
+
+
+
+# Razor Pages route and app conventions in ASP.NET Core
+
+Article • 04/10/2024
+
+
+Route order
+
+Model conventions
+
+Add a route model convention to all pages
+
+Add an app model convention to all pages
+
+Add a handler model convention to all pages
+
+Page route action conventions
+
+Folder route model convention
+
+Page route model convention
+
+Use a parameter transformer to customize page routes
+
+Configure a page route
+
+Page model action conventions
+
+Folder app model convention
+
+Page app model convention
+
+Configure a filter
+
+Configure a filter factory
+
+MVC Filters and the Page filter (IPageFilter)
+
+Additional resources
+
+
+
+# Overview of ASP.NET Core MVC
+
+Article • 06/17/2024
+
+
+MVC pattern
+
+Model Responsibilities
+
+View Responsibilities
+
+Controller Responsibilities
+
+ASP.NET Core MVC
+
+Routing
+
+Model binding
+
+Model validation
+
+Dependency injection
+
+Filters
+
+Areas
+
+Web APIs
+
+Testability
+
+Razor view engine
+
+Strongly typed views
+
+Tag Helpers
+
+View Components
+
+Compatibility version
+
+Additional resources
+
+
+
+# Get started with ASP.NET Core MVC
+
+Article • 07/30/2024
+
+
+Prerequisites
+
+Create a web app
+
+Run the app
+
+Visual Studio help
+
+
+
+# Part 2, add a controller to an ASP.NET Core MVC app
+
+Article • 07/30/2024
+
+
+Add a controller
+
+
+
+# Part 3, add a view to an ASP.NET Core MVC app
+
+Article • 07/30/2024
+
+
+Add a view
+
+Change views and layout pages
+
+Change the title, footer, and menu link in the layout file
+
+Passing Data from the Controller to the View
+
+
+
 # 
