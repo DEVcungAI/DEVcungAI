@@ -4395,4 +4395,226 @@ Passing Data from the Controller to the View
 
 
 
+# Part 4, add a model to an ASP.NET Core MVC app
+
+Article • 07/30/2024
+
+
+Add a data model class
+
+Add NuGet packages
+
+Scaffold movie pages
+
+Initial migration
+
+Test the app
+
+Examine the generated database context class and registration
+
+Dependency injection
+
+Examine the generated database connection string
+
+The InitialCreate class
+
+Dependency injection in the controller
+
+Strongly typed models and the @model directive
+
+Additional resources
+
+
+
+# Part 5, work with a database in an ASP.NET Core MVC app
+
+Article • 09/10/2024
+
+
+SQL Server Express LocalDB
+
+Examine the database
+
+Seed the database
+
+Add the seed initializer
+
+
+
+# Part 6, controller methods and views in ASP.NET Core
+
+Article • 09/18/2024
+
+
+Processing the POST Request
+
+Additional resources
+
+
+
+# Part 7, add search to an ASP.NET Core MVC app
+
+Article • 09/18/2024
+
+
+Add Search by genre
+
+Add search by genre to the Index view
+
+
+
+# Part 8, add a new field to an ASP.NET Core MVC app
+
+Article • 07/30/2024
+
+
+Add a Rating Property to the Movie Model
+
+
+
+# Part 9, add validation to an ASP.NET Core MVC app
+
+Article • 07/30/2024
+
+
+Keeping things DRY
+
+Delete the previously edited data
+
+Add validation rules to the movie model
+
+Validation Error UI
+
+How validation works
+
+Using DataType Attributes
+
+Additional resources
+
+
+
+# Part 10, examine the Details and Delete methods of an ASP.NET Core app
+
+Article • 08/05/2024
+
+
+Publish to Azure
+
+Reliable web app patterns
+
+
+
+# Views in ASP.NET Core MVC
+
+Article • 06/17/2024
+
+
+Benefits of using views
+
+Creating a view
+
+How controllers specify views
+
+View discovery
+
+Pass data to views
+
+Strongly-typed data (viewmodel)
+
+Weakly typed data (ViewData, [ViewData] attribute, and ViewBag)
+
+ViewData
+
+[ViewData] attribute
+
+ViewBag
+
+Using ViewData and ViewBag simultaneously
+
+Summary of the differences between ViewData and ViewBag
+
+When to use ViewData or ViewBag
+
+Dynamic views
+
+More view features
+
+CSS isolation
+
+CSS preprocessor support
+
+CSS isolation configuration
+
+Customize scope identifier format
+
+Change base path for static web assets
+
+Disable automatic bundling
+
+Razor class library (RCL) support
+
+
+
+# Partial views in ASP.NET Core
+
+Article • 05/17/2023
+
+
+When to use partial views
+
+Declare partial views
+
+Reference a partial view
+
+Use a partial view in a Razor Pages PageModel
+
+Use a partial view in a markup file
+
+Partial Tag Helper
+
+Razor Pages
+
+MVC
+
+Asynchronous HTML Helper
+
+Synchronous HTML Helper
+
+Partial view discovery
+
+Razor Pages
+
+MVC
+
+Access data from partial views
+
+Razor Pages
+
+MVC
+
+Additional resources
+
+
+
+# Handle requests with controllers in ASP.NET Core MVC
+
+Article • 06/17/2024
+
+
+What is a Controller?
+
+Defining Actions
+
+Controller Helper Methods
+
+1. Methods resulting in an empty response body
+
+2. Methods resulting in a non-empty response body with a predefined content type
+
+3. Methods resulting in a non-empty response body formatted in a content type negotiated with the client
+
+Cross-Cutting Concerns
+
+
+
 # 
