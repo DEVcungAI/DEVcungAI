@@ -4617,4 +4617,237 @@ Cross-Cutting Concerns
 
 
 
+# Routing to controller actions in ASP.NET Core
+
+Article • 06/17/2024
+
+
+Set up conventional route
+
+Conventional routing
+
+Multiple conventional routes
+
+Conventional routing order
+
+Resolving ambiguous actions
+
+Conventional route names
+
+Attribute routing for REST APIs
+
+Reserved routing names
+
+HTTP verb templates
+
+Route templates
+
+Attribute routing with Http verb attributes
+
+Route name
+
+Combining attribute routes
+
+Attribute route order
+
+Token replacement in route templates [controller], [action], [area]
+
+Use a parameter transformer to customize token replacement
+
+Multiple attribute routes
+
+Specifying attribute route optional parameters, default values, and constraints
+
+Custom route attributes using IRouteTemplateProvider
+
+Use application model to customize attribute routes
+
+Mixed routing: Attribute routing vs conventional routing
+
+Routing with special characters
+
+URL Generation and ambient values
+
+Generating URLs by action name
+
+Generate URLs by route
+
+Generate URLs in HTML and Razor
+
+URL generation in Action Results
+
+Special case for dedicated conventional routes
+
+Areas
+
+Action definition
+
+Sample code
+
+Debug diagnostics
+
+
+
+# Dependency injection into controllers in ASP.NET Core
+
+Article • 06/17/2024
+
+
+Constructor injection
+
+Action injection with FromServices
+
+Action injection with FromKeyedServices
+
+Access settings from a controller
+
+Additional resources
+
+
+
+# Dependency injection into views in ASP.NET Core
+
+Article • 06/17/2024
+
+
+Configuration injection
+
+Service injection
+
+Populating Lookup Data
+
+Overriding Services
+
+See Also
+
+
+
+# Unit test controller logic in ASP.NET Core
+
+Article • 06/17/2024
+
+
+Unit testing controllers
+
+Test ActionResult<T>
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor
+
+Article • 09/16/2024
+
+
+Components
+
+Build a full-stack web app with Blazor
+
+Build a native client app with Blazor Hybrid
+
+Next steps
+
+
+
+# ASP.NET Core Blazor supported platforms
+
+Article • 07/01/2024
+
+
+Additional resources
+
+
+
+# Tooling for ASP.NET Core Blazor
+
+Article • 09/12/2024
+
+
+Run the app
+
+Stop the app
+
+Visual Studio solution file ( .sln )
+
+Blazor project templates and template options
+
+Interactive render mode
+
+Interactivity location
+
+Sample pages
+
+Additional guidance on template options
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor WebAssembly build tools and ahead-of-time (AOT) compilation
+
+Article • 09/27/2024
+
+
+.NET WebAssembly build tools
+
+Ahead-of-time (AOT) compilation
+
+Trim .NET IL after ahead-of-time (AOT) compilation
+
+Heap size for some mobile device browsers
+
+Runtime relinking
+
+Single Instruction, Multiple Data (SIMD)
+
+Exception handling
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor hosting models
+
+Article • 09/10/2024
+
+
+Blazor Server
+
+Blazor WebAssembly
+
+Blazor Hybrid
+
+Which Blazor hosting model should I choose?
+
+Complete .NET API compatibility
+
+Direct access to server and network resources
+
+Small payload size with fast initial load time
+
+Near native execution speed
+
+App code secure and private on the server
+
+Run apps offline once downloaded
+
+Static site hosting
+
+Offloads processing to clients
+
+Full access to native client capabilities
+
+Web-based deployment
+
+Setting a component's hosting model
+
+
+
+# ASP.NET Core Blazor tutorials
+
+Article • 11/18/2024
+
+
+
 # 
