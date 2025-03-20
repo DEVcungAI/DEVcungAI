@@ -4850,4 +4850,256 @@ Article • 11/18/2024
 
 
 
+# Build a Blazor todo list app
+
+Article • 10/29/2024
+
+
+Prerequisites
+
+Create a Blazor app
+
+Build a todo list Blazor app
+
+Publish to Azure
+
+Next steps
+
+
+
+# Build a Blazor movie database app (Overview)
+
+Article • 11/15/2024
+
+
+Secure authentication flow required for production apps
+
+Sample app
+
+Article code examples
+
+Report a tutorial issue
+
+Support requests
+
+Next steps
+
+
+
+# Build a Blazor movie database app (Part 1 - Create a Blazor Web App)
+
+Article • 11/15/2024
+
+
+Prerequisites
+
+Create a Blazor Web App
+
+Run the app
+
+Stop the app
+
+Examine the project files
+
+Properties folder
+
+wwwroot folder
+
+Components , Components/Pages , and Components/Layout folders
+
+Components/_Imports.razor file
+
+Components/App.razor file
+
+Components/Routes.razor file
+
+appsettings.json file
+
+Program.cs file
+
+Troubleshoot with the completed sample
+
+Additional resources
+
+Next steps
+
+
+
+# Build a Blazor movie database app (Part 2 - Add and scaffold a model)
+
+Article • 10/08/2024
+
+
+Add a data model
+
+Scaffold the model
+
+Files created and updated by scaffolding
+
+Create the initial database schema using EF Core's migration feature
+
+Test the app
+
+Stop the app
+
+Troubleshoot with the completed sample
+
+Additional resources
+
+Legal
+
+Next steps
+
+
+
+# Build a Blazor movie database app (Part 3 - Learn about Razor components)
+
+Article • 09/12/2024
+
+
+Razor components
+
+NavMenu component for navigation
+
+MainLayout component for layout
+
+Create, Read, Update, Delete (CRUD) components
+
+Index component
+
+Details component
+
+Create component
+
+Delete component
+
+Edit component
+
+Mitigate overposting attacks
+
+Troubleshoot with the completed sample
+
+Additional resources
+
+Next steps
+
+
+
+# Build a Blazor movie database app (Part 4 - Work with a database)
+
+Article • 10/21/2024
+
+
+Secure authentication flow required for production apps
+
+Database context
+
+Database technology
+
+Seed the database
+
+Bind a form to a model
+
+Concurrency exception handling
+
+Stop the app
+
+Troubleshoot with the completed sample
+
+Additional resources
+
+Legal
+
+Next steps
+
+
+
+# Build a Blazor movie database app (Part 5 - Add validation)
+
+Article • 11/14/2024
+
+
+Validation using data annotations
+
+Add validation to the Movie model
+
+Create an EF Core migration and update the database
+
+Troubleshoot with the completed sample
+
+Additional resources
+
+Next steps
+
+
+
+# Build a Blazor movie database app (Part 6 - Add search)
+
+Article • 11/14/2024
+
+
+Implement a filter feature for the QuickGrid component
+
+Stop the app
+
+Troubleshoot with the completed sample
+
+Additional resources
+
+Legal
+
+Next steps
+
+
+
+# Build a Blazor movie database app (Part 7 - Add a new field)
+
+Article • 09/23/2024
+
+
+Add a movie rating to the app's model
+
+Add the movie rating to the app's CRUD components
+
+Update the database
+
+Troubleshoot
+
+Delete all database records and reseed the database
+
+Troubleshoot with the completed sample
+
+Additional resources
+
+Legal
+
+Next steps
+
+
+
+# Build a Blazor movie database app (Part 8 - Add interactivity)
+
+Article • 12/05/2024
+
+
+Adopt interactivity
+
+Add pagination to the QuickGrid
+
+Sortable QuickGrid
+
+Use C# code and interactivity to search by title
+
+Style the QuickGrid component
+
+Clean up
+
+Congratulations!
+
+Next steps
+
+Troubleshoot with the completed sample
+
+
+
 # 
