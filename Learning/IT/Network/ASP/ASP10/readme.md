@@ -5102,4 +5102,190 @@ Troubleshoot with the completed sample
 
 
 
+# Use ASP.NET Core SignalR with Blazor
+
+Article • 06/21/2024
+
+
+Prerequisites
+
+Sample app
+
+Create a Blazor Web App
+
+Add the SignalR client library
+
+Add a SignalR hub
+
+Add services and an endpoint for the SignalR hub
+
+Add Razor component code for chat
+
+Run the app
+
+Next steps
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor Hybrid
+
+Article • 12/11/2024
+
+
+Blazor Hybrid apps with .NET MAUI
+
+Blazor Hybrid apps with WPF and Windows Forms
+
+Web View configuration
+
+Unhandled exceptions in Windows Forms and WPF apps
+
+Globalization and localization
+
+Access scoped services from native UI
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor Hybrid tutorials
+
+Article • 11/18/2024
+
+
+Build a .NET MAUI Blazor Hybrid app
+
+Build a .NET MAUI Blazor Hybrid app with a Blazor Web App
+
+Build a Windows Forms Blazor app
+
+Build a Windows Presentation Foundation (WPF) Blazor app
+
+
+
+# Build a .NET MAUI Blazor Hybrid app
+
+Article • 02/13/2024
+
+
+Prerequisites
+
+Create a .NET MAUI Blazor Hybrid app
+
+Run the app on Windows
+
+Run the app in the Android Emulator
+
+Next steps
+
+
+
+# Build a .NET MAUI Blazor Hybrid app with a Blazor Web App
+
+Article • 10/18/2024
+
+
+Prerequisites and preliminary steps
+
+.NET MAUI Blazor Hybrid and Web App solution template
+
+Use Blazor render modes
+
+Global Server interactivity
+
+Global Auto or WebAssembly interactivity
+
+Per-page/component Server interactivity
+
+Per-page/component Auto interactivity
+
+Per-page/component WebAssembly interactivity
+
+Using interfaces to support different device implementations
+
+Additional resources
+
+
+
+# Build a Windows Forms Blazor app
+
+Article • 09/12/2024
+
+
+Prerequisites
+
+Visual Studio workload
+
+Create a Windows Forms Blazor project
+
+Run the app
+
+Next steps
+
+
+
+# Build a Windows Presentation Foundation (WPF) Blazor app
+
+Article • 03/08/2024
+
+
+Prerequisites
+
+Visual Studio workload
+
+Create a WPF Blazor project
+
+Run the app
+
+Next steps
+
+
+
+# ASP.NET Core Blazor Hybrid routing and navigation
+
+Article • 09/12/2024
+
+
+URI request routing behavior
+
+Get or set a path for initial navigation
+
+Navigation among pages and Razor components
+
+App linking (deep linking)
+
+
+
+# ASP.NET Core Blazor Hybrid static files
+
+Article • 09/12/2024
+
+
+.NET MAUI
+
+WPF
+
+Windows Forms
+
+Static assets limited to Razor components
+
+Trademarks
+
+Additional resources
+
+
+
+# Use browser developer tools with ASP.NET Core Blazor Hybrid
+
+Article • 02/09/2024
+
+
+Browser developer tools with .NET MAUI Blazor
+
+Additional resources
+
+
+
 # 
