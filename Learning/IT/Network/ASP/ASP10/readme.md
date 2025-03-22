@@ -5288,4 +5288,224 @@ Additional resources
 
 
 
+# Reuse Razor components in ASP.NET Core Blazor Hybrid
+
+Article • 12/05/2024
+
+
+Design principles
+
+Project code organization
+
+Use abstractions for unique features
+
+.NET MAUI Blazor platform-specific code
+
+Additional resources
+
+
+
+# Share assets across web and native clients using a Razor class library (RCL)
+
+Article • 09/12/2024
+
+
+Share web UI Razor components, code, and static assets
+
+Provide code and services independent of hosting model
+
+Additional resources
+
+
+
+# Pass root component parameters in ASP.NET Core Blazor Hybrid
+
+Article • 02/09/2024
+
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor Hybrid authentication and authorization
+
+Article • 08/09/2024
+
+
+Create a custom AuthenticationStateProvider without user change updates
+
+Create a custom AuthenticationStateProvider with user change updates
+
+Signal an authentication update from outside of the BlazorWebView (Option 1)
+
+Handle authentication within the BlazorWebView (Option 2)
+
+Accessing other authentication information
+
+Other authentication security considerations
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor Hybrid security considerations
+
+Article • 09/27/2024
+
+
+External content rendered in an iframe
+
+Links to external URLs
+
+Keep the Web View current in deployed apps
+
+Android
+
+iOS/Mac Catalyst
+
+Windows (.NET MAUI, WPF, Windows Forms)
+
+Additional resources
+
+
+
+# Publish ASP.NET Core Blazor Hybrid apps
+
+Article • 02/09/2024
+
+
+Publish for a specific framework
+
+Blazor-specific considerations
+
+
+
+# Troubleshoot ASP.NET Core Blazor Hybrid
+
+Article • 11/14/2024
+
+
+Enable BlazorWebView logging
+
+Configure logging providers
+
+View logger output
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor project structure
+
+Article • 09/12/2024
+
+
+Blazor Web App
+
+Standalone Blazor WebAssembly
+
+Location of the Blazor script
+
+Location of <head> and <body> content
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor fundamentals
+
+Article • 11/19/2024
+
+
+Static and interactive rendering concepts
+
+Client and server rendering concepts
+
+Razor components
+
+Render modes
+
+Document Object Model (DOM)
+
+Subset of .NET APIs for Blazor WebAssembly apps
+
+Sample apps
+
+Byte multiples
+
+Support requests
+
+Community links to Blazor resources
+
+
+
+# ASP.NET Core Blazor routing and navigation
+
+Article • 10/21/2024
+
+
+Static versus interactive routing
+
+Route templates
+
+Focus an element on navigation
+
+Provide custom content when content isn't found
+
+Route to components from multiple assemblies
+
+Static routing
+
+Interactive routing
+
+Route parameters
+
+Route constraints
+
+Avoid file capture in a route parameter
+
+Catch-all route parameters
+
+URI and navigation state helpers
+
+Location changes
+
+Enhanced navigation and form handling
+
+Produce a URI relative to the base URI prefix
+
+Navigation history state
+
+Navigation options
+
+Query strings
+
+Replace a query parameter value when the parameter exists
+
+Append a query parameter and value when the parameter doesn't exist
+
+Remove a query parameter when the parameter value is null
+
+Add, update, and remove query parameters
+
+Support for enumerable values
+
+Navigate with an added or modified query string
+
+Hashed routing to named elements
+
+User interaction with <Navigating> content
+
+Handle asynchronous navigation events with OnNavigateAsync
+
+Handle cancellations in OnNavigateAsync
+
+Handle/prevent location changes
+
+NavLink component
+
+ASP.NET Core endpoint routing integration
+
+
+
 # 
