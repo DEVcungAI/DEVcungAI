@@ -5508,4 +5508,446 @@ ASP.NET Core endpoint routing integration
 
 
 
+# ASP.NET Core Blazor configuration
+
+Article • 10/18/2024
+
+
+App settings configuration
+
+Memory Configuration Source
+
+Authentication configuration
+
+Logging configuration
+
+Host builder configuration
+
+Cached configuration
+
+Options configuration
+
+
+
+# ASP.NET Core Blazor dependency injection
+
+Article • 10/04/2024
+
+
+Default services
+
+Add client-side services
+
+Add server-side services
+
+Register common services
+
+Client-side services that fail during prerendering
+
+Service lifetime
+
+Request a service in a component
+
+Constructor injection
+
+Property injection
+
+Use DI in services
+
+Inject keyed services into components
+
+Utility base component classes to manage a DI scope
+
+OwningComponentBase
+
+OwningComponentBase<TService>
+
+Detect client-side transient disposables
+
+Detect server-side transient disposables
+
+Transient service registrations for IHttpClientFactory / HttpClient handlers
+
+Use of an Entity Framework Core (EF Core) DbContext from DI
+
+Access server-side Blazor services from a different DI scope
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor startup
+
+Article • 09/27/2024
+
+
+Startup process and configuration
+
+JavaScript initializers
+
+Ensure libraries are loaded in a specific order
+
+Import additional modules
+
+Import map
+
+Initialize Blazor when the document is ready
+
+Chain to the Promise that results from a manual start
+
+Load client-side boot resources
+
+Control headers in C# code
+
+Server-side and prerendered client-side scenarios
+
+Client-side loading progress indicators
+
+Blazor Web App loading progress
+
+Blazor WebAssembly app loading progress
+
+Configure the .NET WebAssembly runtime
+
+Disable enhanced navigation and form handling
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor environments
+
+Article • 09/16/2024
+
+
+Set the environment
+
+Set the client-side environment via Blazor startup configuration
+
+Set the client-side environment via header
+
+Set the environment for Azure App Service
+
+Read the environment in a Blazor WebAssembly app
+
+Read the environment client-side in a Blazor Web App
+
+Read the client-side environment during startup
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor logging
+
+Article • 10/18/2024
+
+
+Configuration
+
+Log levels
+
+Razor component logging
+
+Server-side logging
+
+Client-side logging
+
+Log in the client-side Program file
+
+Client-side log category
+
+Client-side log event ID
+
+Client-side log message template
+
+Client-side log exception parameters
+
+Client-side filter function
+
+Client-side custom logger provider
+
+Client-side log scopes
+
+Prerendered component logging
+
+SignalR client logging with the SignalR client builder
+
+SignalR client logging with app configuration
+
+Client-side authentication logging
+
+Additional resources
+
+
+
+# Handle errors in ASP.NET Core Blazor apps
+
+Article • 10/18/2024
+
+
+Detailed errors during development
+
+Detailed circuit errors
+
+Detailed errors for Razor component server-side rendering
+
+Manage unhandled exceptions in developer code
+
+Unhandled exceptions for circuits
+
+Global exception handling
+
+Error boundaries
+
+Alternative global exception handling
+
+Log errors with a persistent provider
+
+Places where errors may occur
+
+Component instantiation
+
+Lifecycle methods
+
+Rendering logic
+
+Event handlers
+
+Component disposal
+
+JavaScript interop
+
+Prerendering
+
+Advanced scenarios
+
+Recursive rendering
+
+Custom render tree logic
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor SignalR guidance
+
+Article • 09/27/2024
+
+
+Azure SignalR Service with stateful reconnect
+
+WebSocket compression for Interactive Server components
+
+Disable response compression for Hot Reload
+
+Client-side SignalR cross-origin negotiation for authentication
+
+Client-side rendering
+
+Prerendered state size and SignalR message size limit
+
+Additional client-side resources
+
+Use session affinity (sticky sessions) for server-side webfarm hosting
+
+Azure SignalR Service
+
+Server-side circuit handler options
+
+Blazor hub options
+
+Maximum receive message size
+
+Blazor server-side Hub endpoint route configuration
+
+Reflect the server-side connection state in the UI
+
+Server-side rendering
+
+Monitor server-side circuit activity
+
+Blazor startup
+
+Configure SignalR timeouts and Keep-Alive on the client
+
+Modify the server-side reconnection handler
+
+Automatically refresh the page when server-side reconnection fails
+
+Adjust the server-side reconnection retry count and interval
+
+Control when the reconnection UI appears
+
+Server configuration
+
+Client configuration
+
+Disconnect the Blazor circuit from the client
+
+Server-side circuit handler
+
+Server-side circuit handler to capture users for custom services
+
+Closure of circuits when there are no remaining Interactive Server components
+
+IHttpContextAccessor / HttpContext in Razor components
+
+Additional server-side resources
+
+
+
+# ASP.NET Core Blazor static files
+
+Article • 11/05/2024
+
+
+Static asset delivery in server-side Blazor apps
+
+Deliver assets with Map Static Assets routing endpoint conventions
+
+Import maps
+
+Summary of static file <link> href formats
+
+.NET 9 or later
+
+.NET 8.x
+
+.NET 7.x or earlier
+
+Static Web Asset Project Mode
+
+Static files in non- Development environments
+
+Prefix for Blazor WebAssembly assets
+
+Static web asset base path
+
+File mappings and static file options
+
+Serve files from multiple locations
+
+Additional resources
+
+
+
+# ASP.NET Core Razor components
+
+Article • 10/18/2024
+
+
+Razor components
+
+Component classes
+
+Razor syntax
+
+Component name, class name, and namespace
+
+Partial class support
+
+Specify a base class
+
+Routing
+
+Markup
+
+Asynchronous methods ( async ) don't support returning void
+
+Nested components
+
+Component parameters
+
+Route parameters
+
+Child content render fragments
+
+Render fragments for reusable rendering logic
+
+Loop variables with component parameters and child content
+
+Capture references to components
+
+Apply an attribute
+
+Conditional HTML element attributes and DOM properties
+
+Raw HTML
+
+Razor templates
+
+Static assets
+
+Tag Helpers aren't supported in components
+
+Scalable Vector Graphics (SVG) images
+
+Whitespace rendering behavior
+
+Root component
+
+
+
+# ASP.NET Core Blazor render modes
+
+Article • 11/06/2024
+
+
+Render modes
+
+Enable support for interactive render modes
+
+Apply a render mode to a component instance
+
+Apply a render mode to a component definition
+
+Apply a render mode to the entire app
+
+Apply a render mode programatically
+
+Set the render mode by component definition
+
+Set the render mode by component instance
+
+Detect rendering location, interactivity, and assigned render mode at runtime
+
+Blazor documentation examples for Blazor Web Apps
+
+Prerendering
+
+Static server-side rendering (static SSR)
+
+Interactive server-side rendering (interactive SSR)
+
+Client-side rendering (CSR)
+
+Automatic (Auto) rendering
+
+Render mode propagation
+
+Render mode inheritance
+
+Child components with different render modes
+
+Child component with a serializable parameter
+
+Child component with a different render mode than its parent
+
+Static SSR pages in a globally-interactive app
+
+Client-side services fail to resolve during prerendering
+
+Discover components from additional assemblies
+
+Closure of circuits when there are no remaining Interactive Server components
+
+Custom shorthand render modes
+
+Service injection via a top-level imports file ( _Imports.razor )
+
+Additional resources
+
+
+
 # 
