@@ -5950,4 +5950,170 @@ Additional resources
 
 
 
+# Prerender ASP.NET Core Razor components
+
+Article • 11/14/2024
+
+
+Persist prerendered state
+
+Components embedded into pages and views (Razor Pages/MVC)
+
+Interactive routing and prerendering
+
+Prerendering guidance
+
+
+
+# ASP.NET Core Razor component generic type support
+
+Article • 10/18/2024
+
+
+Generic type parameter support
+
+Cascaded generic type support
+
+Explicit generic types based on ancestor components
+
+Infer generic types based on ancestor components
+
+
+
+# ASP.NET Core Blazor synchronization context
+
+Article • 10/18/2024
+
+
+Avoid thread-blocking calls
+
+Invoke component methods externally to update state
+
+Handle caught exceptions outside of a Razor component's lifecycle
+
+
+
+# Retain element, component, and model relationships in ASP.NET Core Blazor
+
+Article • 10/18/2024
+
+
+Use of the @key directive attribute
+
+When to use @key
+
+Scope of @key
+
+When not to use @key
+
+Values to use for @key
+
+
+
+# Avoid overwriting parameters in ASP.NET Core Blazor
+
+Article • 12/13/2024
+
+
+Overwritten parameters
+
+
+
+# ASP.NET Core Blazor attribute splatting and arbitrary parameters
+
+Article • 10/18/2024
+
+
+Attribute splatting
+
+Arbitrary attributes
+
+
+
+# ASP.NET Core Blazor layouts
+
+Article • 11/06/2024
+
+
+Usefulness of Blazor layouts
+
+Layout components
+
+Create a layout component
+
+MainLayout component
+
+Apply a layout
+
+Make the layout namespace available
+
+Apply a layout to a component
+
+Apply a layout to a folder of components
+
+Apply a default layout to an app
+
+Apply a layout to arbitrary content (LayoutView component)
+
+Nested layouts
+
+Share a Razor Pages layout with integrated components
+
+Sections
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor sections
+
+Article • 11/14/2024
+
+
+Blazor sections
+
+Section interaction with other Blazor features
+
+
+
+# Control <head> content in ASP.NET Core Blazor apps
+
+Article • 10/18/2024
+
+
+Control <head> content in a Razor component
+
+Set a page title for components via a layout
+
+HeadOutlet component
+
+Set a default page title in a Blazor Web App
+
+Not found page title in a Blazor WebAssembly app
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor cascading values and parameters
+
+Article • 10/18/2024
+
+
+Root-level cascading values
+
+CascadingValue component
+
+[CascadingParameter] attribute
+
+Cascading values/parameters and render mode boundaries
+
+Cascade multiple values
+
+Pass data across a component hierarchy
+
+Additional resources
+
+
+
 # 
