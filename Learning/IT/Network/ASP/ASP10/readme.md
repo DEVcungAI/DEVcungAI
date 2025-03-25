@@ -6116,4 +6116,292 @@ Additional resources
 
 
 
+# ASP.NET Core Blazor event handling
+
+Article • 10/18/2024
+
+
+Delegate event handlers
+
+Built-in event arguments
+
+Custom event arguments
+
+General configuration
+
+Custom clipboard paste event example
+
+Lambda expressions
+
+EventCallback
+
+Prevent default actions
+
+Stop event propagation
+
+Focus an element
+
+
+
+# ASP.NET Core Blazor data binding
+
+Article • 10/18/2024
+
+
+Binding features
+
+Use @bind:get / @bind:set modifiers and avoid event handlers for two-way data binding
+
+Binding to a property with C# get and set accessors
+
+Multiple option selection with <select> elements
+
+Binding <select> element options to C# object null values
+
+Unparsable values
+
+Format strings
+
+Binding with component parameters
+
+Bind across more than two components
+
+Bound field or property expression tree
+
+Additional resources
+
+
+
+# ASP.NET Core Razor component lifecycle
+
+Article • 12/06/2024
+
+
+Lifecycle events
+
+Quiescence during prerendering
+
+When parameters are set (SetParametersAsync)
+
+Component initialization (OnInitialized{Async})
+
+After parameters are set (OnParametersSet{Async})
+
+After component render (OnAfterRender{Async})
+
+Base class lifecycle methods
+
+State changes (StateHasChanged)
+
+Handle incomplete asynchronous actions at render
+
+Handle errors
+
+Stateful reconnection after prerendering
+
+Prerendering with JavaScript interop
+
+Component disposal with IDisposable and IAsyncDisposable
+
+Disposal of JavaScript interop object references
+
+DOM cleanup tasks during component disposal
+
+Synchronous IDisposable
+
+Asynchronous IAsyncDisposable
+
+Assignment of null to disposed objects
+
+StateHasChanged
+
+Event handlers
+
+Anonymous functions, methods, and expressions
+
+Disposal during JS interop
+
+Cancelable background work
+
+Blazor Server reconnection events
+
+Additional resources
+
+
+
+# ASP.NET Core Razor component virtualization
+
+Article • 10/18/2024
+
+
+Virtualization
+
+Item provider delegate
+
+Placeholder
+
+Empty content
+
+Item size
+
+Overscan count
+
+State changes
+
+Keyboard scroll support
+
+Advanced styles and scroll detection
+
+Root-level virtualization
+
+Control the spacer element tag name
+
+
+
+# ASP.NET Core Razor component rendering
+
+Article • 10/18/2024
+
+
+Rendering conventions for ComponentBase
+
+Control the rendering flow
+
+Streaming rendering
+
+Suppress UI refreshing (ShouldRender)
+
+StateHasChanged
+
+An asynchronous handler involves multiple asynchronous phases
+
+Receiving a call from something external to the Blazor rendering and event handling system
+
+To render a component outside the subtree that's rerendered by a particular event
+
+WebAssembly loading progress indicator for Blazor Web Apps
+
+
+
+# ASP.NET Core Blazor templated components
+
+Article • 10/18/2024
+
+
+Templated components
+
+Preserve relationships with @key
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor CSS isolation
+
+Article • 09/12/2024
+
+
+Enable CSS isolation
+
+CSS isolation bundling
+
+Child component support
+
+CSS preprocessor support
+
+CSS isolation configuration
+
+Customize scope identifier format
+
+Change base path for static web assets
+
+Disable automatic bundling
+
+Disable CSS isolation
+
+Razor class library (RCL) support
+
+Additional resources
+
+
+
+# Dynamically-rendered ASP.NET Core Razor components
+
+Article • 11/06/2024
+
+
+Dynamic components
+
+Example
+
+Pass parameters
+
+Event callbacks (EventCallback)
+
+Avoid catch-all parameters
+
+Access the dynamically-created component instance
+
+Trademarks
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor QuickGrid component
+
+Article • 12/05/2024
+
+
+Package
+
+Sample app
+
+QuickGrid implementation
+
+Sort by column
+
+Page items with a Paginator component
+
+Apply row styles
+
+Custom attributes and styles
+
+Entity Framework Core (EF Core) data source
+
+Display name support
+
+Remote data
+
+QuickGrid scaffolder
+
+
+
+# Integrate ASP.NET Core Razor components with MVC or Razor Pages
+
+Article • 11/18/2024
+
+
+Configuration
+
+Use routable components in a Razor Pages app
+
+Use routable components in an MVC app
+
+Render components from a page or view
+
+Render stateful interactive components
+
+Render noninteractive components
+
+Component namespaces
+
+Persist prerendered state
+
+Prerendered state size and SignalR message size limit
+
+Additional Blazor Server resources
+
+
+
 # 
