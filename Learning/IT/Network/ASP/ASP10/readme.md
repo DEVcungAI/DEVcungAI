@@ -6404,4 +6404,337 @@ Additional Blazor Server resources
 
 
 
+# Consume ASP.NET Core Razor components from a Razor class library (RCL)
+
+Article • 09/12/2024
+
+
+Create an RCL
+
+Consume a Razor component from an RCL
+
+Make routable components available from the RCL
+
+Create an RCL with static assets in the wwwroot folder
+
+Create an RCL with JavaScript files collocated with components
+
+Client-side browser compatibility analyzer
+
+JavaScript isolation in JavaScript modules
+
+Avoid trimming JavaScript-invokable .NET methods
+
+Build, pack, and ship to NuGet dotnet pack
+
+Trademarks
+
+Additional resources
+
+
+
+# ASP.NET Core Razor class libraries (RCLs) with static server-side rendering (static SSR)
+
+Article • 09/27/2024
+
+
+Understand the capabilities and restrictions of static SSR
+
+Options for component authors
+
+When to use the @rendermode directive
+
+Streaming rendering
+
+Using links across render modes
+
+Using forms across render modes
+
+Avoid APIs that are specific to static SSR
+
+
+
+# Use Razor components in JavaScript apps and SPA frameworks
+
+Article • 11/06/2024
+
+
+Angular sample apps
+
+Render Razor components from JavaScript
+
+Blazor custom elements
+
+Element name
+
+Package
+
+Example component
+
+Blazor Server registration
+
+Blazor WebAssembly registration
+
+Use the registered custom element
+
+Pass parameters
+
+Generate Angular and React components
+
+
+
+# Render Razor components outside of ASP.NET Core
+
+Article • 11/14/2024
+
+
+
+# ASP.NET Core built-in Razor components
+
+Article • 11/11/2024
+
+
+AntiforgeryToken
+
+AuthorizeView
+
+CascadingValue
+
+DataAnnotationsValidator
+
+DynamicComponent
+
+Editor<T>
+
+EditForm
+
+ErrorBoundary
+
+FocusOnNavigate
+
+HeadContent
+
+HeadOutlet
+
+ImportMap
+
+InputCheckbox
+
+InputDate
+
+InputFile
+
+InputNumber
+
+InputRadio
+
+InputRadioGroup
+
+InputSelect
+
+InputText
+
+InputTextArea
+
+LayoutComponentBase
+
+LayoutView
+
+NavigationLock
+
+NavLink
+
+PageTitle
+
+OwningComponentBase
+
+Paginator
+
+QuickGrid
+
+Router
+
+RouteView
+
+SectionContent
+
+SectionOutlet
+
+ValidationMessage
+
+ValidationSummary
+
+Virtualize
+
+
+
+# ASP.NET Core Blazor globalization and localization
+
+Article • 10/14/2024
+
+
+Globalization and localization
+
+Globalization
+
+.NET globalization and International Components for Unicode (ICU) support (Blazor WebAssembly)
+
+Invariant globalization
+
+Timezone information
+
+Demonstration component
+
+Dynamically set the culture from the Accept-Language header
+
+Statically set the client-side culture
+
+Statically set the server-side culture
+
+Dynamically set the client-side culture by user preference
+
+Dynamically set the server-side culture by user preference
+
+Dynamically set the culture in a Blazor Web App by user preference
+
+Updates to the .Client project
+
+Server project updates
+
+Interactive Auto components
+
+Localization
+
+Client-side localization
+
+Server-side localization
+
+Example of localized resources
+
+WebAssembly culture provider reference source
+
+Shared resources
+
+Location override using "Sensors" pane in developer tools
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor forms overview
+
+Article • 10/21/2024
+
+
+Input components and forms
+
+Handle form submission
+
+Clear a form or field
+
+Antiforgery support
+
+Mitigate overposting attacks
+
+Enhanced form handling
+
+Examples
+
+Client-side validation requires a circuit
+
+Unsupported validation features
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor input components
+
+Article • 10/18/2024
+
+
+Input components
+
+Example form
+
+Multiple option selection with the InputSelect component
+
+Binding InputSelect options to C# object null values
+
+Display name support
+
+Error message template support
+
+
+
+# ASP.NET Core Blazor forms binding
+
+Article • 10/18/2024
+
+
+EditForm / EditContext model
+
+Model binding
+
+Context binding
+
+Supported types
+
+Additional binding options
+
+Form names
+
+Supply a parameter from the form ([SupplyParameterFromForm])
+
+Nest and bind forms
+
+Initialize form data with static SSR
+
+Advanced form mapping error scenarios
+
+Custom input components
+
+Input component based on InputBase<T>
+
+Input component with full developer control
+
+Radio buttons
+
+
+
+# ASP.NET Core Blazor forms validation
+
+Article • 10/18/2024
+
+
+Form validation
+
+Data Annotations Validator component and custom validation
+
+Validator components
+
+Business logic validation with a validator component
+
+Server validation with a validator component
+
+InputText based on the input event
+
+Validation Summary and Validation Message components
+
+Determine if a form field is valid
+
+Custom validation attributes
+
+Custom validation CSS class attributes
+
+Class-level validation with IValidatableObject
+
+Blazor data annotations validation package
+
+Nested models, collection types, and complex types
+
+Enable the submit button based on form validation
+
+
+
 # 
