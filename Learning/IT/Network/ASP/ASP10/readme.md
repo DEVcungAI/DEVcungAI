@@ -6737,4 +6737,342 @@ Enable the submit button based on form validation
 
 
 
+# Troubleshoot ASP.NET Core Blazor forms
+
+Article • 04/11/2024
+
+
+Large form payloads and the SignalR message size limit
+
+EditForm parameter error
+
+Connection disconnected
+
+
+
+# ASP.NET Core Blazor file uploads
+
+Article • 10/04/2024
+
+
+File uploads
+
+File size read and upload limits
+
+Examples
+
+Server-side file upload example
+
+Client-side file upload example
+
+Upload files to a server with server-side rendering
+
+Upload files to a server with client-side rendering (CSR)
+
+Cancel a file upload
+
+Upload files server-side with progress
+
+File streams
+
+Upload image preview
+
+Upload files to an external service
+
+Server-side SignalR message size limit
+
+Maximum parallel invocations per client hub setting
+
+Troubleshoot
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor file downloads
+
+Article • 11/06/2024
+
+
+File downloads
+
+Security considerations
+
+Download from a stream
+
+Download from a URL
+
+Cross-Origin Resource Sharing (CORS)
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor JavaScript interoperability (JS interop)
+
+Article • 11/19/2024
+
+
+Compression for interactive server components with untrusted data
+
+JavaScript interop abstractions and features package
+
+Interaction with the DOM
+
+JavaScript class with a field of type function
+
+Avoid inline event handlers
+
+Asynchronous JavaScript calls
+
+Object serialization
+
+DOM cleanup tasks during component disposal
+
+JavaScript interop calls without a circuit
+
+Cached JavaScript files
+
+Size limits on JavaScript interop calls
+
+Determine where the app is running
+
+
+
+# JavaScript location in ASP.NET Core Blazor apps
+
+Article • 11/19/2024
+
+
+Load a script in <head> markup
+
+Load a script in <body> markup
+
+Load a script from an external JavaScript file (.js) collocated with a component
+
+Load a script from an external JavaScript file (.js)
+
+Inject a script before or after Blazor starts
+
+JavaScript isolation in JavaScript modules
+
+
+
+# Call JavaScript functions from .NET methods in ASP.NET Core Blazor
+
+Article • 10/18/2024
+
+
+Invoke JS functions
+
+JavaScript API restricted to user gestures
+
+Invoke JavaScript functions without reading a returned value (InvokeVoidAsync)
+
+Component (.razor) example (InvokeVoidAsync)
+
+Class (.cs) example (InvokeVoidAsync)
+
+Invoke JavaScript functions and read a returned value (InvokeAsync)
+
+Component (.razor) example (InvokeAsync)
+
+Class (.cs) example (InvokeAsync)
+
+Dynamic content generation scenarios
+
+Prerendering
+
+Synchronous JS interop in client-side components
+
+JavaScript location
+
+JavaScript isolation in JavaScript modules
+
+Capture references to elements
+
+Reference elements across components
+
+Harden JavaScript interop calls
+
+Avoid circular object references
+
+JavaScript libraries that render UI
+
+Byte array support
+
+Stream from .NET to JavaScript
+
+Catch JavaScript exceptions
+
+Abort a long-running JavaScript function
+
+JavaScript [JSImport] / [JSExport] interop
+
+Unmarshalled JavaScript interop
+
+Disposal of JavaScript interop object references
+
+DOM cleanup tasks during component disposal
+
+JavaScript interop calls without a circuit
+
+Additional resources
+
+
+
+# Call .NET methods from JavaScript functions in ASP.NET Core Blazor
+
+Article • 10/25/2024
+
+
+Invoke a static .NET method
+
+Create JavaScript object and data references to pass to .NET
+
+Invoke an instance .NET method
+
+Avoid trimming JavaScript-invokable .NET methods
+
+Pass a DotNetObjectReference to an individual JavaScript function
+
+Pass a DotNetObjectReference to a class with multiple JavaScript functions
+
+Call .NET generic class methods
+
+Class instance examples
+
+Component instance .NET method helper class
+
+Component instance .NET method called from DotNetObjectReference assigned to an element property
+
+Synchronous JS interop in client-side components
+
+JavaScript location
+
+JavaScript isolation in JavaScript modules
+
+Avoid circular object references
+
+Byte array support
+
+Stream from JavaScript to .NET
+
+JavaScript [JSImport] / [JSExport] interop
+
+Disposal of JavaScript interop object references
+
+DOM cleanup tasks during component disposal
+
+JavaScript interop calls without a circuit
+
+Additional resources
+
+
+
+# JavaScript [JSImport] / [JSExport] interop with ASP.NET Core Blazor
+
+Article • 10/04/2024
+
+
+Obsolete JavaScript interop API
+
+Prerequisites
+
+Namespace
+
+Enable unsafe blocks
+
+Razor class library (RCL) collocated JS is unsupported
+
+Call JavaScript from .NET
+
+Call .NET from JavaScript
+
+Multiple module import calls
+
+Use of a single JavaScript module across components
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor JavaScript with static server-side rendering (static SSR)
+
+Article • 12/02/2024
+
+
+Events
+
+Enhanced page load script example
+
+Example implementation without using an RCL
+
+
+
+# Call a web API from ASP.NET Core Blazor
+
+Article • 10/21/2024
+
+
+Package
+
+Sample apps
+
+BlazorWebAppCallWebApi
+
+BlazorWebAppCallWebApi_Weather
+
+BlazorWebAssemblyCallWebApi
+
+Server-side scenarios for calling external web APIs
+
+Service abstractions for web API calls
+
+Blazor Web App external web APIs
+
+Prerendered data
+
+Add the HttpClient service
+
+JSON helpers
+
+GET from JSON (GetFromJsonAsync)
+
+POST as JSON (PostAsJsonAsync)
+
+PUT as JSON (PutAsJsonAsync)
+
+PATCH as JSON (PatchAsJsonAsync)
+
+DELETE (DeleteAsync) and additional extension methods
+
+Named HttpClient with IHttpClientFactory
+
+Typed HttpClient
+
+Cookie-based request credentials
+
+HttpClient and HttpRequestMessage with Fetch API request options
+
+Handle errors
+
+Cross-Origin Resource Sharing (CORS)
+
+Antiforgery support
+
+Blazor framework component examples for testing web API access
+
+Additional resources
+
+General
+
+Mitigation of overposting attacks
+
+Server-side
+
+Client-side
+
+
+
 # 
