@@ -7075,4 +7075,436 @@ Client-side
 
 
 
+# Display images and documents in ASP.NET Core Blazor
+
+Article • 10/18/2024
+
+
+Dynamically set an image source
+
+Stream image or document data
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor authentication and authorization
+
+Article • 11/19/2024
+
+
+Securely maintain sensitive data and credentials
+
+Managed identities for Microsoft Azure services
+
+Antiforgery support
+
+Server-side Blazor authentication
+
+IHttpContextAccessor / HttpContext in Razor components
+
+Shared state
+
+Server-side security of sensitive data and credentials
+
+Project template
+
+Blazor Identity UI (Individual Accounts)
+
+Manage authentication state in Blazor Web Apps
+
+Additional claims and tokens from external providers
+
+Azure App Service on Linux with Identity Server
+
+Inject AuthenticationStateProvider for services scoped to a component
+
+Unauthorized content display while prerendering with a custom AuthenticationStateProvider
+
+User state management
+
+Additional security abstractions
+
+Authentication state management at sign out
+
+Temporary redirection URL validity duration
+
+Client-side Blazor authentication
+
+AuthenticationStateProvider service
+
+Obtain a user's claims principal data
+
+Expose the authentication state as a cascading parameter
+
+Authorization
+
+AuthorizeView component
+
+Role-based and policy-based authorization
+
+Content displayed during asynchronous authentication
+
+[Authorize] attribute
+
+Resource authorization
+
+Customize unauthorized content with the Router component
+
+Procedural logic
+
+Troubleshoot errors
+
+Personally Identifiable Information (PII)
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor authentication state
+
+Article • 09/23/2024
+
+
+Abstract AuthenticationStateProvider class
+
+Implement a custom AuthenticationStateProvider
+
+Authentication state change notifications
+
+Additional resources
+
+
+
+# Secure ASP.NET Core Blazor WebAssembly
+
+Article • 10/08/2024
+
+
+Client-side/SPA security of sensitive data and credentials
+
+Authentication library
+
+Authentication process with OIDC
+
+Authentication component
+
+Authorization
+
+Customize authentication
+
+Require authorization for the entire app
+
+Use one identity provider app registration per app
+
+Refresh tokens
+
+Establish claims for users
+
+Prerendering support
+
+Azure App Service on Linux with Identity Server
+
+Windows Authentication
+
+Secure a SignalR hub
+
+Logging
+
+The WebAssembly sandbox
+
+Implementation guidance
+
+Use the Authorization Code flow with PKCE
+
+Additional resources
+
+
+
+# Secure ASP.NET Core Blazor WebAssembly with ASP.NET Core Identity
+
+Article • 11/19/2024
+
+
+Endpoints for registering, logging in, and logging out
+
+Token authentication
+
+Additional Identity scenarios
+
+Use secure authentication flows to maintain sensitive data and credentials
+
+Sample apps
+
+Backend web API app packages and code
+
+Packages
+
+Sample app code
+
+Frontend standalone Blazor WebAssembly app packages and code
+
+Packages
+
+Sample app code
+
+Test user seeding demonstration
+
+Roles
+
+Cross-domain hosting (same-site configuration)
+
+Antiforgery support
+
+Troubleshoot
+
+Logging
+
+Common errors
+
+Cookies and site data
+
+App upgrades
+
+Inspect the user's claims
+
+Additional resources
+
+
+
+# Account confirmation and password recovery in ASP.NET Core Blazor WebAssembly with ASP.NET Core Identity
+
+Article • 12/11/2024
+
+
+Namespaces and article code examples
+
+Select and configure an email provider for the server project
+
+Configure a user secret for the provider's security key
+
+Implement IEmailSender in the server project
+
+Configure the server project to require email confirmation
+
+Update the client project's account registration response
+
+Update seed data code to confirm seeded accounts
+
+Enable account confirmation after a site has users
+
+Password recovery
+
+Email and activity timeout
+
+Change all ASP.NET Core Data Protection token lifespans
+
+Change the email token lifespan
+
+Troubleshoot
+
+Additional resources
+
+
+
+# Enable QR code generation for TOTP authenticator apps in ASP.NET Core Blazor WebAssembly with ASP.NET Core Identity
+
+Article • 12/11/2024
+
+
+Namespaces and article code examples
+
+Optional account confirmation and password recovery
+
+Add a QR code library to the app
+
+Set the TOTP organization name
+
+Add model classes
+
+IAccountManagement interface
+
+Update the cookie authentication state provider
+
+Replace Login component
+
+Add a component to display recovery codes
+
+Manage 2FA page
+
+Link to the the Manage 2FA page
+
+Additional resources
+
+
+
+# Secure an ASP.NET Core Blazor WebAssembly standalone app with the Authentication library
+
+Article • 09/12/2024
+
+
+Walkthrough
+
+Register an app
+
+Create the Blazor app
+
+Configure the app
+
+Run the app
+
+Parts of the app
+
+Authentication package
+
+Authentication service support
+
+wwwroot/appsettings.json configuration
+
+Access token scopes
+
+Imports file
+
+Index page
+
+App component
+
+RedirectToLogin component
+
+LoginDisplay component
+
+Authentication component
+
+Troubleshoot
+
+Logging
+
+Common errors
+
+Cookies and site data
+
+App upgrades
+
+Inspect the user
+
+Inspect the content of a JSON Web Token (JWT)
+
+Additional resources
+
+
+
+# Secure an ASP.NET Core Blazor WebAssembly standalone app with Microsoft Accounts
+
+Article • 10/20/2024
+
+
+Walkthrough
+
+Create a tenant in Azure
+
+Register an app in Azure
+
+Create the Blazor app
+
+Run the app
+
+Parts of the app
+
+Authentication package
+
+Authentication service support
+
+wwwroot/appsettings.json configuration
+
+Access token scopes
+
+Login mode
+
+Imports file
+
+Index page
+
+App component
+
+RedirectToLogin component
+
+LoginDisplay component
+
+Authentication component
+
+Troubleshoot
+
+Logging
+
+Common errors
+
+Cookies and site data
+
+App upgrades
+
+Inspect the user
+
+Inspect the content of a JSON Web Token (JWT)
+
+Additional resources
+
+
+
+# Secure an ASP.NET Core Blazor WebAssembly standalone app with Microsoft Entra ID
+
+Article • 10/20/2024
+
+
+Walkthrough
+
+Create a tenant in Azure
+
+Register an app in Azure
+
+Create the Blazor app
+
+Run the app
+
+Parts of the app
+
+Authentication package
+
+Authentication service support
+
+wwwroot/appsettings.json configuration
+
+Access token scopes
+
+Login mode
+
+Imports file
+
+Index page
+
+App component
+
+RedirectToLogin component
+
+LoginDisplay component
+
+Authentication component
+
+Troubleshoot
+
+Logging
+
+Common errors
+
+Cookies and site data
+
+App upgrades
+
+Inspect the user
+
+Inspect the content of a JSON Web Token (JWT)
+
+Additional resources
+
+
+
 # 
