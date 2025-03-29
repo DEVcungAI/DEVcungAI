@@ -7507,4 +7507,380 @@ Additional resources
 
 
 
+# Secure an ASP.NET Core Blazor WebAssembly standalone app with Azure Active Directory B2C
+
+Article • 10/20/2024
+
+
+Walkthrough
+
+Create a tenant in Azure
+
+Register an app in Azure
+
+Create the Blazor app
+
+Run the app
+
+Parts of the app
+
+Authentication package
+
+Authentication service support
+
+Access token scopes
+
+Login mode
+
+Imports file
+
+Index page
+
+App component
+
+RedirectToLogin component
+
+LoginDisplay component
+
+Authentication component
+
+Custom policies
+
+Troubleshoot
+
+Logging
+
+Common errors
+
+Cookies and site data
+
+App upgrades
+
+Inspect the user
+
+Inspect the content of a JSON Web Token (JWT)
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor WebAssembly additional security scenarios
+
+Article • 10/08/2024
+
+
+Attach tokens to outgoing requests
+
+Custom authentication request scenarios
+
+Customize the login process
+
+Customize options before obtaining a token interactively
+
+Customize options when using an IAccessTokenProvider
+
+Logout with a custom return URL
+
+Obtain the login path from authentication options
+
+Custom AuthorizationMessageHandler class
+
+Configure AuthorizationMessageHandler
+
+Typed HttpClient
+
+Configure the HttpClient handler
+
+Unauthenticated or unauthorized web API requests in an app with a secure default client
+
+Request additional access tokens
+
+Cross-Origin Resource Sharing (CORS)
+
+Handle token request errors
+
+Save app state before an authentication operation with session storage
+
+Save app state before an authentication operation with session storage and a state container
+
+Customize app routes
+
+Customize the authentication user interface
+
+Customize the user
+
+Customize the user with a payload claim
+
+ME-ID security groups and roles with a custom user account class
+
+Authenticate users to only call protected third party APIs
+
+Authenticate users with a third-party provider and call protected APIs on the host server and the third party
+
+Use a server access token to retrieve the third-party access token
+
+Make API calls from the client to the server API in order to call third-party APIs
+
+Use OpenID Connect (OIDC) v2.0 endpoints
+
+Configure and use gRPC in components
+
+Replace the AuthenticationService implementation
+
+Replace any JavaScript AuthenticationService implementation
+
+Replace the Microsoft Authentication Library for JavaScript (MSAL.js)
+
+Pass custom provider options
+
+Additional resources
+
+
+
+# Microsoft Entra (ME-ID) groups, Administrator Roles, and App Roles
+
+Article • 10/21/2024
+
+
+Sample app
+
+Prerequisite
+
+ME-ID app registration online tools
+
+Scopes
+
+Custom user account
+
+Authorization configuration
+
+App Roles
+
+Additional resources
+
+
+
+# Use Graph API with ASP.NET Core Blazor WebAssembly
+
+Article • 11/06/2024
+
+
+Call Graph API from a component using the Graph SDK
+
+Customize user claims using the Graph SDK
+
+Assign users to an app registration with or without app roles
+
+DefaultAccessTokenScopes versus AdditionalScopesToConsent
+
+Additional resources
+
+General guidance
+
+Security guidance
+
+
+
+# Secure an ASP.NET Core Blazor Web App with Microsoft Entra ID
+
+Article • 11/19/2024
+
+
+Sample app
+
+Server-side Blazor Web App project (BlazorWebAppEntra)
+
+Client-side Blazor Web App project (BlazorWebAppEntra.Client)
+
+Configuration
+
+Configure the app
+
+Establish the client secret
+
+Secret Manager tool
+
+Azure Key Vault
+
+Redirect to the home page on sign out
+
+Troubleshoot
+
+Logging
+
+Common errors
+
+Cookies and site data
+
+App upgrades
+
+Run the server app
+
+Inspect the user
+
+Additional resources
+
+
+
+# Secure an ASP.NET Core Blazor Web App with OpenID Connect (OIDC)
+
+Article • 10/28/2024
+
+
+Sample app
+
+Server-side Blazor Web App project (BlazorWebAppOidc)
+
+Configuration
+
+Establish the client secret
+
+Configure the app
+
+Sample app code
+
+Client-side Blazor Web App project (BlazorWebAppOidc.Client)
+
+Redirect to the home page on signout
+
+Cryptographic nonce
+
+Application roles for apps not registered with Microsoft Entra (ME-ID)
+
+Application roles for apps registered with Microsoft Entra (ME-ID)
+
+Troubleshoot
+
+Logging
+
+Common errors
+
+Cookies and site data
+
+App upgrades
+
+Run the server app
+
+Inspect the user
+
+Additional resources
+
+
+
+# Threat mitigation guidance for ASP.NET Core Blazor static server-side rendering
+
+Article • 11/19/2024
+
+
+General considerations for server-side rendering
+
+Input validation and sanitization
+
+Session management
+
+Error handling and logging
+
+ASP.NET Core Data Protection
+
+Denial of service
+
+Recommended (non-exhaustive) check list
+
+
+
+# Threat mitigation guidance for ASP.NET Core Blazor interactive server-side rendering
+
+Article • 11/19/2024
+
+
+Interactive Server Components with WebSocket compression enabled
+
+Shared state
+
+IHttpContextAccessor / HttpContext in Razor components
+
+Resource exhaustion
+
+CPU
+
+Memory
+
+Client connections
+
+Denial of Service (DoS) attacks
+
+Interactions with the browser (client)
+
+JavaScript functions invoked from .NET
+
+.NET methods invoked from the browser
+
+Events
+
+Protect against multiple dispatches
+
+Cancel early and avoid use-after-dispose
+
+Avoid events that produce large amounts of data
+
+Additional security guidance
+
+Logging and sensitive data
+
+Protect information in transit with HTTPS
+
+Cross-site scripting (XSS)
+
+Cross-origin protection
+
+Click-jacking
+
+Open redirects
+
+Security checklist
+
+
+
+# Account confirmation and password recovery in ASP.NET Core Blazor
+
+Article • 11/19/2024
+
+
+Namespace
+
+Select and configure an email provider
+
+Configure a user secret for the provider's security key
+
+Implement IEmailSender
+
+Configure app to support email
+
+Enable account confirmation after a site has users
+
+Email and activity timeout
+
+Change all ASP.NET Core Data Protection token lifespans
+
+Change the email token lifespan
+
+Troubleshoot
+
+Additional resources
+
+
+
+# Enable QR code generation for TOTP authenticator apps in an ASP.NET Core Blazor Web App
+
+Article • 12/11/2024
+
+
+Adding QR codes to the 2FA configuration page
+
+EnableAuthenticator component in reference source
+
+Additional resources
+
+
+
 # 
