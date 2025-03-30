@@ -7883,4 +7883,322 @@ Additional resources
 
 
 
+# Enforce a Content Security Policy for ASP.NET Core Blazor
+
+Article • 09/27/2024
+
+
+Policy directives
+
+Apply the policy
+
+Server-side Blazor apps
+
+Client-side Blazor apps
+
+Apply a CSP in non- Development environments
+
+Blazor Web App approaches
+
+Blazor WebAssembly app approaches
+
+Meta tag limitations
+
+Test a policy and receive violation reports
+
+Troubleshoot
+
+Additional resources
+
+
+
+# ASP.NET Core server-side and Blazor Web App additional security scenarios
+
+Article • 11/19/2024
+
+
+Pass tokens to a server-side Blazor app
+
+Set the authentication scheme
+
+Circuit handler to capture users for custom services
+
+Access AuthenticationStateProvider in outgoing request middleware
+
+
+
+# ASP.NET Core Blazor state management
+
+Article • 09/12/2024
+
+
+Maintain user state
+
+Persist state across circuits
+
+Where to persist state
+
+Server-side storage
+
+URL
+
+Browser storage
+
+ASP.NET Core Protected Browser Storage
+
+Save and load data within a component
+
+Handle the loading state
+
+Handle prerendering
+
+Factor out the state preservation to a common location
+
+In-memory state container service
+
+Additional approaches
+
+Troubleshoot
+
+Additional resources
+
+
+
+# Debug ASP.NET Core apps
+
+Article • 10/21/2024
+
+
+Prerequisites
+
+Browser prerequisites
+
+IDE prerequisites
+
+Visual Studio Code prerequisites
+
+App configuration prerequisites
+
+Packages
+
+Debug a Blazor Web App in an IDE
+
+Debug a Blazor WebAssembly app in an IDE Visual Studio
+
+Attach to an existing Visual Studio Code debugging session
+
+Visual Studio Code launch options
+
+Debug Blazor WebAssembly with Google Chrome or Microsoft Edge
+
+Debug a Blazor WebAssembly app with Firefox
+
+Break on unhandled exceptions
+
+Browser source maps
+
+Firewall configuration
+
+Troubleshoot
+
+Breakpoints in OnInitialized{Async} not hit
+
+Visual Studio (Windows) timeout
+
+
+
+# Lazy load assemblies in ASP.NET Core Blazor WebAssembly
+
+Article • 12/02/2024
+
+
+File extension placeholder ({FILE EXTENSION}) for assembly files
+
+Project file configuration
+
+Router component configuration
+
+Assemblies that include routable components
+
+User interaction with <Navigating> content
+
+Handle cancellations in OnNavigateAsync
+
+OnNavigateAsync events and renamed assembly files
+
+Complete example
+
+Troubleshoot
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor WebAssembly native dependencies
+
+Article • 04/12/2024
+
+
+.NET WebAssembly build tools
+
+Use native code
+
+C++ managed method callbacks
+
+Package native dependencies in a NuGet package
+
+SkiaSharp example library use
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor performance best practices
+
+Article • 09/12/2024
+
+
+Optimize rendering speed
+
+Avoid unnecessary rendering of component subtrees
+
+Virtualization
+
+Create lightweight, optimized components
+
+Avoid thousands of component instances
+
+Inline child components into their parents
+
+Define reusable RenderFragments in code
+
+Don't receive too many parameters
+
+Ensure cascading parameters are fixed
+
+Avoid attribute splatting with CaptureUnmatchedValues
+
+Implement SetParametersAsync manually
+
+Don't trigger events too rapidly
+
+Avoid rerendering after handling events without state changes
+
+Avoid recreating delegates for many repeated elements or components
+
+Optimize JavaScript interop speed
+
+Avoid excessively fine-grained calls
+
+Consider the use of synchronous calls
+
+Call JavaScript from .NET
+
+Call .NET from JavaScript
+
+Use JavaScript [JSImport] / [JSExport] interop
+
+Ahead-of-time (AOT) compilation
+
+Minimize app download size
+
+Runtime relinking
+
+Use System.Text.Json
+
+Intermediate Language (IL) trimming
+
+Lazy load assemblies
+
+Compression
+
+Disable unused features
+
+
+
+# Test Razor components in ASP.NET Core Blazor
+
+Article • 03/08/2024
+
+
+Test approaches
+
+Choose the most appropriate test approach
+
+Test components with bUnit
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor Progressive Web Application (PWA)
+
+Article • 11/06/2024
+
+
+Create a project from the PWA template
+
+Convert an existing Blazor WebAssembly app into a PWA
+
+Installation and app manifest
+
+Offline support
+
+Cache-first fetch strategy
+
+Background updates
+
+How requests are resolved
+
+Support server-rendered pages
+
+Control asset caching
+
+Push notifications
+
+Caveats for offline PWAs
+
+Offline support only when published
+
+Update completion after user navigation away from app
+
+Users may run any historical version of the app
+
+Interference with server-rendered pages
+
+All service worker asset manifest contents are cached
+
+Interaction with authentication
+
+Additional resources
+
+
+
+# Host and deploy ASP.NET Core Blazor
+
+Article • 10/08/2024
+
+
+Publish the app
+
+IIS
+
+App base path
+
+Background
+
+Server-side Blazor
+
+Standalone Blazor WebAssembly
+
+Configure the app base path
+
+Obtain the app base path from configuration
+
+Blazor Server MapFallbackToPage configuration
+
+Deployment
+
+
+
 # 
