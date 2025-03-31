@@ -8201,4 +8201,296 @@ Deployment
 
 
 
+# Host and deploy server-side Blazor apps
+
+Article • 10/18/2024
+
+
+Host configuration values
+
+Deployment
+
+Scalability
+
+SignalR configuration
+
+Transports
+
+Global deployment and connection failures
+
+Azure App Service
+
+Azure SignalR Service
+
+Azure Container Apps
+
+IIS
+
+Kubernetes
+
+Linux with Nginx
+
+Linux with Apache
+
+Measure network latency
+
+Memory management
+
+Measure memory usage in general
+
+Memory usage applied to Blazor
+
+Reduce memory usage
+
+Heap size for some mobile device browsers
+
+Additional actions and considerations
+
+Measuring memory
+
+
+
+# Host and deploy ASP.NET Core Blazor WebAssembly
+
+Article • 09/27/2024
+
+
+Subdomain and IIS sub-application hosting
+
+Decrease maximum heap size for some mobile device browsers
+
+Webcil packaging format for .NET assemblies
+
+Customize how boot resources are loaded
+
+Compression
+
+Rewrite URLs for correct routing
+
+Standalone deployment
+
+Azure App Service
+
+Azure Static Web Apps
+
+Deploy from Visual Studio
+
+Deploy from Visual Studio Code
+
+Deploy from GitHub
+
+IIS
+
+web.config
+
+Use a custom web.config
+
+Install the URL Rewrite Module
+
+Configure the website
+
+Host as an IIS sub-app
+
+Brotli and Gzip compression
+
+Troubleshooting
+
+Azure Storage
+
+Nginx
+
+Apache
+
+GitHub Pages
+
+Standalone with Docker
+
+Host configuration values
+
+Content root
+
+Path base
+
+URLs
+
+Configure the Trimmer
+
+Change the file name extension of DLL files
+
+Prior deployment corruption
+
+Resolve integrity check failures
+
+Diagnosing integrity problems
+
+Troubleshoot integrity PowerShell script
+
+Disable integrity checking for non-PWA apps
+
+Disable integrity checking for PWAs
+
+
+
+# ASP.NET Core Blazor WebAssembly .NET runtime and app bundle caching
+
+Article • 07/09/2024
+
+
+Diagnosing integrity problems
+
+Troubleshoot integrity PowerShell script
+
+Disable resource caching and integrity checks for non-PWA apps
+
+Disable resource caching and integrity checks for PWAs
+
+Additional resources
+
+
+
+# Avoid HTTP caching issues when upgrading ASP.NET Core Blazor apps
+
+Article • 04/05/2024
+
+
+Detect and diagnose upgrade issues
+
+Recommended actions before an upgrade
+
+Align framework packages with the framework version
+
+Verify the presence of correct caching headers
+
+Use Clear-Site-Data to delete state in the browser
+
+Append a query string to the Blazor script tag
+
+
+
+# Configure the Trimmer for ASP.NET Core Blazor
+
+Article • 09/12/2024
+
+
+Configuration
+
+Default trimmer granularity
+
+Additional resources
+
+
+
+# Deployment layout for ASP.NET Core hosted Blazor WebAssembly apps
+
+Article • 09/12/2024
+
+
+Experimental NuGet package and sample app
+
+Customize the Blazor WebAssembly loading process via a NuGet package
+
+Create an MSBuild task to customize the list of published files and define new extensions
+
+Author a NuGet package to automatically transform the publish output
+
+Automatically bootstrap Blazor from the bundle
+
+Serve the bundle from the host server app
+
+
+
+# ASP.NET Core Blazor with Entity Framework Core (EF Core)
+
+Article • 10/28/2024
+
+
+Secure authentication flow required for production apps
+
+Sample app
+
+Build a Blazor movie database app tutorial
+
+Database access
+
+New DbContext instances
+
+Scope to the component lifetime
+
+Enable sensitive data logging
+
+Additional resources
+
+
+
+# ASP.NET Core Blazor advanced scenarios (render tree construction)
+
+Article • 10/18/2024
+
+
+Manually build a render tree (RenderTreeBuilder)
+
+Sequence numbers relate to code line numbers and not execution order
+
+The problem with generating sequence numbers programmatically
+
+Guidance and conclusions
+
+
+
+# Tutorial: Create an ASP.NET Core app with Angular in Visual Studio
+
+Article • 11/08/2024
+
+
+Prerequisites
+
+Create the frontend app
+
+Set the project properties
+
+Start the project
+
+Publish the project
+
+Troubleshooting
+
+Proxy error
+
+Verify port
+
+Docker
+
+Next steps
+
+
+
+# Tutorial: Create an ASP.NET Core app with React in Visual Studio
+
+Article • 11/06/2024
+
+
+Prerequisites
+
+Create the frontend app
+
+Set the project properties
+
+Start the project
+
+Publish the project
+
+Troubleshooting
+
+Proxy error
+
+Verify ports
+
+Privacy error
+
+Docker
+
+Next steps
+
+
+
 # 
