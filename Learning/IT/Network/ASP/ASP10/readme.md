@@ -8493,4 +8493,264 @@ Next steps
 
 
 
+# Tutorial: Create an ASP.NET Core app with Vue in Visual Studio
+
+Article • 11/06/2024
+
+
+Prerequisites
+
+Create the frontend app
+
+Set the project properties
+
+Start the project
+
+Publish the project
+
+Troubleshooting
+
+Proxy error
+
+Privacy error
+
+Verify ports
+
+Outdated version of Vue
+
+Docker
+
+Next steps
+
+
+
+# JavaScript and TypeScript in Visual Studio
+
+Article • 06/27/2024
+
+
+JavaScript language service
+
+TypeScript support
+
+Project templates
+
+
+
+# Overview of Single Page Apps (SPAs) in ASP.NET Core
+
+Article • 06/18/2024
+
+
+Visual Studio tutorials
+
+ASP.NET Core SPA templates
+
+Legacy ASP.NET Core SPA templates
+
+
+
+# Use the Angular project template with ASP.NET Core
+
+Article • 09/29/2023
+
+
+Visual Studio tutorial
+
+ASP.NET Core SPA templates
+
+Legacy ASP.NET Core SPA templates
+
+
+
+# Use React with ASP.NET Core
+
+Article • 06/18/2024
+
+
+Visual Studio tutorial
+
+ASP.NET Core SPA templates
+
+Legacy ASP.NET Core SPA templates
+
+
+
+# Client-side library acquisition in ASP.NET Core with LibMan
+
+Article • 06/18/2024
+
+
+LibMan use cases
+
+Additional resources
+
+
+
+# Use the LibMan CLI with ASP.NET Core
+
+Article • 06/18/2024
+
+
+Prerequisites
+
+Installation
+
+Usage
+
+Initialize LibMan in the project
+
+Synopsis
+
+Options
+
+Examples
+
+Add library files
+
+Synopsis
+
+Arguments
+
+Options
+
+Examples
+
+Restore library files
+
+Synopsis
+
+Options
+
+Examples
+
+Delete library files
+
+Synopsis
+
+Options
+
+Examples
+
+Uninstall library files
+
+Synopsis
+
+Arguments
+
+Options
+
+Examples
+
+Update library version
+
+Synopsis
+
+Arguments
+
+Options
+
+Examples
+
+Manage library cache
+
+Synopsis
+
+Arguments
+
+Options
+
+Examples
+
+Additional resources
+
+
+
+# Use LibMan with ASP.NET Core in Visual Studio
+
+Article • 06/18/2024
+
+
+Prerequisites
+
+Add library files
+
+Use the Add Client-Side Library dialog
+
+Manually configure LibMan manifest file entries
+
+Restore library files
+
+Restore files during build
+
+Restore files manually
+
+Delete library files
+
+Uninstall library files
+
+Update library version
+
+Additional resources
+
+
+
+# JavaScript [JSImport] / [JSExport] interop in .NET WebAssembly
+
+Article • 08/22/2024
+
+
+Prerequisites
+
+Sample app
+
+JS interop using [JSImport] / [JSExport] attributes
+
+Importing JS methods
+
+Loading JavaScript declarations
+
+Type mappings
+
+JS primitives
+
+JS Date objects
+
+JS object references
+
+Asynchronous interop
+
+Type mapping limitations
+
+Performance considerations
+
+Subscribing to JS events
+
+JS [JSImport] / [JSExport] interop scenarios
+
+
+
+# JavaScript [JSImport] / [JSExport] interop with a WebAssembly Browser App project
+
+Article • 08/22/2024
+
+
+Prerequisites
+
+Namespace
+
+Project configuration
+
+JavaScript interop on WASM
+
+Experimental workload and project templates
+
+Browser app
+
+Node.js console app
+
+Additional resources
+
+
+
 # 
