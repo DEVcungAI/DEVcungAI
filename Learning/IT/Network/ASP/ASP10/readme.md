@@ -8753,4 +8753,360 @@ Additional resources
 
 
 
+# Use Grunt in ASP.NET Core
+
+Article • 09/27/2024
+
+
+Preparing the application
+
+Configuring NPM
+
+Configuring Grunt
+
+All together now
+
+Watching for changes
+
+Binding to Visual Studio events
+
+Summary
+
+
+
+# Bundle and minify static assets in ASP.NET Core
+
+Article • 08/08/2024
+
+
+What is bundling and minification
+
+Bundling
+
+Minification
+
+Impact of bundling and minification
+
+Choose a bundling and minification strategy
+
+Environment-based bundling and minification
+
+Additional resources
+
+
+
+# Browser link in ASP.NET Core
+
+Article • 06/17/2024
+
+
+Runtime compilation vs. hot reload
+
+How to use browser link
+
+Refresh the web app in several browsers at once
+
+The browser link dashboard
+
+Enable or disable browser link
+
+Enable or disable CSS hot reload
+
+How it works
+
+
+
+# Session and state management in ASP.NET Core
+
+Article • 09/18/2024
+
+
+State management
+
+SignalR/Blazor Server and HTTP context-based state management
+
+Cookies
+
+Session state
+
+Configure session state
+
+Load session state asynchronously
+
+Session options
+
+Set and get Session values
+
+TempData
+
+TempData samples
+
+TempData providers
+
+Choose a TempData provider
+
+Configure the TempData provider
+
+Query strings
+
+Hidden fields
+
+HttpContext.Items
+
+Cache
+
+Checking session state
+
+Common errors
+
+Additional resources
+
+
+
+# Layout in ASP.NET Core
+
+Article • 06/03/2022
+
+
+What is a Layout
+
+Specifying a Layout
+
+Sections
+
+Ignoring sections
+
+Importing Shared Directives
+
+Running Code Before Each View
+
+
+
+# Razor syntax reference for ASP.NET Core
+
+Article • 09/27/2024
+
+
+Rendering HTML
+
+Razor syntax
+
+Scalable Vector Graphics (SVG)
+
+Implicit Razor expressions
+
+Explicit Razor expressions
+
+Expression encoding
+
+Razor code blocks
+
+Implicit transitions
+
+Explicit delimited transition
+
+Explicit line transition
+
+Conditional attribute rendering
+
+Control structures
+
+Conditionals @if, else if, else, and @switch
+
+Looping @for, @foreach, @while, and @do while
+
+Compound @using
+
+@try, catch, finally
+
+@lock
+
+Comments
+
+Directives
+
+@attribute
+
+@code
+
+@functions
+
+@implements
+
+@inherits
+
+@inject
+
+@layout
+
+@model
+
+@namespace
+
+@page
+
+@preservewhitespace
+
+@rendermode
+
+@section
+
+@typeparam
+
+@using
+
+Directive attributes
+
+@attributes
+
+@bind
+
+@bind:culture
+
+@formname
+
+@on{EVENT}
+
+@on{EVENT}:preventDefault
+
+@on{EVENT}:stopPropagation
+
+@key
+
+@ref
+
+Templated Razor delegates
+
+Tag Helpers
+
+Razor reserved keywords
+
+Razor keywords
+
+C# Razor keywords
+
+Reserved keywords not used by Razor
+
+Inspect the Razor C# class generated for a view
+
+View lookups and case sensitivity
+
+Imports used by Razor
+
+Additional resources
+
+
+
+# Create reusable UI using the Razor class library project in ASP.NET Core
+
+Article • 07/23/2024
+
+
+Create a class library containing Razor UI
+
+Reference RCL content
+
+Override views, partial views, and pages
+
+RCL Pages layout
+
+Create an RCL with static assets
+
+Add client web assets to the build process
+
+Exclude static assets
+
+Typescript integration
+
+Consume content from a referenced RCL
+
+Multi-project development flow
+
+Publish
+
+Additional resources
+
+
+
+# ASP.NET Core built-in Tag Helpers
+
+Article • 06/03/2022
+
+
+Built-in ASP.NET Core Tag Helpers
+
+Additional resources
+
+
+
+# Tag Helpers in ASP.NET Core
+
+Article • 03/05/2024
+
+
+What are Tag Helpers
+
+What Tag Helpers provide
+
+Managing Tag Helper scope
+
+@addTagHelper makes Tag Helpers available
+
+@removeTagHelper removes Tag Helpers
+
+Controlling Tag Helper scope with the _ViewImports.cshtml file
+
+Opting out of individual elements
+
+Using @tagHelperPrefix to make Tag Helper usage explicit
+
+Self-closing Tag Helpers
+
+C# in Tag Helpers attribute/declaration
+
+Tag helper initializers
+
+Tag Helper automatic version generation outside of wwwroot
+
+IntelliSense support for Tag Helpers
+
+Tag Helpers compared to HTML Helpers
+
+Tag Helpers compared to Web Server Controls
+
+Customizing the Tag Helper element font
+
+Built-in ASP.NET Core Tag Helpers
+
+Additional resources
+
+
+
+# Author Tag Helpers in ASP.NET Core
+
+Article • 09/14/2022
+
+
+Get started with Tag Helpers
+
+A minimal Tag Helper
+
+SetAttribute and SetContent
+
+ProcessAsync
+
+RemoveAll, PreContent.SetHtmlContent and PostContent.SetHtmlContent
+
+Pass a model to a Tag Helper
+
+Condition Tag Helper
+
+Avoid Tag Helper conflicts
+
+Inspect and retrieve child content
+
+Load minified partial view TagHelper
+
+
+
 # 
