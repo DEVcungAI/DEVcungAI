@@ -9867,4 +9867,306 @@ Additional resources
 
 
 
+# Share controllers, views, Razor Pages and more with Application Parts
+
+Article • 06/03/2022
+
+
+Load ASP.NET Core features
+
+Include views
+
+Prevent loading resources
+
+Feature providers
+
+Display available features
+
+Discovery in application parts
+
+
+
+# Work with the application model in ASP.NET Core
+
+Article • 06/17/2024
+
+
+Models and Providers (IApplicationModelProvider)
+
+Conventions
+
+Modify the ApplicationModel
+
+Modify the ControllerModel description
+
+Modify the ActionModel description
+
+Modify the ParameterModel
+
+Modify the ActionModel name
+
+Custom routing convention
+
+Use ApiExplorer to document an app
+
+
+
+# Areas in ASP.NET Core
+
+Article • 06/17/2024
+
+
+Areas for controllers with views
+
+Area folder structure
+
+Associate the controller with an Area
+
+Add Area route
+
+Link generation with MVC areas
+
+Shared layout for Areas using the _ViewStart.cshtml file
+
+Application root folder
+
+_ViewImports.cshtml
+
+Change default area folder where views are stored
+
+Areas with Razor Pages
+
+Link generation with Razor Pages and areas
+
+Import namespace and Tag Helpers with _ViewImports file
+
+Shared layout for Razor Pages Areas
+
+Publishing Areas
+
+Add MVC Area with Visual Studio
+
+Additional resources
+
+
+
+# Filters in ASP.NET Core
+
+Article • 06/17/2024
+
+
+How filters work
+
+Filter types
+
+Implementation
+
+Multiple filter stages
+
+Built-in filter attributes
+
+Filter scopes and order of execution
+
+Default order of execution
+
+Controller level filters
+
+Override the default order
+
+Cancellation and short-circuiting
+
+Dependency injection
+
+ServiceFilterAttribute
+
+TypeFilterAttribute
+
+Authorization filters
+
+Resource filters
+
+Action filters
+
+Exception filters
+
+Result filters
+
+IResultFilter and IAsyncResultFilter
+
+IAlwaysRunResultFilter and IAsyncAlwaysRunResultFilter
+
+IFilterFactory
+
+IFilterFactory implemented on an attribute
+
+Use middleware in the filter pipeline
+
+Thread safety
+
+Additional resources
+
+
+
+# ASP.NET Core Razor SDK
+
+Article • 04/10/2024
+
+
+Overview
+
+Prerequisites
+
+Use the Razor SDK
+
+Properties
+
+Runtime compilation of Razor views
+
+Razor language version
+
+Additional resources
+
+
+
+# View components in ASP.NET Core
+
+Article • 09/25/2023
+
+
+View components
+
+Create a view component
+
+The view component class
+
+View component methods
+
+View search path
+
+Customize the view search path
+
+Invoke a view component
+
+Invoke a view component as a Tag Helper
+
+Invoke a view component directly from a controller
+
+Create a basic view component
+
+Update the controller to pass in priority and completion status
+
+Add a ViewComponent class
+
+Create the view component Razor view
+
+Specify a view component name
+
+Examine the view path
+
+Avoid hard-coded strings
+
+Perform synchronous work
+
+Additional resources
+
+
+
+# Razor file compilation in ASP.NET Core
+
+Article • 08/30/2024
+
+
+Razor compilation
+
+Enable runtime compilation for all environments
+
+Enable runtime compilation conditionally
+
+Enable runtime compilation for a Razor class library
+
+Additional resources
+
+
+
+# Display and Editor templates in ASP.NET Core
+
+Article • 06/15/2023
+
+
+Display templates
+
+Editor templates
+
+Additional resources
+
+
+
+# Upload files in ASP.NET Core
+
+Article • 09/27/2024
+
+
+Security considerations
+
+Storage scenarios
+
+Small and large files
+
+File upload scenarios
+
+Upload small files with buffered model binding to physical storage
+
+Upload small files with buffered model binding to a database
+
+Upload large files with streaming
+
+Validation
+
+Content validation
+
+File extension validation
+
+File signature validation
+
+File name security
+
+Size validation
+
+Match name attribute value to parameter name of POST method
+
+Server and app configuration
+
+Multipart body length limit
+
+Kestrel maximum request body size
+
+Other Kestrel limits
+
+IIS
+
+Troubleshoot
+
+Not Found error when deployed to an IIS server
+
+Connection failure
+
+Null Reference Exception with IFormFile
+
+Stream was too long
+
+Additional resources
+
+
+
+# ASP.NET Core Web SDK
+
+Article • 04/10/2024
+
+
+Overview
+
+Properties
+
+
+
 # 
