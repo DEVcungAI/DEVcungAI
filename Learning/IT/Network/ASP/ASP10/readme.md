@@ -10169,4 +10169,338 @@ Properties
 
 
 
+# ASP.NET Core code generator tool (aspnet-codegenerator)
+
+Article • 08/06/2024
+
+
+Install and update the code generator tool
+
+Uninstall the code generator 
+
+Synopsis
+
+Description
+
+Arguments
+
+Options
+
+Generator options
+
+Area options
+
+Blazor options
+
+Blazor Identity options
+
+Razor page options
+
+View options
+
+
+
+# Choose between controller-based APIs and minimal APIs
+
+Article • 04/11/2023
+
+
+See also
+
+
+
+# Create web APIs with ASP.NET Core
+
+Article • 06/01/2024
+
+
+ControllerBase class
+
+Attributes
+
+Attribute on an assembly
+
+Attribute routing requirement
+
+Automatic HTTP 400 responses
+
+Default BadRequest response
+
+Log automatic 400 responses
+
+Disable automatic 400 response
+
+Binding source parameter inference
+
+FromBody inference notes
+
+FromServices inference notes
+
+Disable inference rules
+
+Multipart/form-data request inference
+
+Problem details for error status codes
+
+Disable ProblemDetails response
+
+Define supported request content types with the [Consumes] attribute
+
+Additional resources
+
+
+
+# Tutorial: Create a web API with ASP.NET Core
+
+Article • 08/23/2024
+
+
+Overview
+
+Prerequisites
+
+Create a web project
+
+Add a NuGet package
+
+Test the project
+
+Add a model class
+
+Add a database context
+
+Register the database context
+
+Scaffold a controller
+
+Update the PostTodoItem create method
+
+Test PostTodoItem
+
+Test the location header URI
+
+Examine the GET methods
+
+Routing and URL paths
+
+Return values
+
+The PutTodoItem method
+
+Test the PutTodoItem method
+
+The DeleteTodoItem method
+
+Test the DeleteTodoItem method
+
+Test with other tools
+
+Prevent over-posting
+
+Call the web API with JavaScript
+
+Web API video series
+
+Reliable web app patterns
+
+Add authentication support to a web API
+
+Publish to Azure
+
+Additional resources
+
+
+
+# Create a web API with ASP.NET Core and MongoDB
+
+Article • 04/25/2024
+
+
+Prerequisites
+
+Configure MongoDB
+
+Create the ASP.NET Core web API project
+
+Add an entity model
+
+Add a configuration model
+
+Add a CRUD operations service
+
+Add a controller
+
+Test the web API
+
+Configure JSON serialization options
+
+Add authentication support to a web API
+
+Additional resources
+
+
+
+# Controller action return types in ASP.NET Core web API
+
+Article • 01/22/2024
+
+
+Specific type
+
+Return IEnumerable<T> or IAsyncEnumerable<T>
+
+IActionResult type
+
+Synchronous action
+
+Asynchronous action
+
+ActionResult vs IActionResult
+
+ActionResult<T> type
+
+Synchronous action
+
+Asynchronous action
+
+HttpResults type
+
+IResult type
+
+Results<TResult1, TResultN> type
+
+Additional resources
+
+
+
+# JsonPatch in ASP.NET Core web API
+
+Article • 03/08/2023
+
+
+Package installation
+
+Add support for JSON Patch when using System.Text.Json
+
+PATCH HTTP request method
+
+JSON Patch
+
+Resource example
+
+JSON patch example
+
+Resource after patch
+
+Path syntax
+
+Operations
+
+JSON Patch in ASP.NET Core
+
+Action method code
+
+Model state
+
+Dynamic objects
+
+The add operation
+
+The remove operation
+
+The replace operation
+
+The move operation
+
+The copy operation
+
+The test operation
+
+Get the code
+
+Additional resources
+
+
+
+# Format response data in ASP.NET Core Web API
+
+Article • 07/16/2024
+
+
+Format-specific Action Results
+
+Content negotiation
+
+The Accept header
+
+Browsers and content negotiation
+
+Configure formatters
+
+Add XML format support
+
+Configure System.Text.Json -based formatters
+
+Add Newtonsoft.Json -based JSON format support
+
+Format ProblemDetails and ValidationProblemDetails responses
+
+Specify a format
+
+Special case formatters
+
+Response format URL mappings
+
+Polymorphic deserialization
+
+Additional resources
+
+
+
+# Custom formatters in ASP.NET Core Web API
+
+Article • 07/16/2024
+
+
+When to use a custom formatter
+
+Overview of how to create a custom formatter
+
+Create a custom formatter
+
+Derive from the appropriate base class
+
+Specify supported media types and encodings
+
+Override CanReadType and CanWriteType
+
+The CanWriteResult method
+
+Override ReadRequestBodyAsync and WriteResponseBodyAsync
+
+Configure MVC to use a custom formatter
+
+The complete VcardInputFormatter class
+
+Test the app
+
+Additional resources
+
+
+
+# Use web API analyzers
+
+Article • 04/10/2024
+
+
+Reference the analyzer package
+
+Analyzers for web API conventions
+
+Analyzers require Microsoft.NET.Sdk.Web
+
+Additional resources
+
+
+
 # 
