@@ -10503,4 +10503,598 @@ Additional resources
 
 
 
+# Use web API conventions
+
+Article • 04/10/2024
+
+
+Apply web API conventions
+
+Create web API conventions
+
+Response types
+
+Naming requirements
+
+Additional resources
+
+
+
+# Handle errors in ASP.NET Core controller-based web APIs
+
+Article • 08/02/2024
+
+
+Developer Exception Page
+
+Exception handler
+
+Use exceptions to modify the response
+
+Validation failure error response
+
+Client error response
+
+Default problem details response
+
+Problem details service
+
+Customize problem details with CustomizeProblemDetails
+
+Implement ProblemDetailsFactory
+
+Use ApiBehaviorOptions.ClientErrorMapping
+
+Additional resources
+
+
+
+# Test web APIs with the HttpRepl
+
+Article • 07/28/2023
+
+
+Prerequisites
+
+Installation
+
+Usage
+
+Connect to the web API
+
+Manually point to the OpenAPI description for the web API
+
+Enable verbose output for details on OpenAPI description searching, parsing, and validation
+
+Navigate the web API
+
+View available endpoints
+
+Navigate to an endpoint
+
+Customize the HttpRepl
+
+View the settings
+
+Set color preferences
+
+Set indentation size
+
+Set the default text editor
+
+Set the OpenAPI Description search paths
+
+Test HTTP GET requests
+
+Synopsis
+
+Arguments
+
+Options
+
+Example
+
+Test HTTP POST requests
+
+Synopsis
+
+Arguments
+
+Options
+
+Example
+
+Test HTTP PUT requests
+
+Synopsis
+
+Arguments
+
+Options
+
+Example
+
+Test HTTP DELETE requests
+
+Synopsis
+
+Arguments
+
+Options
+
+Example
+
+Test HTTP PATCH requests
+
+Synopsis
+
+Arguments
+
+Options
+
+Test HTTP HEAD requests
+
+Synopsis
+
+Arguments
+
+Options
+
+Test HTTP OPTIONS requests
+
+Synopsis
+
+Arguments
+
+Options
+
+Set HTTP request headers
+
+Test secured endpoints
+
+Default credentials
+
+Default proxy credentials
+
+HTTP request headers
+
+Toggle HTTP request display
+
+Enable request display
+
+Disable request display
+
+Run a script
+
+Clear the output
+
+Additional resources
+
+
+
+# HttpRepl telemetry
+
+Article • 06/17/2024
+
+
+How to opt out
+
+Disclosure
+
+Data points
+
+Additional resources
+
+
+
+# Minimal APIs overview
+
+Article • 07/26/2024
+
+
+Want to see some code examples?
+
+Want to jump straight into your first project?
+
+
+
+# Tutorial: Create a minimal API with ASP.NET Core
+
+Article • 08/21/2024
+
+
+Overview
+
+Prerequisites
+
+Visual Studio
+
+Create an API project
+
+Examine the code
+
+Run the app
+
+Add NuGet packages
+
+The model and database context classes
+
+Add the API code
+
+Test posting data
+
+Examine the GET endpoints
+
+Test the GET endpoints
+
+Return values
+
+Examine the PUT endpoint
+
+Test the PUT endpoint
+
+Examine and test the DELETE endpoint
+
+Use the MapGroup API
+
+Use the TypedResults API
+
+Prevent over-posting
+
+Troubleshooting with the completed sample
+
+Next steps
+
+Learn more
+
+
+
+# Minimal APIs quick reference
+
+Article • 08/07/2024
+
+
+WebApplication
+
+Working with ports
+
+Multiple ports
+
+Set the port from the command line
+
+Read the port from environment
+
+Set the ports via the ASPNETCORE_URLS environment variable
+
+Listen on all interfaces
+
+http://*:3000
+
+http://+:3000
+
+http://0.0.0.0:3000
+
+Listen on all interfaces using ASPNETCORE_URLS
+
+Listen on all interfaces using ASPNETCORE_HTTPS_PORTS
+
+Specify HTTPS with development certificate
+
+Specify HTTPS using a custom certificate
+
+Specify the custom certificate with appsettings.json
+
+Specify the custom certificate via configuration
+
+Use the certificate APIs
+
+Read the environment
+
+Configuration
+
+Logging
+
+Access the Dependency Injection (DI) container
+
+WebApplicationBuilder
+
+Change the content root, application name, and environment
+
+Change the content root, app name, and environment by using environment variables or command line
+
+Add configuration providers
+
+Read configuration
+
+Read the environment
+
+Add logging providers
+
+Add services
+
+Customize the IHostBuilder
+
+Customize the IWebHostBuilder
+
+Change the web root
+
+Custom dependency injection (DI) container
+
+Add Middleware
+
+Developer exception page
+
+ASP.NET Core Middleware
+
+Routing
+
+Route Handlers
+
+Lambda expression
+
+Local function
+
+Instance method
+
+Static method
+
+Endpoint defined outside of Program.cs
+
+Named endpoints and link generation
+
+Route Parameters
+
+Wildcard and catch all routes
+
+Route constraints
+
+Route groups
+
+Parameter binding
+
+Explicit Parameter Binding
+
+Explicit binding from form values
+
+Secure binding from IFormFile and IFormFileCollection
+
+Parameter binding with dependency injection
+
+Optional parameters
+
+Special types
+
+Bind the request body as a Stream or PipeReader
+
+File uploads using IFormFile and IFormFileCollection
+
+Binding to forms with IFormCollection, IFormFile, and IFormFileCollection
+
+Bind to collections and complex types from forms
+
+Bind arrays and string values from headers and query strings
+
+Parameter binding for argument lists with [AsParameters]
+
+Custom Binding
+
+TryParse
+
+BindAsync
+
+Binding failures
+
+Binding Precedence
+
+Configure JSON deserialization options for body binding
+
+Configure JSON deserialization options globally
+
+Configure JSON deserialization options for an endpoint
+
+Read the request body
+
+Responses
+
+Example return values
+
+string return values
+
+JSON return values
+
+Return TypedResults
+
+IResult return values
+
+JSON
+
+Custom Status Code
+
+Text
+
+Stream
+
+Redirect
+
+File
+
+Built-in results
+
+Customizing results
+
+Typed results
+
+Filters
+
+Authorization
+
+Allow unauthenticated users to access an endpoint
+
+CORS
+
+ValidateScopes and ValidateOnBuild
+
+See also
+
+
+
+# WebApplication and WebApplicationBuilder in Minimal API apps
+
+Article • 07/26/2024
+
+
+WebApplication
+
+Working with ports
+
+Multiple ports
+
+Set the port from the command line
+
+Read the port from environment
+
+Set the ports via the ASPNETCORE_URLS environment variable
+
+Listen on all interfaces
+
+http://*:3000
+
+http://+:3000
+
+http://0.0.0.0:3000
+
+Listen on all interfaces using ASPNETCORE_URLS
+
+Listen on all interfaces using ASPNETCORE_HTTPS_PORTS
+
+Specify HTTPS with development certificate
+
+Specify HTTPS using a custom certificate
+
+Specify the custom certificate with appsettings.json
+
+Specify the custom certificate via configuration
+
+Use the certificate APIs
+
+Read the 
+
+Configuration
+
+Logging
+
+Access the Dependency Injection (DI) container
+
+WebApplicationBuilder
+
+Change the content root, application name, and environment
+
+Change the content root, app name, and environment by using environment variables or command line
+
+Add configuration providers
+
+Read configuration
+
+Read the environment
+
+Add logging providers
+
+Add services
+
+Customize the IHostBuilder
+
+Customize the IWebHostBuilder
+
+Change the web root
+
+Custom dependency injection (DI) container
+
+Add Middleware
+
+Developer exception page
+
+
+
+# Route Handlers in Minimal API apps
+
+Article • 07/26/2024
+
+
+Route handlers
+
+Lambda expression
+
+Local function
+
+Instance method
+
+Static method
+
+Endpoint defined outside of Program.cs
+
+Named endpoints and link generation
+
+Route Parameters
+
+Wildcard and catch all routes
+
+Route constraints
+
+Route groups
+
+Parameter binding
+
+Responses
+
+
+
+# Parameter Binding in Minimal API apps
+
+Article • 07/26/2024
+
+
+Explicit Parameter Binding
+
+Explicit binding from form values
+
+Secure binding from IFormFile and IFormFileCollection
+
+Parameter binding with dependency injection
+
+Optional parameters
+
+Special types
+
+Bind the request body as a Stream or PipeReader
+
+File uploads using IFormFile and IFormFileCollection
+
+Binding to forms with IFormCollection, IFormFile, and IFormFileCollection
+
+Bind to collections and complex types from forms
+
+Bind arrays and string values from headers and query strings
+
+Parameter binding for argument lists with [AsParameters]
+
+Custom Binding
+
+TryParse
+
+BindAsync
+
+Binding failures
+
+Binding Precedence
+
+Configure JSON deserialization options for body binding
+
+Configure JSON deserialization options globally
+
+Configure JSON deserialization options for an endpoint
+
+Read the request body
+
+ 
+
 # 
