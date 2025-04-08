@@ -11095,6 +11095,254 @@ Configure JSON deserialization options for an endpoint
 
 Read the request body
 
- 
+
+
+# How to create responses in Minimal API apps
+
+Article • 08/07/2024
+
+
+string return values
+
+T (Any other type) return values
+
+IResult return values
+
+TypedResults vs Results
+
+Results<TResult1, TResultN>
+
+Built-in results
+
+JSON
+
+Custom Status Code
+
+Internal Server Error
+
+Text
+
+Stream
+
+Redirect
+
+File
+
+HttpResult interfaces
+
+Customizing responses
+
+Configure JSON serialization options
+
+Configure JSON serialization options globally
+
+Configure JSON serialization options for an endpoint
+
+Additional Resources
+
+
+
+# Filters in Minimal API apps
+
+Article • 07/26/2024
+
+
+Validate an object with a filter
+
+Register a filter using an endpoint filter factory
+
+Register a filter on controller actions
+
+Additional Resources
+
+
+
+# Unit and integration tests in Minimal API apps
+
+Article • 07/26/2024
+
+
+Introduction to integration tests
+
+ASP.NET Core integration tests
+
+IResult implementation types
+
+Additional Resources
+
+
+
+# Middleware in Minimal API apps
+
+Article • 07/26/2024
+
+
+For information on antiforgery middleware in Minimal APIs, see Prevent Cross-Site Request Forgery (XSRF/CSRF) attacks in ASP.NET Core
+
+For more information about middleware see ASP.NET Core Middleware, and the list of built-in middleware that can be added to applications.
+
+For more information about Minimal APIs see Minimal APIs overview.
+
+
+
+# How to handle errors in Minimal API apps
+
+Article • 06/18/2024
+
+
+Exceptions
+
+Developer Exception Page
+
+Exception handler
+
+Client and Server error responses
+
+Problem details
+
+IProblemDetailsService fallback
+
+
+
+# Authentication and authorization in minimal APIs
+
+Article • 07/26/2024
+
+
+Key concepts in authentication and authorization
+
+Enabling authentication in minimal apps
+
+Configuring authentication strategy
+
+Configuring authorization policies in minimal apps
+
+Use dotnet user-jwts for development testing
+
+
+
+# OpenAPI support in ASP.NET Core API apps
+
+Article • 10/28/2024
+
+
+Microsoft.AspNetCore.OpenApi NuGet package
+
+Microsoft.Extensions.ApiDescription.Server NuGet package
+
+ASP.NET Core OpenAPI source code on GitHub
+
+Additional Resources
+
+
+
+# Generate OpenAPI documents
+
+Article • 12/11/2024
+
+
+Package installation
+
+Configure OpenAPI document generation
+
+Options to Customize OpenAPI document generation
+
+Customize the OpenAPI document name
+
+Customize the OpenAPI version of a generated document
+
+Customize the OpenAPI endpoint route
+
+Customize the OpenAPI endpoint
+
+Limit OpenAPI document access to authorized users
+
+Cache generated OpenAPI document
+
+Generate OpenAPI documents at build-time
+
+Customizing build-time document generation
+
+Modifying the output directory of the generated Open API file
+
+Modifying the output file name
+
+Selecting the OpenAPI document to generate
+
+Customizing run-time behavior during build-time document generation
+
+Trimming and Native AOT
+
+
+
+# Include OpenAPI metadata in an ASP.NET Core app
+
+Article • 11/06/2024
+
+
+Include OpenAPI metadata for endpoints
+
+Summary and description
+
+tags
+
+operationId
+
+parameters
+
+Describe the request body
+
+Describe response types
+
+Set responses for ProblemDetails
+
+Multiple response types
+
+Exclude endpoints from the generated document
+
+Include OpenAPI metadata for data types
+
+type and format
+
+Use attributes to add metadata
+
+Other sources of metadata for generated schemas
+
+required
+
+enum
+
+nullable
+
+additionalProperties
+
+Polymorphic types
+
+Add metadata with a schema transformer
+
+Additional resources
+
+
+
+# Customize OpenAPI documents
+
+Article • 11/04/2024
+
+
+OpenAPI document transformers
+
+Customize OpenAPI documents with transformers
+
+Execution order for transformers
+
+Use document transformers
+
+Use operation transformers
+
+Use schema transformers
+
+Additional resources
+
+
 
 # 
