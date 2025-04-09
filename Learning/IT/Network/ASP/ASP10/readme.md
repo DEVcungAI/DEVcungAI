@@ -11345,4 +11345,236 @@ Additional resources
 
 
 
+# Use openAPI documents
+
+Article • 12/11/2024
+
+
+Use Swagger UI for local ad-hoc testing
+
+Use Scalar for interactive API documentation
+
+Lint generated OpenAPI documents with Spectral
+
+
+
+# .NET OpenAPI tool command reference and installation
+
+Article • 08/06/2024
+
+
+Installation
+
+Add
+
+Add File
+
+Options
+
+Arguments
+
+Add URL
+
+Options
+
+Arguments
+
+Remove
+
+Options
+
+Arguments
+
+Refresh
+
+Options
+
+Arguments
+
+
+
+# Overview of ASP.NET Core SignalR
+
+Article • 12/02/2024
+
+
+What is SignalR?
+
+Transports
+
+Hubs
+
+Browsers that don't support ECMAScript 6 (ES6)
+
+Additional resources
+
+
+
+# ASP.NET Core SignalR supported platforms
+
+Article • 06/18/2024
+
+
+Server system requirements
+
+JavaScript client
+
+.NET client
+
+Java client
+
+Unsupported clients
+
+Browsers that don't support ECMAScript 6 (ES6)
+
+
+
+# Tutorial: Get started with ASP.NET Core SignalR
+
+Article • 11/16/2023
+
+
+Prerequisites
+
+Create a web app project
+
+Add the SignalR client library
+
+Create a SignalR hub
+
+Configure SignalR
+
+Add SignalR client code
+
+Run the app
+
+Publish to Azure
+
+Next steps
+
+
+
+# Tutorial: Get started with ASP.NET Core SignalR using TypeScript and Webpack
+
+Article • 11/16/2023
+
+
+Prerequisites
+
+Create the ASP.NET Core web app
+
+Configure the server
+
+Configure the client
+
+Test the app
+
+Next steps
+
+Additional resources
+
+
+
+# Use ASP.NET Core SignalR with Blazor
+
+Article • 06/21/2024
+
+
+Prerequisites
+
+Sample app
+
+Create a Blazor Web App
+
+Add the SignalR client library
+
+Add a SignalR hub
+
+Add services and an endpoint for the SignalR hub
+
+Add Razor component code for chat
+
+Run the app
+
+Next steps
+
+Additional resources
+
+
+
+# Use hubs in SignalR for ASP.NET Core
+
+Article • 06/18/2024
+
+
+Configure SignalR hubs
+
+Create and use hubs
+
+The Context object
+
+The Clients object
+
+Send messages to clients
+
+Strongly typed hubs
+
+Client results
+
+.NET client
+
+Typescript client
+
+Java client
+
+Change the name of a hub method
+
+Inject services into a hub
+
+Keyed services support in Dependency Injection
+
+Handle events for a connection
+
+Handle errors
+
+Additional resources
+
+
+
+# Send messages from outside a hub
+
+Article • 06/18/2024
+
+
+Get an instance of IHubContext
+
+Inject an instance of IHubContext in a controller
+
+Get an instance of IHubContext in middleware
+
+Get an instance of IHubContext from IHost
+
+Inject a strongly-typed HubContext
+
+Use IHubContext in generic code
+
+Additional resources
+
+
+
+# Manage users and groups in SignalR
+
+Article • 06/18/2024
+
+
+Users in SignalR
+
+Groups in SignalR
+
+Add or remove connections from a group
+
+Additional resources
+
+
+
 # 
