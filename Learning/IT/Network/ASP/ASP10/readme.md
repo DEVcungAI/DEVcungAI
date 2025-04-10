@@ -11577,4 +11577,204 @@ Additional resources
 
 
 
+# SignalR API design considerations
+
+Article • 06/18/2024
+
+
+Use custom object parameters to ensure backwards-compatibility
+
+Additional resources
+
+
+
+# Use hub filters in ASP.NET Core SignalR
+
+Article • 06/18/2024
+
+
+Configure hub filters
+
+Create hub filters
+
+Use hub filters
+
+The HubInvocationContext object
+
+The HubLifetimeContext object
+
+Authorization and filters
+
+
+
+# ASP.NET Core SignalR clients
+
+Article • 06/18/2024
+
+
+Versioning, support, and compatibility
+
+Feature distribution
+
+Browsers that don't support ECMAScript 6 (ES6)
+
+Additional resources
+
+
+
+# ASP.NET Core SignalR .NET Client
+
+Article • 06/18/2024
+
+
+Install the SignalR .NET client package
+
+Connect to a hub
+
+Handle lost connection
+
+Automatically reconnect
+
+Manually reconnect
+
+Call hub methods from client
+
+Call client methods from hub
+
+Error handling and logging
+
+Additional resources
+
+
+
+# Microsoft.AspNetCore.SignalR.Client Namespace
+
+Reference
+
+
+Classes
+
+Interfaces
+
+Enums
+
+Remarks
+
+
+
+# ASP.NET Core SignalR Java client
+
+Article • 06/18/2024
+
+
+Install the SignalR Java client package
+
+Connect to a hub
+
+Call hub methods from client
+
+Call client methods from hub
+
+Add logging
+
+Android development notes
+
+Configure bearer token authentication
+
+Passing Class information in Java
+
+Known limitations
+
+Additional resources
+
+
+
+# com.microsoft.signalr
+
+Reference
+
+
+Classes
+
+Interfaces
+
+Enums
+
+
+
+# ASP.NET Core SignalR JavaScript client
+
+Article • 06/18/2024
+
+
+Install the SignalR client package
+
+Install with npm
+
+Use a Content Delivery Network (CDN)
+
+Install with LibMan
+
+Connect to a hub
+
+Cross-origin connections (CORS)
+
+Call hub methods from the client
+
+Call client methods from the hub
+
+Error handling and logging
+
+Reconnect clients
+
+Automatically reconnect
+
+Manually reconnect
+
+Browser sleeping tab
+
+Additional resources
+
+
+
+# @microsoft/signalr package
+
+Reference
+
+
+Classes
+
+Interfaces
+
+Type Aliases
+
+Enums
+
+
+
+# ASP.NET Core SignalR hosting and scaling
+
+Article • 09/17/2024
+
+
+Sticky Sessions
+
+TCP connection resources
+
+Scale out
+
+Azure SignalR Service
+
+Redis backplane
+
+IIS limitations on Windows client OS
+
+Linux with Nginx
+
+Third-party SignalR backplane providers
+
+Next steps
+
+
+
 # 
