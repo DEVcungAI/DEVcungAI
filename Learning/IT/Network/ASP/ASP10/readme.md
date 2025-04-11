@@ -11777,4 +11777,290 @@ Next steps
 
 
 
+# Publish an ASP.NET Core SignalR app to Azure App Service
+
+Article • 09/17/2024
+
+
+Publish the app
+
+Configure the app in Azure App Service
+
+App Service Plan limits
+
+Additional resources
+
+
+
+# Set up a Redis backplane for ASP.NET Core SignalR scale-out
+
+Article • 11/04/2024
+
+
+Set up a Redis backplane
+
+Redis server errors
+
+Custom behavior for connection failures
+
+Redis Cluster
+
+Next steps
+
+
+
+# Host ASP.NET Core SignalR in background services
+
+Article • 06/18/2024
+
+
+Enable SignalR at app startup
+
+Call a SignalR Hub from a background service
+
+React to SignalR events with background services
+
+Additional resources
+
+
+
+# ASP.NET Core SignalR configuration
+
+Article • 09/18/2024
+
+
+JSON/MessagePack serialization options
+
+Switch to Newtonsoft.Json
+
+MessagePack serialization options
+
+Configure server options
+
+Advanced HTTP configuration options
+
+Configure client options
+
+Configure logging
+
+Configure allowed transports
+
+Configure bearer authentication
+
+Configure timeout and keep-alive options
+
+Configure stateful reconnect
+
+Configure additional options
+
+Additional resources
+
+
+
+# Authentication and authorization in ASP.NET Core SignalR
+
+Article • 06/18/2024
+
+
+Authenticate users connecting to a SignalR hub
+
+Cookie authentication
+
+Bearer token authentication
+
+Built-in JWT authentication
+
+Identity Server JWT authentication
+
+Cookies vs. bearer tokens
+
+Windows authentication
+
+Use claims to customize identity handling
+
+Authorize users to access hubs and hub methods
+
+Use authorization handlers to customize hub method authorization
+
+Additional resources
+
+
+
+# Security considerations in ASP.NET Core SignalR
+
+Article • 06/18/2024
+
+
+Cross-Origin Resource Sharing
+
+WebSocket Origin Restriction
+
+ConnectionId
+
+Access token logging
+
+Exceptions
+
+Buffer management
+
+
+
+# Use MessagePack Hub Protocol in SignalR for ASP.NET Core
+
+Article • 06/18/2024
+
+
+What is MessagePack?
+
+Configure MessagePack on the server
+
+Configure MessagePack on the client
+
+.NET client
+
+JavaScript client
+
+Java client
+
+MessagePack considerations
+
+MessagePack is case-sensitive
+
+DateTime.Kind is not preserved when serializing/deserializing
+
+MessagePack support in "ahead-of-time" compilation environment
+
+Type checks are more strict in MessagePack
+
+Chars and Strings in Java
+
+Additional resources
+
+
+
+# Use streaming in ASP.NET Core SignalR
+
+Article • 06/18/2024
+
+
+Set up a hub for streaming
+
+Server-to-client streaming
+
+Client-to-server streaming
+
+.NET client
+
+Server-to-client streaming
+
+Client-to-server streaming
+
+JavaScript client
+
+Server-to-client streaming
+
+Client-to-server streaming
+
+Java client
+
+Server-to-client streaming
+
+Client-to-server streaming
+
+Additional resources
+
+
+
+# Differences between ASP.NET SignalR and ASP.NET Core SignalR
+
+Article • 06/18/2024
+
+
+How to identify the SignalR version
+
+Feature differences
+
+Automatic reconnects
+
+Protocol support
+
+Transports
+
+Differences on the server
+
+Sticky sessions
+
+Single hub per connection
+
+Streaming
+
+State
+
+PersistentConnection removal
+
+GlobalHost
+
+HubPipeline
+
+Differences on the client
+
+TypeScript
+
+The JavaScript client is hosted at npm
+
+jQuery
+
+Internet Explorer support
+
+JavaScript client method syntax
+
+Hub proxies
+
+.NET and other clients
+
+Scaleout differences
+
+ASP.NET
+
+ASP.NET Core
+
+Additional resources
+
+
+
+# WebSockets support in ASP.NET Core
+
+Article • 09/17/2024
+
+
+Http/2 WebSockets support
+
+SignalR
+
+Prerequisites
+
+Configure the middleware
+
+Accept WebSocket requests
+
+Add HTTP/2 WebSockets support for existing controllers
+
+Compression
+
+Send and receive messages
+
+Handle client disconnects
+
+WebSocket origin restriction
+
+IIS/IIS Express support
+
+Enabling WebSockets on IIS
+
+Disable WebSocket when using socket.io on Node.js
+
+Sample app
+
+
+
 # 
