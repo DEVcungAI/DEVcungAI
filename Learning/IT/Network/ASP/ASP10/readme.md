@@ -12063,4 +12063,286 @@ Sample app
 
 
 
+# Logging and diagnostics in ASP.NET Core SignalR
+
+Article • 06/18/2024
+
+
+Server-side logging
+
+Access server-side logs
+
+As a console app outside IIS
+
+Within IIS Express from Visual Studio
+
+Azure App Service
+
+Other environments
+
+JavaScript client logging
+
+.NET client logging
+
+Console logging
+
+Debug output window logging
+
+Other logging providers
+
+Control verbosity
+
+Network traces
+
+Collect a network trace with Fiddler (preferred option)
+
+Collect a network trace with tcpdump (macOS and Linux only)
+
+Collect a network trace in the browser
+
+Microsoft Edge and Internet Explorer
+
+Google Chrome
+
+Mozilla Firefox
+
+Attach diagnostics files to GitHub issues
+
+Metrics
+
+SignalR server metrics
+
+Observe metrics
+
+Additional resources
+
+
+
+# Troubleshoot connection errors
+
+Article • 06/18/2024
+
+
+Response code 404
+
+Response code 400 or 503
+
+Response code 307
+
+Response code 405
+
+Response code 0
+
+Response code 413
+
+Transient network failures
+
+Additional resources
+
+
+
+# Overview for gRPC on .NET
+
+Article • 07/31/2024
+
+
+C# Tooling support for .proto files
+
+gRPC services on ASP.NET Core
+
+Add gRPC services to an ASP.NET Core app
+
+The gRPC service project template
+
+Call gRPC services with a .NET client
+
+Additional resources
+
+
+
+# Tutorial: Create a gRPC client and server in ASP.NET Core
+
+Article • 06/18/2024
+
+
+Prerequisites
+
+Create a gRPC service
+
+Run the service
+
+Examine the project files
+
+Create the gRPC client in a .NET console app
+
+Add required NuGet packages
+
+PMC option to install packages
+
+Manage NuGet Packages option to install packages
+
+Add greet.proto
+
+Create the Greeter client
+
+Test the gRPC client with the gRPC Greeter service
+
+Next steps
+
+
+
+# gRPC services with C#
+
+Article • 07/31/2024
+
+
+proto file
+
+Add a .proto file to a C# app
+
+C# Tooling support for .proto files
+
+Generated C# assets
+
+Additional resources
+
+
+
+# Create gRPC services and methods
+
+Article • 07/31/2024
+
+
+Create new gRPC services
+
+Implement gRPC methods
+
+Unary method
+
+Server streaming method
+
+Client streaming method
+
+Bi-directional streaming method
+
+Access gRPC request headers
+
+Multi-threading with gRPC streaming methods
+
+Reader and writer thread safety
+
+Interacting with a gRPC method after a call ends
+
+Additional resources
+
+
+
+# Create Protobuf messages for .NET apps
+
+Article • 09/27/2024
+
+
+Protobuf messages
+
+Scalar Value Types
+
+Dates and times
+
+Nullable types
+
+Bytes
+
+Decimals
+
+Creating a custom decimal type for Protobuf
+
+Collections
+
+Lists
+
+Dictionaries
+
+Unstructured and conditional messages
+
+Any
+
+Oneof
+
+Value
+
+Additional resources
+
+
+
+# Versioning gRPC services
+
+Article • 09/27/2024
+
+
+Backwards compatibility
+
+Non-breaking changes
+
+Binary breaking changes
+
+Protocol breaking changes
+
+Behavior breaking changes
+
+Version number services
+
+Additional resources
+
+
+
+# Test gRPC services in ASP.NET Core
+
+Article • 07/31/2024
+
+
+Example testable service
+
+Unit test gRPC services
+
+Unit test HttpContext in gRPC methods
+
+Integration test gRPC services
+
+Inject mock dependencies
+
+Additional resources
+
+
+
+# Call gRPC services with the .NET client
+
+Article • 07/31/2024
+
+
+Configure gRPC client
+
+Configure TLS
+
+Client performance
+
+Make gRPC calls
+
+Unary call
+
+Server streaming call
+
+Client streaming call
+
+Bi-directional streaming call
+
+Access gRPC headers
+
+Access gRPC trailers
+
+Configure deadline
+
+Additional resources
+
+
+
 # 
