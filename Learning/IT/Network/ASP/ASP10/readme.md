@@ -12345,4 +12345,236 @@ Additional resources
 
 
 
+# gRPC client factory integration in .NET
+
+Article • 07/31/2024
+
+
+Register gRPC clients
+
+Configure HttpHandler
+
+Configure Interceptors
+
+Configure Channel
+
+Call credentials
+
+Deadline and cancellation propagation
+
+Named clients
+
+Additional resources
+
+
+
+# Reliable gRPC services with deadlines and cancellation
+
+Article • 07/31/2024
+
+
+Deadlines
+
+Deadlines and retries
+
+Propagating deadlines
+
+Cancellation
+
+Additional resources
+
+
+
+# Transient fault handling with gRPC retries
+
+Article • 07/31/2024
+
+
+Transient fault handling
+
+Configure a gRPC retry policy
+
+When retries are valid
+
+Streaming calls
+
+Retry backoff delay
+
+Detect retries with metadata
+
+gRPC retry options
+
+Hedging
+
+Configure a gRPC hedging policy
+
+gRPC hedging options
+
+Additional resources
+
+
+
+# gRPC client-side load balancing
+
+Article • 07/31/2024
+
+
+Configure gRPC client-side load balancing
+
+Configure resolver
+
+DnsResolverFactory
+
+DNS address caching
+
+StaticResolverFactory
+
+Configure load balancer
+
+Configure channel credentials
+
+Use load balancing with gRPC client factory
+
+Write custom resolvers and load balancers
+
+Create a custom resolver
+
+Create a custom load balancer
+
+Configure custom resolvers and load balancers
+
+Why load balancing is important
+
+Proxy or client-side load balancing?
+
+Additional resources
+
+
+
+# Use gRPC client with .NET Standard 2.0
+
+Article • 07/31/2024
+
+
+.NET implementations
+
+HttpHandler configuration
+
+.NET Framework
+
+gRPC C# core-library
+
+Additional resources
+
+
+
+# Mock gRPC client in tests
+
+Article • 07/31/2024
+
+
+Example testable client app
+
+Mock a gRPC client
+
+Additional resources
+
+
+
+# gRPC services with ASP.NET Core
+
+Article • 07/31/2024
+
+
+Prerequisites
+
+Get started with gRPC service in ASP.NET Core
+
+Add gRPC services to an ASP.NET Core app
+
+Configure gRPC
+
+Server options
+
+Kestrel
+
+HTTP/2
+
+TLS
+
+Protocol negotiation
+
+IIS
+
+HTTP.sys
+
+Host gRPC in non-ASP.NET Core projects
+
+Integration with ASP.NET Core APIs
+
+Resolve HttpContext in gRPC methods
+
+Additional resources
+
+
+
+# gRPC on .NET supported platforms
+
+Article • 11/06/2024
+
+
+Wire-formats
+
+ASP.NET Core gRPC server requirements
+
+Supported ASP.NET Core servers
+
+Azure services
+
+.NET gRPC client requirements
+
+Additional resources
+
+
+
+# Use gRPC in browser apps
+
+Article • 07/31/2024
+
+
+gRPC-Web
+
+gRPC JSON transcoding
+
+Additional resources
+
+
+
+# gRPC-Web in ASP.NET Core gRPC apps
+
+Article • 07/31/2024
+
+
+ASP.NET Core gRPC-Web versus Envoy
+
+Configure gRPC-Web in ASP.NET Core
+
+gRPC-Web and CORS
+
+gRPC-Web and streaming
+
+HTTP protocol
+
+Call gRPC-Web from the browser
+
+JavaScript gRPC-Web client
+
+Configure gRPC-Web with the .NET gRPC client
+
+Use gRPC client factory with gRPC-Web
+
+Additional resources
+
+
+
 # 
