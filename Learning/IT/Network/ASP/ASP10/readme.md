@@ -12577,4 +12577,254 @@ Additional resources
 
 
 
+# gRPC JSON transcoding in ASP.NET Core
+
+Article • 07/31/2024
+
+
+Overview
+
+Usage
+
+Annotate gRPC methods
+
+Streaming methods
+
+HTTP protocol
+
+gRPC JSON transcoding vs gRPC-Web
+
+grpc-gateway
+
+Additional resources
+
+
+
+# Configure HTTP and JSON for gRPC JSON transcoding
+
+Article • 07/31/2024
+
+
+HTTP rules
+
+HTTP method
+
+Route
+
+Request body
+
+Query parameters
+
+Response body
+
+Specification
+
+Customize JSON
+
+Additional resources
+
+
+
+# gRPC JSON transcoding documentation with Swagger / OpenAPI
+
+Article • 09/23/2024
+
+
+Get started
+
+Add OpenAPI descriptions from .proto comments
+
+Additional resources
+
+
+
+# gRPC for .NET configuration
+
+Article • 07/31/2024
+
+
+Configure services options
+
+ASP.NET Core server options
+
+Configure client options
+
+System.Net handler options
+
+Additional resources
+
+
+
+# Authentication and authorization in gRPC for ASP.NET Core
+
+Article • 07/31/2024
+
+
+Authenticate users calling a gRPC service
+
+Bearer token authentication
+
+Set the bearer token with CallCredentials
+
+Bearer token with gRPC client factor
+
+Client certificate authentication
+
+Other authentication mechanisms
+
+Authorize users to access services and service methods
+
+Additional resources
+
+
+
+# Error handling with gRPC
+
+Article • 07/31/2024
+
+
+Built-in error handling
+
+Throw server errors
+
+Server error status
+
+Handle client errors
+
+Error scenarios
+
+Rich error handling
+
+Creating rich errors on the server
+
+Reading rich errors by a client
+
+Additional resources
+
+
+
+# gRPC interceptors on .NET
+
+Article • 07/31/2024
+
+
+Interceptor type
+
+Client interceptors
+
+Create a client gRPC interceptor
+
+Awaiting response in client interceptor
+
+Configure client interceptors
+
+Server interceptors
+
+Create a server gRPC interceptor
+
+Configure server interceptors
+
+gRPC Interceptors versus Middleware
+
+Additional resources
+
+
+
+# Logging and diagnostics in gRPC on .NET
+
+Article • 07/31/2024
+
+
+Logging
+
+gRPC services logging
+
+Sample logging output
+
+Access server-side logs
+
+As a console app
+
+Other environments
+
+gRPC client logging
+
+gRPC client log scopes
+
+Sample logging output
+
+Tracing
+
+gRPC service tracing
+
+gRPC client tracing
+
+Collecting tracing
+
+Metrics
+
+gRPC service metrics
+
+gRPC client metrics
+
+Observe metrics
+
+Additional resources
+
+
+
+# Security considerations in gRPC for ASP.NET Core
+
+Article • 07/31/2024
+
+
+Transport security
+
+Exceptions
+
+Message size limits
+
+Client certificate validation
+
+
+
+# Performance best practices with gRPC
+
+Article • 10/04/2024
+
+
+Reuse gRPC channels
+
+Connection concurrency
+
+ServerGarbageCollection in client apps
+
+Load balancing
+
+Client-side load balancing
+
+Proxy load balancing
+
+Inter-process communication
+
+Keep alive pings
+
+Flow control
+
+Gracefully complete streaming calls
+
+Dispose streaming calls
+
+Replace unary calls with streaming
+
+Binary payloads
+
+Send binary payloads
+
+Read binary payloads
+
+gRPC services and large binary payloads
+
+
+
 # 
