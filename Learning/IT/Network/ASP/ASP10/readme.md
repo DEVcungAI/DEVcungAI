@@ -12827,4 +12827,232 @@ gRPC services and large binary payloads
 
 
 
+# gRPC and Native AOT
+
+Article • 07/31/2024
+
+
+Get started
+
+Optimize publish size
+
+Benefits of using Native AOT
+
+Additional resources
+
+
+
+# Inter-process communication with gRPC
+
+Article • 07/31/2024
+
+
+Get started
+
+Inter-process communication (IPC) transports
+
+Security considerations
+
+Secure IPC server app against unexpected callers
+
+Validate the server in the IPC client app
+
+Protect against named pipe privilege escalation
+
+Configure client and server
+
+
+
+# Inter-process communication with gRPC and Unix domain sockets
+
+Article • 07/31/2024
+
+
+Prerequisites
+
+Server configuration
+
+Client configuration
+
+
+
+# Inter-process communication with gRPC and Named pipes
+
+Article • 07/31/2024
+
+
+Prerequisites
+
+Server configuration
+
+Client configuration
+
+
+
+# Code-first gRPC services and clients with .NET
+
+Article • 11/05/2024
+
+
+protobuf-net.Grpc
+
+Create a code-first gRPC service
+
+Create a code-first gRPC client
+
+Additional resources
+
+
+
+# gRPC health checks in ASP.NET Core
+
+Article • 08/28/2024
+
+
+Set up gRPC health checks
+
+Health checks service security
+
+Configure Grpc.AspNetCore.HealthChecks
+
+Configure health checks execution interval
+
+Call gRPC health checks service
+
+Additional resources
+
+
+
+# Manage Protobuf references with dotnet-grpc
+
+Article • 07/31/2024
+
+
+Installation
+
+Add references
+
+Add file
+
+Usage
+
+Arguments
+
+Options
+
+Add URL
+
+Usage
+
+Arguments
+
+Options
+
+Remove
+
+Usage
+
+Arguments
+
+Options
+
+Refresh
+
+Usage
+
+Arguments
+
+Options
+
+List
+
+Usage
+
+Options
+
+Additional resources
+
+
+
+# Test gRPC services with gRPCurl and gRPCui in ASP.NET Core
+
+Article • 07/31/2024
+
+
+Set up gRPC reflection
+
+Reflection service security
+
+gRPCurl
+
+Use grpcurl
+
+Discover services
+
+Call gRPC services
+
+gRPCui
+
+Using grpcui
+
+Additional resources
+
+
+
+# Migrate gRPC from C-core to gRPC for .NET
+
+Article • 07/31/2024
+
+
+Platform support
+
+Configure server and channel
+
+Code generated services and clients
+
+gRPC service implementation lifetime
+
+Add a singleton service
+
+Configure gRPC services options
+
+Logging
+
+HTTPS
+
+gRPC Interceptors
+
+Host gRPC in non-ASP.NET Core projects
+
+Additional resources
+
+
+
+# gRPC for Windows Communication Foundation (WCF) developers
+
+Article • 07/31/2024
+
+
+Comparison to WCF
+
+Benefits of gRPC
+
+Performance
+
+Interoperability
+
+Usability and productivity
+
+Streaming
+
+Deadlines, timeouts, and cancellation
+
+Security
+
+gRPC as a migration path for WCF to .NET Core and .NET 5
+
+Get started
+
+
+
 # 
