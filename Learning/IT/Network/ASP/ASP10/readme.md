@@ -13055,4 +13055,319 @@ Get started
 
 
 
+# Compare gRPC services with HTTP APIs
+
+Article • 07/31/2024
+
+
+High-level comparison
+
+gRPC strengths
+
+Performance
+
+Code generation
+
+Strict specification
+
+Streaming
+
+Deadline/timeouts and cancellation
+
+gRPC recommended scenarios
+
+gRPC weaknesses
+
+Limited browser support
+
+Not human readable
+
+Alternative framework scenarios
+
+Additional resources
+
+
+
+# Troubleshoot gRPC on .NET
+
+Article • 09/27/2024
+
+
+
+# ASP.NET Core Best Practices
+
+Article • 09/27/2024
+
+
+Cache aggressively
+
+Understand hot code paths
+
+Avoid blocking calls
+
+Return large collections across multiple smaller pages
+
+Return IEnumerable<T> or IAsyncEnumerable<T>
+
+Minimize large object allocations
+
+Optimize data access and I/O
+
+Pool HTTP connections with HttpClientFactory
+
+Keep common code paths fast
+
+Complete long-running Tasks outside of HTTP requests
+
+Minify client assets
+
+Compress responses
+
+Use the latest ASP.NET Core release
+
+Minimize exceptions
+
+Avoid synchronous read or write on HttpRequest/HttpResponse body
+
+Prefer ReadFormAsync over Request.Form
+
+Avoid reading large request bodies or response bodies into memory
+
+Working with a synchronous data processing API
+
+Do not store IHttpContextAccessor.HttpContext in a field
+
+Do not access HttpContext from multiple threads
+
+Do not use the HttpContext after the request is complete
+
+Do not capture the HttpContext in background threads
+
+Do not capture services injected into the controllers on background threads
+
+Do not modify the status code or headers after the response body has started
+
+Do not call next() if you have already started writing to the response body
+
+Use In-process hosting with IIS
+
+Don't assume that HttpRequest.ContentLength is not null
+
+Reliable web app patterns
+
+
+
+# Web server implementations in ASP.NET Core
+
+Article • 07/26/2024
+
+
+Kestrel vs. HTTP.sys
+
+Hosting models
+
+Kestrel
+
+Nginx with Kestrel
+
+HTTP.sys
+
+ASP.NET Core server infrastructure
+
+Custom servers
+
+Server startup
+
+HTTP/2 support
+
+Additional resources
+
+
+
+# Kestrel web server in ASP.NET Core
+
+Article • 07/26/2024
+
+
+Get started
+
+Optional client certificates
+
+Behavior with debugger attached
+
+Additional resources
+
+
+
+# Configure endpoints for the ASP.NET Core Kestrel web server
+
+Article • 07/26/2024
+
+
+Default endpoint
+
+Configure endpoints
+
+Configure endpoints with URLs
+
+URL formats
+
+HTTPS URL prefixes
+
+Specify ports only
+
+Configure endpoints in appsettings.json
+
+Reloading endpoints from configuration
+
+ConfigurationLoader
+
+Configure endpoints in code
+
+Bind to a TCP socket
+
+Bind to a Unix socket
+
+Configure endpoint defaults
+
+Dynamic port binding
+
+Configure HTTPS
+
+Configure HTTPS in appsettings.json
+
+Schema notes
+
+Certificate sources
+
+Configure client certificates in appsettings.json
+
+Configure SSL/TLS protocols in appsettings.json
+
+Configure HTTPS in code
+
+Configure client certificates in code
+
+Configure HTTPS defaults in code
+
+Configure SSL/TLS protocols in code
+
+Configure TLS cipher suites filter in code
+
+Configure Server Name Indication
+
+Configure SNI in appsettings.json
+
+Configure SNI with code
+
+SNI with ServerCertificateSelector
+
+SNI with ServerOptionsSelectionCallback
+
+SNI with TlsHandshakeCallbackOptions
+
+Configure HTTP protocols
+
+Configure HTTP protocols in appsettings.json
+
+Configure HTTP protocols in code
+
+See also
+
+
+
+# Configure options for the ASP.NET Core Kestrel web server
+
+Article • 07/26/2024
+
+
+General limits
+
+Keep-alive timeout
+
+Maximum client connections
+
+Maximum request body size
+
+Minimum request body data rate
+
+Request headers timeout
+
+HTTP/2 limits
+
+Maximum streams per connection
+
+Header table size
+
+Maximum frame size
+
+Maximum request header size
+
+Initial connection window size
+
+Initial stream window size
+
+HTTP/2 keep alive ping configuration
+
+Other options
+
+Synchronous I/O
+
+Behavior with debugger attached
+
+
+
+# Diagnostics in Kestrel
+
+Article • 07/26/2024
+
+
+Logging
+
+Connection logging
+
+Metrics
+
+DiagnosticSource
+
+Behavior with debugger attached
+
+
+
+# Use HTTP/2 with the ASP.NET Core Kestrel web server
+
+Article • 07/26/2024
+
+
+Advanced HTTP/2 features
+
+Trailers
+
+Reset
+
+
+
+# Use HTTP/3 with the ASP.NET Core Kestrel web server
+
+Article • 03/14/2024
+
+
+HTTP/3 requirements
+
+Windows
+
+Linux
+
+macOS
+
+Getting started
+
+Alt-svc
+
+Localhost testing
+
+HTTP/3 benefits
+
+
+
 # 
