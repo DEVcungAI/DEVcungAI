@@ -13370,4 +13370,150 @@ HTTP/3 benefits
 
 
 
+# Connection middleware
+
+Article • 07/26/2024
+
+
+Connection logging
+
+Create custom connection middleware
+
+See also
+
+
+
+# When to use Kestrel with a reverse proxy
+
+Article • 09/27/2024
+
+
+Additional resources
+
+
+
+# Host filtering with ASP.NET Core Kestrel web server
+
+Article • 07/26/2024
+
+
+
+# Request draining with ASP.NET Core Kestrel web server
+
+Article • 07/26/2024
+
+
+
+# Host ASP.NET Core on Windows with IIS
+
+Article • 07/31/2024
+
+
+Supported platforms
+
+Install the ASP.NET Core Module/Hosting Bundle
+
+Get started
+
+Configuration
+
+Deployment resources for IIS administrators
+
+Overlapped recycle
+
+Optional client certificates
+
+Additional resources
+
+
+
+# ASP.NET Core Module (ANCM) for IIS
+
+Article • 09/27/2024
+
+
+Install ASP.NET Core Module (ANCM)
+
+Additional resources
+
+
+
+# In-process hosting with IIS and ASP.NET Core
+
+Article • 07/31/2024
+
+
+Enable in-process hosting
+
+General architecture
+
+Application configuration
+
+Differences between in-process and out-of-process hosting
+
+Get timing information
+
+
+
+# Out-of-process hosting with IIS and ASP.NET Core
+
+Article • 07/31/2024
+
+
+Application configuration
+
+Enable the IISIntegration components
+
+Proxy server and load balancer scenarios
+
+Out-of-process hosting model
+
+Process name
+
+
+
+# The .NET Core Hosting Bundle
+
+Article • 07/31/2024
+
+
+Install the .NET Core Hosting Bundle
+
+Direct download
+
+Visual C++ Redistributable Requirement
+
+Earlier versions of the installer
+
+Options
+
+Restart IIS
+
+Module version and Hosting Bundle installer logs
+
+
+
+# web.config file
+
+Article • 07/31/2024
+
+
+web.config file location
+
+Configuration of ASP.NET Core Module with web.config
+
+Attributes of the aspNetCore element
+
+Set environment variables
+
+Configuration of IIS with web.config
+
+Configuration sections of web.config
+
+Transform web.config
+
+Additional resources
+
+
+
 # 
