@@ -13516,4 +13516,328 @@ Additional resources
 
 
 
+# Development-time IIS support in Visual Studio for ASP.NET Core
+
+Article • 07/31/2024
+
+
+Prerequisites
+
+Enable IIS
+
+Configure IIS
+
+Configure the project
+
+HTTPS redirection
+
+IIS launch profile
+
+Run the project
+
+Additional resources
+
+
+
+# IIS modules with ASP.NET Core
+
+Article • 07/31/2024
+
+
+Native modules
+
+Managed modules
+
+IIS Manager application changes
+
+Disabling IIS modules
+
+Module deactivation
+
+Module removal
+
+Minimum module configuration
+
+Additional resources
+
+
+
+# IIS log creation and redirection
+
+Article • 07/31/2024
+
+
+Enhanced diagnostic logs
+
+
+
+# Troubleshoot ASP.NET Core on Azure App Service and IIS
+
+Article • 09/27/2024
+
+
+App startup errors
+
+403.14 Forbidden
+
+500 Internal Server Error
+
+500.0 In-Process Handler Load Failure
+
+500.30 In-Process Startup Failure
+
+500.31 ANCM Failed to Find Native Dependencies
+
+500.32 ANCM Failed to Load dll
+
+500.33 ANCM Request Handler Load Failure
+
+500.34 ANCM Mixed Hosting Models Not Supported
+
+500.35 ANCM Multiple In-Process Applications in same Process
+
+500.36 ANCM Out-Of-Process Handler Load Failure
+
+500.37 ANCM Failed to Start Within Startup Time Limit
+
+500.38 ANCM Application DLL Not Found
+
+502.5 Process Failure
+
+Failed to start application (ErrorCode '0x800700c1')
+
+Failed to start application (ErrorCode '0x800701b1')
+
+Connection reset
+
+Default startup limits
+
+Troubleshoot on Azure App Service
+
+Azure App Services Log stream
+
+Application Event Log (Azure App Service)
+
+Run the app in the Kudu console
+
+Test a 32-bit (x86) app
+
+Test a 64-bit (x64) app
+
+ASP.NET Core Module stdout log (Azure App Service)
+
+ASP.NET Core Module debug log (Azure App Service)
+
+Slow or nonresponsive app (Azure App Service)
+
+Monitoring blades
+
+Troubleshoot on IIS
+
+Application Event Log (IIS)
+
+Run the app at a command prompt
+
+Framework-dependent deployment
+
+Self-contained deployment
+
+ASP.NET Core Module stdout log (IIS)
+
+ASP.NET Core Module debug log (IIS)
+
+Enable the Developer Exception Page
+
+Obtain data from an app
+
+Slow or non-responding app (IIS)
+
+App crashes or encounters an exception
+
+App doesn't respond, fails during startup, or runs normally
+
+Analyze the dump
+
+Clear package caches
+
+Additional resources
+
+Azure documentation
+
+Visual Studio documentation
+
+Visual Studio Code documentation
+
+
+
+# Common error troubleshooting for Azure App Service and IIS with ASP.NET Core
+
+Article • 07/31/2024
+
+
+OS upgrade removed the 32-bit ASP.NET Core Module
+
+Missing site extension, 32-bit (x86) and 64-bit (x64) site extensions installed, or wrong process bitness set
+
+An x86 app is deployed but the app pool isn't enabled for 32-bit apps
+
+Platform conflicts with RID
+
+URI endpoint wrong or stopped website
+
+CoreWebEngine or W3SVC server features disabled
+
+Incorrect website physical path or app missing
+
+Incorrect role, ASP.NET Core Module not installed, or incorrect permissions
+
+Incorrect processPath, missing PATH variable, Hosting Bundle not installed, system/IIS not restarted, VC++ Redistributable not installed, or dotnet.exe access violation
+
+Incorrect arguments of <aspNetCore> element
+
+Missing .NET Core shared framework 
+
+Stopped Application Pool
+
+Sub-application includes a <handlers> section
+
+stdout log path incorrect
+
+Application configuration general issue
+
+
+
+# Advanced configuration of the ASP.NET Core Module and IIS
+
+Article • 09/27/2024
+
+
+Modify the stack size
+
+Disallow rotation on config
+
+Reduce 503 likelihood during app recycle
+
+Proxy configuration uses HTTP protocol and a pairing token
+
+ASP.NET Core Module with an IIS Shared Configuration
+
+Data protection
+
+IIS configuration
+
+Virtual Directories
+
+Sub-applications
+
+Application Pools
+
+Application Pool Identity
+
+HTTP/2 support
+
+CORS preflight requests
+
+Application Initialization Module and Idle Timeout
+
+Application Initialization Module
+
+Idle Timeout
+
+Application Initialization Module and Idle Timeout additional resources
+
+Module, schema, and configuration file locations
+
+Module
+
+Schema
+
+Configuration
+
+Install Web Deploy when publishing with Visual Studio
+
+Create the IIS site
+
+Shadow copy
+
+
+
+# Transform web.config
+
+Article • 07/31/2024
+
+
+Build configuration
+
+Profile
+
+Environment
+
+Custom
+
+Prevent web.config transformation
+
+Additional resources
+
+
+
+# Use ASP.NET Core with HTTP/2 on IIS
+
+Article • 07/31/2024
+
+
+Advanced HTTP/2 features to support gRPC
+
+Trailers
+
+Reset
+
+
+
+# Use ASP.NET Core with HTTP/3 on IIS
+
+Article • 07/31/2024
+
+
+Alt-Svc
+
+
+
+# HTTP.sys web server implementation in ASP.NET Core
+
+Article • 10/21/2024
+
+
+When to use HTTP.sys
+
+HTTP/2 support
+
+HTTP/3 support
+
+Kernel mode authentication with Kerberos
+
+Support for kernel-mode response buffering
+
+How to use HTTP.sys
+
+Configure the ASP.NET Core app to use HTTP.sys
+
+Configure Windows Server
+
+Proxy server and load balancer scenarios
+
+Get detailed timing information with IHttpSysRequestTimingFeature
+
+Advanced HTTP/2 features to support gRPC
+
+Trailers
+
+Reset
+
+Tracing
+
+Additional resources
+
+
+
 # 
