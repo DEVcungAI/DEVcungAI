@@ -13840,4 +13840,348 @@ Additional resources
 
 
 
+# .NET Hot Reload support for ASP.NET Core
+
+Article • 04/10/2024
+
+
+Blazor WebAssembly
+
+.NET CLI
+
+Disable Hot Reload
+
+Additional resources
+
+
+
+# How to use dev tunnels in Visual Studio 2022 with ASP.NET Core apps
+
+Article • 11/06/2024
+
+
+Use cases
+
+Prerequisites
+
+Create a tunnel
+
+Specify the active tunnel
+
+Use a tunnel
+
+Use a tunnel to test on a phone or tablet
+
+Dev Tunnels output window
+
+Dev Tunnels tool window
+
+Tunnel URL environment variables
+
+Persistent versus temporary tunnels
+
+See also
+
+
+
+# Use .http files in Visual Studio 2022
+
+Article • 07/23/2024
+
+
+Prerequisites
+
+.http file syntax
+
+Requests
+
+Request headers
+
+Request body
+
+Comments
+
+Variables
+
+Environment files
+
+User-specific environment files
+
+ASP.NET Core user secrets
+
+Azure Key Vault
+
+DPAPI encryption
+
+Environment variables
+
+.env files
+
+Random integers
+
+Dates and times
+
+Unsupported syntax
+
+Create an .http file
+
+Send an HTTP request
+
+.http file options
+
+Use Endpoints Explorer
+
+Open Endpoints Explorer
+
+Add a request to an .http file
+
+See also
+
+
+
+# Test web APIs with the HttpRepl
+
+Article • 07/28/2023
+
+
+Prerequisites
+
+Installation
+
+Usage
+
+Connect to the web API
+
+Manually point to the OpenAPI description for the web API
+
+Enable verbose output for details on OpenAPI description searching, parsing, and validation
+
+Navigate the web API
+
+View available endpoints
+
+Navigate to an endpoint
+
+Customize the HttpRepl
+
+View the settings
+
+Set color preferences
+
+Set indentation size
+
+Set the default text editor
+
+Set the OpenAPI Description search paths
+
+Test HTTP GET requests
+
+Synopsis
+
+Arguments
+
+Options
+
+Example
+
+Test HTTP POST requests
+
+Synopsis
+
+Arguments
+
+Options
+
+Example
+
+Test HTTP PUT requests
+
+Synopsis
+
+Arguments
+
+Options
+
+Example
+
+Test HTTP DELETE requests
+
+Synopsis
+
+Arguments
+
+Options
+
+Example
+
+Test HTTP PATCH requests
+
+Synopsis
+
+Arguments
+
+Options
+
+Test HTTP HEAD requests
+
+Synopsis
+
+Arguments
+
+Options
+
+Test HTTP OPTIONS requests
+
+Synopsis
+
+Arguments
+
+Options
+
+Set HTTP request headers
+
+Test secured endpoints
+
+Default credentials
+
+Default proxy credentials
+
+HTTP request headers
+
+Toggle HTTP request display
+
+Enable request display
+
+Disable request display
+
+Run a script
+
+Clear the output
+
+Additional resources
+
+
+
+# HttpRepl telemetry
+
+Article • 06/17/2024
+
+
+How to opt out
+
+Disclosure
+
+Data points
+
+Additional resources
+
+
+
+# Unit and integration tests in Minimal API apps
+
+Article • 07/26/2024
+
+
+Introduction to integration tests
+
+ASP.NET Core integration tests
+
+IResult implementation types
+
+Additional Resources
+
+
+
+# Test Razor components in ASP.NET Core Blazor
+
+Article • 03/08/2024
+
+
+Test approaches
+
+Choose the most appropriate test approach
+
+Test components with bUnit
+
+Additional resources
+
+
+
+# Razor Pages unit tests in ASP.NET Core
+
+Article • 09/17/2023
+
+
+Message app organization
+
+Test app organization
+
+Unit tests of the data access layer (DAL)
+
+Unit tests of the page model methods
+
+Additional resources
+
+
+
+# Unit test controller logic in ASP.NET Core
+
+Article • 06/17/2024
+
+
+Unit testing controllers
+
+Test ActionResult<T>
+
+Additional resources
+
+
+
+# Integration tests in ASP.NET Core
+
+Article • 06/17/2024
+
+
+Introduction to integration tests
+
+ASP.NET Core integration tests
+
+Test app prerequisites
+
+SUT environment
+
+Basic tests with the default WebApplicationFactory
+
+AngleSharp vs Application Parts for antiforgery checks
+
+Customize WebApplicationFactory
+
+Customize the client with WithWebHostBuilder
+
+Client options
+
+Inject mock services
+
+Mock authentication
+
+Basic tests for authentication middleware
+
+Set the environment
+
+How the test infrastructure infers the app content root path
+
+Disable shadow copying
+
+Disposal of objects
+
+Integration tests sample
+
+Message app (SUT) organization
+
+Test app organization
+
+Additional resources
+
+
+
 # 
