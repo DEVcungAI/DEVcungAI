@@ -14184,4 +14184,330 @@ Additional resources
 
 
 
+# ASP.NET Core load/stress testing
+
+Article • 03/07/2024
+
+
+Third-party tools
+
+Load and stress test with release builds
+
+
+
+# Test ASP.NET Core middleware
+
+Article • 01/11/2024
+
+
+Set up the TestServer
+
+Send requests with HttpClient
+
+Send requests with HttpContext
+
+Add request routes
+
+TestServer limitations
+
+Content-Length and Transfer-Encoding headers
+
+
+
+# Debug .NET and ASP.NET Core source code with Visual Studio
+
+Article • 09/18/2024
+
+
+Debugging .NET Core on Unix over SSH
+
+Additional resources
+
+
+
+# Remote Debug ASP.NET Core on IIS using an Azure VM from Visual Studio
+
+Article • 04/23/2024
+
+
+Prerequisites
+
+Network requirements
+
+App already running in IIS on the Azure VM?
+
+Create the ASP.NET Core application on the Visual Studio computer
+
+Update browser security settings on Windows Server
+
+Install ASP.NET Core on Windows Server
+
+Choose a deployment option
+
+(Optional) Deploy using a publish settings file
+
+Configure the ASP.NET Core web site
+
+Install and configure Web Deploy on Windows Server
+
+Create the publish settings file in IIS on Windows Server
+
+Import the publish settings in Visual Studio and deploy
+
+(Optional) Deploy by publishing to a local folder
+
+Configure the ASP.NET Core Web site on the Windows Server computer
+
+(Optional) Publish and Deploy the app by publishing to a local folder from Visual Studio
+
+Download and Install the remote tools on Windows Server
+
+Set up the remote debugger on Windows Server
+
+Attach to the ASP.NET Core application from the Visual Studio computer
+
+Troubleshooting IIS deployment
+
+Open required ports on Windows Server
+
+
+
+# Debug exceptions in .NET applications using Snapshot Debugger
+
+Article • 09/11/2024
+
+
+Supported applications and environments
+
+Applications
+
+Environments
+
+Prerequisites for using Snapshot Debugger
+
+Packages and configurations
+
+Permissions
+
+How Snapshot Debugger works
+
+Snapshot Debugger process
+
+Snapshot Uploader process
+
+Upgrading Snapshot Debugger
+
+Overhead
+
+Limitations
+
+
+
+# Debug live ASP.NET Azure apps using the Snapshot Debugger
+
+Article • 10/20/2022
+
+
+Prerequisites
+
+Open your project and start the Snapshot Debugger
+
+Set a snappoint
+
+Take a snapshot
+
+Inspect snapshot data
+
+Set a conditional snappoint
+
+To create a conditional snappoint
+
+Set a logpoint
+
+To create a logpoint
+
+Related content
+
+
+
+# Use dev tunnels in Visual Studio to debug your web APIs
+
+Article • 11/14/2023
+
+
+Prerequisites
+
+Step 1: Configure your ASP.NET Core project in Visual Studio
+
+URL with and without dev tunnels
+
+Step 2: Create a custom connector for your web API using the dev tunnel URL
+
+Create a custom connector from scratch
+
+Create a custom connector with API Management
+
+Step 3: Add the custom connector to Power Apps or Power Automate
+
+Provide feedback
+
+
+
+# Troubleshoot and debug ASP.NET Core projects
+
+Article • 09/17/2024
+
+
+.NET Core SDK warnings
+
+Both the 32-bit and 64-bit versions of the .NET Core SDK are installed
+
+The .NET Core SDK is installed in multiple locations
+
+No .NET Core SDKs were detected
+
+Missing SDK after installing the .NET Core Hosting Bundle
+
+Obtain data from an app
+
+Debug ASP.NET Core apps
+
+
+
+# Troubleshoot ASP.NET Core on Azure App Service and IIS
+
+Article • 09/27/2024
+
+
+App startup errors
+
+403.14 Forbidden
+
+500 Internal Server Error
+
+500.0 In-Process Handler Load Failure
+
+500.30 In-Process Startup Failure
+
+500.31 ANCM Failed to Find Native Dependencies
+
+500.32 ANCM Failed to Load dll
+
+500.33 ANCM Request Handler Load Failure
+
+500.34 ANCM Mixed Hosting Models Not Supported
+
+500.35 ANCM Multiple In-Process Applications in same Process
+
+500.36 ANCM Out-Of-Process Handler Load Failure
+
+500.37 ANCM Failed to Start Within Startup Time Limit
+
+500.38 ANCM Application DLL Not Found
+
+502.5 Process Failure
+
+Failed to start application (ErrorCode '0x800700c1')
+
+Failed to start application (ErrorCode '0x800701b1')
+
+Connection reset
+
+Default startup limits
+
+Troubleshoot on Azure App Service
+
+Azure App Services Log stream
+
+Application Event Log (Azure App Service)
+
+Run the app in the Kudu console
+
+Test a 32-bit (x86) app
+
+Test a 64-bit (x64) app
+
+ASP.NET Core Module stdout log (Azure App Service)
+
+ASP.NET Core Module debug log (Azure App Service)
+
+Slow or nonresponsive app (Azure App Service)
+
+Monitoring blades
+
+Troubleshoot on IIS
+
+Application Event Log (IIS)
+
+Run the app at a command prompt
+
+Framework-dependent deployment
+
+Self-contained deployment
+
+ASP.NET Core Module stdout log (IIS)
+
+ASP.NET Core Module debug log (IIS)
+
+Enable the Developer Exception Page
+
+Obtain data from an app
+
+Slow or non-responding app (IIS)
+
+App crashes or encounters an exception
+
+App doesn't respond, fails during startup, or runs normally
+
+Analyze the dump
+
+Clear package caches
+
+Additional resources
+
+Azure documentation
+
+Visual Studio documentation
+
+Visual Studio Code documentation
+
+
+
+# Common error troubleshooting for Azure App Service and IIS with ASP.NET Core
+
+Article • 07/31/2024
+
+
+OS upgrade removed the 32-bit ASP.NET Core Module
+
+Missing site extension, 32-bit (x86) and 64-bit (x64) site extensions installed, or wrong process bitness set
+
+An x86 app is deployed but the app pool isn't enabled for 32-bit apps
+
+Platform conflicts with RID
+
+URI endpoint wrong or stopped website
+
+CoreWebEngine or W3SVC server features disabled
+
+Incorrect website physical path or app missing
+
+Incorrect role, ASP.NET Core Module not installed, or incorrect permissions
+
+Incorrect processPath, missing PATH variable, Hosting Bundle not installed, system/IIS not restarted, VC++ Redistributable not installed, or dotnet.exe access violation
+
+Incorrect arguments of <aspNetCore> element
+
+Missing .NET Core shared framework
+
+Stopped Application Pool
+
+Sub-application includes a <handlers> section
+
+stdout log path incorrect
+
+Application configuration general issue
+
+
+
 # 
