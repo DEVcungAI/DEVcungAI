@@ -14510,4 +14510,145 @@ Application configuration general issue
 
 
 
+# Code analysis in ASP.NET Core apps
+
+Article • 07/09/2024
+
+
+
+# ASP0000: Do not call 'IServiceCollection.BuildServiceProvider' in 'ConfigureServices'
+
+Article • 06/18/2024
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0001: Authorization middleware is incorrectly configured
+
+Article • 06/18/2024
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0003: Do not use model binding attributes with route handlers
+
+Article • 09/28/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0004: Do not use action results with route handlers
+
+Article • 09/28/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0005: Do not place attribute on method called by route handler lambda
+
+Article • 09/28/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0006: Do not use non-literal sequence numbers
+
+Article • 10/30/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0007: Route parameter and argument optionality is mismatched
+
+Article • 09/28/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0008: Do not use ConfigureWebHost with WebApplicationBuilder.Host
+
+Article • 09/28/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0009: Do not use Configure with WebApplicationBuilder.WebHost
+
+Article • 09/28/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
 # 
