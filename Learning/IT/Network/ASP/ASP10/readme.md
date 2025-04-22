@@ -14651,4 +14651,154 @@ When to suppress warnings
 
 
 
+# ASP0010: Do not use UseStartup with WebApplicationBuilder.WebHost
+
+Article • 06/18/2024
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0011: Suggest using builder.Logging over Host.ConfigureLogging or WebHost.ConfigureLogging
+
+Article • 09/28/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0012: Suggest using builder.Services over Host.ConfigureServices or WebHost.ConfigureServices
+
+Article • 09/28/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0013: Suggest switching from using Configure methods to WebApplicationBuilder.Configuration
+
+Article • 02/13/2024
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0014: Suggest using top level route registrations
+
+Article • 02/23/2023
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0015: Suggest using IHeaderDictionary properties
+
+Article • 11/28/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0016: Do not return a value from RequestDelegate
+
+Article • 11/28/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0017: Invalid route pattern
+
+Article • 11/28/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0018: Unused route parameter
+
+Article • 06/20/2024
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0019: Suggest using IHeaderDictionary.Append or the indexer
+
+Article • 11/28/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
 # 
