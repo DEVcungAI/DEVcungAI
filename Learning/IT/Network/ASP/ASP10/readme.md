@@ -14801,4 +14801,158 @@ When to suppress warnings
 
 
 
+# ASP0020: Complex types referenced by route parameters must be parsable
+
+Article • 03/27/2023
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0021: The return type of the BindAsync method must be ValueTask<T>.
+
+Article • 03/27/2023
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0022: Route conflict detected between route handlers
+
+Article • 11/08/2023
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+Notes
+
+
+
+# ASP0023: Route conflict detected between route handlers
+
+Article • 03/29/2023
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+Notes
+
+
+
+# ASP0024: Route handler has multiple parameters with the [FromBody] attribute
+
+Article • 03/29/2023
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0025: Use AddAuthorizationBuilder to register authorization services and construct policies.
+
+Article • 05/15/2023
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0026: [Authorize] is overridden by [AllowAnonymous] from "farther away"
+
+Article • 07/09/2024
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# ASP0028: Consider using IPAddress.IPv6Any instead of IPAddress.Any
+
+Article • 11/18/2024
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# BL0001: Component parameter should have public setters
+
+Article • 06/03/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# BL0002: Component has multiple CaptureUnmatchedValues parameters
+
+Article • 06/03/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
 # 
