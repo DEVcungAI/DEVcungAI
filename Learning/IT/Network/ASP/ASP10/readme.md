@@ -14955,4 +14955,154 @@ When to suppress warnings
 
 
 
+# BL0003: Component parameter with CaptureUnmatchedValues has the wrong type
+
+Article • 06/03/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# BL0004: Component parameter should be public
+
+Article • 06/03/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# BL0005: Component parameter should not be set outside of its component
+
+Article • 06/03/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# BL0006: Do not use RenderTree types
+
+Article • 06/03/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# MVC1000: Use of IHtmlHelper.Partial should be avoided
+
+Article • 06/03/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# MVC1001: Filters cannot be applied to page handler methods
+
+Article • 06/18/2024
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# MVC1002: Route attribute cannot be applied to page handler methods
+
+Article • 06/18/2024
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# MVC1003: Route attributes cannot be applied to page models
+
+Article • 06/18/2024
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# MVC1004: Rename model bound parameter
+
+Article • 06/03/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
+# MVC1005: Cannot use UseMvc with Endpoint Routing
+
+Article • 06/03/2022
+
+
+Cause
+
+Rule description
+
+How to fix violations
+
+When to suppress warnings
+
+
+
 # 
