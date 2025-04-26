@@ -15461,4 +15461,416 @@ Article • 04/10/2024
 
 
 
+# Tutorial: Get started with EF Core in an ASP.NET MVC web app
+
+Article • 04/10/2024
+
+
+Prerequisites
+
+Database engines
+
+Solve problems and troubleshoot
+
+Contoso University web app
+
+Create web app
+
+Set up the site style
+
+EF Core NuGet packages
+
+Create the data model
+
+The Student entity
+
+The Enrollment entity
+
+The Course entity
+
+Create the database context
+
+Register the SchoolContext
+
+Add the database exception filter
+
+SQL Server Express LocalDB
+
+Initialize DB with test data
+
+Create controller and views
+
+View the database
+
+Conventions
+
+Asynchronous code
+
+Limit entities fetched
+
+SQL Logging of Entity Framework Core
+
+
+
+# Tutorial: Implement CRUD Functionality - ASP.NET MVC with EF Core
+
+Article • 04/10/2024
+
+
+Prerequisites
+
+Customize the Details page
+
+Route data
+
+Add enrollments to the Details view
+
+Update the Create page
+
+Security note about overposting
+
+Test the Create page
+
+Update the Edit page
+
+Recommended HttpPost Edit code: Read and update
+
+Alternative HttpPost Edit code: Create and attach
+
+Entity States
+
+Test the Edit page
+
+Update the Delete page
+
+The read-first approach to HttpPost Delete
+
+The create-and-attach approach to HttpPost Delete
+
+Update the Delete view
+
+Close database connections
+
+Handle transactions
+
+No-tracking queries
+
+Get the code
+
+
+
+# Tutorial: Add sorting, filtering, and paging - ASP.NET MVC with EF Core
+
+Article • 04/10/2024
+
+
+Prerequisites
+
+Add column sort links
+
+Add sorting Functionality to the Index method
+
+Add column heading hyperlinks to the Student Index view
+
+Add a Search box
+
+Add filtering functionality to the Index method
+
+Add a Search Box to the Student Index View
+
+Add paging to Students Index
+
+Add paging to Index method
+
+Add paging links
+
+Create an About page
+
+Create the view model
+
+Modify the Home Controller
+
+Create the About View
+
+Get the code
+
+
+
+# Tutorial: Part 5, apply migrations to the Contoso University sample
+
+Article • 05/31/2024
+
+
+Prerequisites
+
+About migrations
+
+Drop the database
+
+Create an initial migration
+
+Examine Up and Down methods
+
+The data model snapshot
+
+Apply the migration
+
+Compare CLI and PMC
+
+Get the code
+
+
+
+# Tutorial: Create a complex data model - ASP.NET MVC with EF Core
+
+Article • 04/10/2024
+
+
+Prerequisites
+
+Customize the Data model
+
+The DataType attribute
+
+The StringLength attribute
+
+The Column attribute
+
+Changes to Student entity
+
+The Required attribute
+
+The Display attribute
+
+The FullName calculated property
+
+Create Instructor entity
+
+The CourseAssignments and OfficeAssignment navigation properties
+
+Create OfficeAssignment entity
+
+The Key attribute
+
+The Instructor navigation property
+
+Modify Course entity
+
+The DatabaseGenerated attribute
+
+Foreign key and navigation properties
+
+Create Department entity
+
+The Column attribute
+
+Foreign key and navigation properties
+
+Modify Enrollment entity
+
+Foreign key and navigation properties
+
+Many-to-Many relationships
+
+The CourseAssignment entity
+
+Join entity names
+
+Composite key
+
+Update the database context
+
+About a fluent API alternative
+
+Entity Diagram Showing Relationships
+
+Seed database with test data
+
+Add a migration
+
+Change the connection string
+
+Update the database
+
+Get the code
+
+
+
+# Tutorial: Read related data - ASP.NET MVC with EF Core
+
+Article • 04/10/2024
+
+
+Prerequisites
+
+Learn how to load related data
+
+Performance considerations
+
+Create a Courses page
+
+Create an Instructors page
+
+Create a view model for the Instructor Index view
+
+Create the Instructor controller and views
+
+Tracking vs no-tracking
+
+Modify the Instructor Index view
+
+About explicit loading
+
+Get the code
+
+
+
+# Tutorial: Update related data - ASP.NET MVC with EF Core
+
+Article • 04/10/2024
+
+
+Prerequisites
+
+Customize Courses pages
+
+Add .AsNoTracking to Details and Delete methods
+
+Modify the Course views
+
+Test the Course pages
+
+Add Instructors Edit page
+
+Update the Instructors controller
+
+Update the Instructor Edit view
+
+Add courses to Edit page
+
+Update the Instructors controller
+
+Update the Instructor views
+
+Update Delete page
+
+Add office location and courses to Create page
+
+Handling Transactions
+
+Get the code
+
+
+
+# Tutorial: Handle concurrency - ASP.NET MVC with EF Core
+
+Article • 07/09/2024
+
+
+Prerequisites
+
+Concurrency conflicts
+
+Pessimistic concurrency (locking)
+
+Optimistic Concurrency
+
+Detecting concurrency conflicts
+
+Add a tracking property
+
+Create Departments controller and views
+
+Update Index view
+
+Update Edit methods
+
+Update Edit view
+
+Test concurrency conflicts
+
+Update the Delete page
+
+Update the Delete methods in the Departments controller
+
+Update the Delete view
+
+Update Details and Create views
+
+Get the code
+
+Additional resources
+
+
+
+# Tutorial: Implement inheritance - ASP.NET MVC with EF Core
+
+Article • 04/10/2024
+
+
+Prerequisites
+
+Map inheritance to database
+
+Create the Person class
+
+Update Instructor and Student
+
+Add Person to the model
+
+Create and update migrations
+
+Test the implementation
+
+Get the code
+
+Additional resources
+
+
+
+# Tutorial: Learn about advanced scenarios - ASP.NET MVC with EF Core
+
+Article • 04/10/2024
+
+
+Prerequisites
+
+Perform raw SQL queries
+
+Call a query to return entities
+
+Call a query to return other types
+
+Call an update query
+
+Examine SQL queries
+
+Create an abstraction layer
+
+Automatic change detection
+
+EF Core source code and development plans
+
+Reverse engineer from existing database
+
+Use dynamic LINQ to simplify code
+
+Acknowledgments
+
+Troubleshoot common errors
+
+ContosoUniversity.dll used by another process
+
+Migration scaffolded with no code in Up and Down methods
+
+Errors while running database update
+
+Error locating SQL Server instance
+
+Get the code
+
+Additional resources
+
+
+
 # 
