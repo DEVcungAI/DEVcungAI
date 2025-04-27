@@ -15873,4 +15873,330 @@ Additional resources
 
 
 
+# ASP.NET Core and Entity Framework 6
+
+Article • 04/10/2024
+
+
+Using Entity Framework 6 with ASP.NET Core
+
+Additional resources
+
+
+
+# Tutorial: Connect to SQL Database from .NET App Service without secrets using a managed identity
+
+Article • 04/17/2024
+
+
+Prerequisites
+
+1. Grant database access to Microsoft Entra user
+
+2. Set up your dev environment
+
+3. Modify your project
+
+4. Use managed identity connectivity
+
+Enable managed identity on app
+
+Grant permissions to managed identity
+
+Modify connection string
+
+5. Publish your changes
+
+Clean up resources
+
+
+
+# Adding Azure Storage by using Visual Studio Connected Services
+
+Article • 10/31/2024
+
+
+Prerequisites
+
+Connect to Azure Storage using Connected Services
+
+Understand authentication
+
+
+
+# Quickstart: Azure Blob Storage client library for .NET
+
+Article • 09/13/2024
+
+
+Prerequisites
+
+Setting up
+
+Create the project
+
+Install the package
+
+Set up the app code
+
+Object model
+
+Code examples
+
+Authenticate to Azure and authorize access to blob data
+
+Create a container
+
+Upload a blob to a container
+
+List blobs in a container
+
+Download a blob
+
+Delete a container
+
+The completed code
+
+Run the code
+
+Clean up resources
+
+Azure Queue storage documentation
+
+About Azure queues
+
+Get started
+
+Develop with queues
+
+Manage queues
+
+Tutorial
+
+
+
+# What is Azure Table storage?
+
+Article • 11/29/2022
+
+
+What is Table storage
+
+Table storage concepts
+
+
+
+# Host and deploy ASP.NET Core
+
+Article • 09/18/2024
+
+
+Publish to a folder
+
+Run the published app locally
+
+Publish settings files
+
+Folder contents
+
+Set up a process manager
+
+Set up a reverse proxy
+
+Proxy server and load balancer scenarios
+
+Use Visual Studio and MSBuild to automate deployments
+
+Publish to Azure
+
+Publish with MSDeploy on Windows
+
+Internet Information Services (IIS)
+
+Host in a web farm
+
+Host on Docker
+
+Perform health checks
+
+Additional resources
+
+
+
+# Deploy ASP.NET Core apps to Azure App Service
+
+Article • 09/19/2024
+
+
+Reliable web app patterns
+
+Useful resources
+
+Application configuration
+
+Platform
+
+Packages
+
+Override app configuration using the Azure Portal
+
+Proxy server and load balancer scenarios
+
+Monitoring and logging
+
+Data Protection key ring and deployment slots
+
+Deploy an ASP.NET Core app that uses a .NET Core preview
+
+Specify the .NET Core SDK Version using Azure Pipelines
+
+Specify the .NET Core SDK version
+
+Deploy a self-contained preview app
+
+Use Docker with Web Apps for containers
+
+Install the preview site extension
+
+Publish and deploy the app
+
+Deploy the app framework-dependent
+
+Deploy the app self-contained
+
+Protocol settings (HTTPS)
+
+Transform web.config
+
+Additional resources
+
+
+
+# Publish an ASP.NET Core app to Azure with Visual Studio
+
+Article • 11/01/2023
+
+
+Set up
+
+Create a web app
+
+Run the app
+
+Register a user
+
+Deploy the app to Azure
+
+Update the app
+
+Clean up
+
+Additional resources
+
+
+
+# Tutorial: Deploy an ASP.NET Core and Azure SQL Database app to Azure App Service
+
+Article • 09/06/2024
+
+
+Prerequisites
+
+Skip to the end
+
+1. Run the sample
+
+2. Create App Service, database, and cache
+
+3. Secure connection secrets
+
+4. Deploy sample code
+
+5. Generate database schema
+
+6. Browse to the app
+
+7. Stream diagnostic logs
+
+8. Clean up resources
+
+Troubleshooting
+
+The portal deployment view for Azure SQL Database shows a Conflict status
+
+In the Azure portal, the log stream UI for the web app shows network errors
+
+The SSH session in the browser shows SSH CONN CLOSED
+
+The portal log stream page shows Connected! but no logs
+
+Frequently asked questions
+
+How much does this setup cost?
+
+How do I connect to the Azure SQL Database server that's secured behind the virtual network with other tools?
+
+How does local app development work with GitHub Actions?
+
+How do I debug errors during the GitHub Actions deployment?
+
+I don't have permissions to create a user-assigned identity
+
+How do I change the SQL Database connection to use a managed identity instead?
+
+What can I do with GitHub Copilot in my codespace?
+
+Related content
+
+
+
+# Create your first pipeline
+
+Article • 04/03/2024
+
+
+Azure DevOps Services | Azure DevOps Server 2022 - Azure DevOps Server 2019
+
+Prerequisites - Azure DevOps
+
+Create your first pipeline
+
+Get the Java sample code
+
+Create your first Java pipeline
+
+View and manage your pipelines
+
+View pipeline details
+
+View pipeline run details
+
+Jobs and stages
+
+Cancel and re-run a pipeline
+
+Pipeline run more actions menu
+
+Add a status badge to your repository
+
+Next steps
+
+Clean up
+
+FAQ
+
+Where can I read articles about DevOps and CI/CD?
+
+What version control system can I use?
+
+How can I delete a pipeline?
+
+What else can I do when I queue a build?
+
+Where can I learn more about pipeline settings?
+
+How do I programmatically create a build pipeline?
+
+
+
 # 
