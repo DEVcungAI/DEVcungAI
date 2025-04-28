@@ -16199,4 +16199,392 @@ How do I programmatically create a build pipeline?
 
 
 
+# ASP.NET Core Module (ANCM) for IIS
+
+Article • 09/27/2024
+
+
+Install ASP.NET Core Module (ANCM)
+
+Additional resources
+
+
+
+# Troubleshoot ASP.NET Core on Azure App Service and IIS
+
+Article • 09/27/2024
+
+
+App startup errors
+
+403.14 Forbidden
+
+500 Internal Server Error
+
+500.0 In-Process Handler Load Failure
+
+500.30 In-Process Startup Failure
+
+500.31 ANCM Failed to Find Native Dependencies
+
+500.32 ANCM Failed to Load dll
+
+500.33 ANCM Request Handler Load Failure
+
+500.34 ANCM Mixed Hosting Models Not Supported
+
+500.35 ANCM Multiple In-Process Applications in same Process
+
+500.36 ANCM Out-Of-Process Handler Load Failure
+
+500.37 ANCM Failed to Start Within Startup Time Limit
+
+500.38 ANCM Application DLL Not Found
+
+502.5 Process Failure
+
+Failed to start application (ErrorCode '0x800700c1')
+
+Failed to start application (ErrorCode '0x800701b1')
+
+Connection reset
+
+Default startup limits
+
+Troubleshoot on Azure App Service
+
+Azure App Services Log stream
+
+Application Event Log (Azure App Service)
+
+Run the app in the Kudu console
+
+Test a 32-bit (x86) app
+
+Current release
+
+Framework-dependent deployment running on a preview release
+
+Test a 64-bit (x64) app
+
+Current release
+
+Framework-dependent deployment running on a preview release
+
+ASP.NET Core Module stdout log (Azure App Service)
+
+ASP.NET Core Module debug log (Azure App Service)
+
+Slow or nonresponsive app (Azure App Service)
+
+Monitoring blades
+
+Troubleshoot on IIS
+
+Application Event Log (IIS)
+
+Run the app at a command prompt
+
+Framework-dependent deployment
+
+Self-contained deployment
+
+ASP.NET Core Module stdout log (IIS)
+
+ASP.NET Core Module debug log (IIS)
+
+Enable the Developer Exception Page
+
+Obtain data from an app
+
+Slow or non-responding app (IIS)
+
+App crashes or encounters an exception
+
+App doesn't respond, fails during startup, or runs normally
+
+Analyze the dump
+
+Clear package caches
+
+Additional resources
+
+Azure documentation
+
+Visual Studio documentation
+
+Visual Studio Code documentation
+
+
+
+# Common error troubleshooting for Azure App Service and IIS with ASP.NET Core
+
+Article • 07/31/2024
+
+
+OS upgrade removed the 32-bit ASP.NET Core Module
+
+Missing site extension, 32-bit (x86) and 64-bit (x64) site extensions installed, or wrong process bitness set
+
+An x86 app is deployed but the app pool isn't enabled for 32-bit apps
+
+Platform conflicts with RID
+
+URI endpoint wrong or stopped website
+
+CoreWebEngine or W3SVC server features disabled
+
+Incorrect website physical path or app missing
+
+Incorrect role, ASP.NET Core Module not installed, or incorrect permissions
+
+Incorrect processPath, missing PATH variable, Hosting Bundle not installed, system/IIS not restarted, VC++ Redistributable not installed, or dotnet.exe access violation
+
+Incorrect arguments of <aspNetCore> element
+
+Missing .NET Core shared framework
+
+Stopped Application Pool
+
+Sub-application includes a <handlers> section
+
+stdout log path incorrect
+
+Application configuration general issue
+
+
+
+# Publish an ASP.NET Core app to IIS
+
+Article • 07/01/2024
+
+
+Prerequisites
+
+Install the .NET Core Hosting Bundle
+
+Create the IIS site
+
+Create an ASP.NET Core Razor Pages app
+
+Publish and deploy the app
+
+Browse the website
+
+Next steps
+
+Additional resources
+
+Articles in the ASP.NET Core documentation set
+
+Articles pertaining to ASP.NET Core app deployment
+
+Articles on IIS HTTPS configuration
+
+Articles on IIS and Windows Server
+
+Deployment resources for IIS administrators
+
+
+
+# Host ASP.NET Core in a Windows Service
+
+Article • 09/27/2024
+
+
+Prerequisites
+
+Worker Service template
+
+App configuration
+
+Deployment type
+
+SDK
+
+Framework-dependent deployment (FDD)
+
+Self-contained deployment (SCD)
+
+Service user account
+
+Log on as a service rights
+
+Create and manage the Windows Service
+
+Create a service
+
+Start a service
+
+Determine a service's status
+
+Stop a service
+
+Remove a service
+
+Proxy server and load balancer scenarios
+
+Configure endpoints
+
+Current directory and content root
+
+Use ContentRootPath or ContentRootFileProvider
+
+Store a service's files in a suitable location on disk
+
+Troubleshoot
+
+Common errors
+
+System and Application Event Logs
+
+Run the app at a command prompt
+
+Clear package caches
+
+Slow or unresponsive app
+
+App crashes or encounters an exception
+
+App is unresponsive, fails during startup, or runs normally
+
+Analyze the dump
+
+Additional resources
+
+
+
+# Host ASP.NET Core on Linux with Nginx
+
+Article • 03/14/2024
+
+
+Prerequisites
+
+Publish and copy over the app
+
+Configure a reverse proxy server
+
+Use a reverse proxy server
+
+Install Nginx
+
+Configure Nginx
+
+Increase keepalive_requests
+
+Monitor the app
+
+Create the service file
+
+View logs
+
+Data protection
+
+Long request header fields
+
+Secure the app
+
+Enable AppArmor
+
+Configure the firewall
+
+Secure Nginx
+
+Change the Nginx response name
+
+Configure options
+
+HTTPS configuration
+
+Secure Nginx from clickjacking
+
+MIME-type sniffing
+
+Additional Nginx suggestions
+
+Additional resources
+
+
+
+# Host ASP.NET Core in Docker containers
+
+Article • 07/31/2024
+
+
+System.IO.IOException: The configured user limit (128) on the number of inotify instances has been reached
+
+
+
+# Run an ASP.NET Core app in Docker containers
+
+Article • 07/31/2024
+
+
+ASP.NET Core Docker images
+
+Prerequisites
+
+Download the sample app
+
+Run the app locally
+
+Run in a Linux container or Windows container
+
+Build and deploy manually
+
+The Dockerfile
+
+Additional resources
+
+
+
+# Visual Studio Container Tools with ASP.NET Core
+
+Article • 07/31/2024
+
+
+Prerequisites
+
+Installation and setup
+
+Add a project to a Docker container
+
+New app
+
+Existing app
+
+Dockerfile overview
+
+Add container orchestrator support to an app
+
+Docker Compose
+
+Service Fabric
+
+Debug
+
+Edit and continue
+
+Publish Docker images
+
+Additional resources
+
+
+
+# Deploy an ASP.NET container to a container registry using Visual Studio
+
+Article • 08/22/2024
+
+
+Prerequisites
+
+Create an ASP.NET Core web app
+
+Publish your container to Azure Container Registry
+
+Related content
+
+
+
 # 
