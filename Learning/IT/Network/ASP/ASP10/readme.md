@@ -16587,4 +16587,338 @@ Related content
 
 
 
+# Configure ASP.NET Core to work with proxy servers and load balancers
+
+Article • 09/27/2024
+
+
+Forwarded headers
+
+IIS/IIS Express and ASP.NET Core Module
+
+Other proxy server and load balancer scenarios
+
+Forwarded Headers Middleware order
+
+Nginx configuration
+
+Apache configuration
+
+Forwarded Headers Middleware options
+
+Scenarios and use cases
+
+When it isn't possible to add forwarded headers and all requests are secure
+
+Work with path base and proxies that change the request path
+
+Configuration for a proxy that uses different header names
+
+Forward the scheme for Linux and non-IIS reverse proxies
+
+Certificate forwarding
+
+Azure
+
+Other web proxies
+
+Troubleshoot
+
+Additional resources
+
+
+
+# Deploying and scaling an ASP.NET Core app on Azure Container Apps
+
+Article • 09/18/2024
+
+
+Set up the sample project
+
+Test the app
+
+Deploy the app to Azure Container Apps
+
+Scale and troubleshoot the app
+
+Troubleshooting the error
+
+Create the Azure Services
+
+Create the storage account service
+
+Create the storage container
+
+Create the key vault service
+
+Create the key
+
+Connect the Azure Services
+
+Connect the storage account
+
+Connect the key vault
+
+Configure and redeploy the app
+
+Redeploy the app
+
+Configure roles for local development
+
+Sign-in to your local development environment
+
+Assign roles to your developer account
+
+Reliable web app patterns
+
+
+
+# Host ASP.NET Core in a web farm
+
+Article • 09/18/2024
+
+
+General configuration
+
+App data
+
+Required configuration
+
+Data Protection
+
+Caching
+
+Dependent components
+
+Troubleshoot
+
+Data Protection and caching
+
+Obtain data from apps
+
+Additional resources
+
+
+
+# Visual Studio publish profiles (.pubxml) for ASP.NET Core app deployment
+
+Article • 11/26/2024
+
+
+Compute project items
+
+Basic command-line publishing
+
+Publish profiles
+
+Folder publish example
+
+Publish to an MSDeploy endpoint from the command line
+
+Set the environment
+
+Exclude files
+
+Include files
+
+General file inclusion
+
+Selective file inclusion
+
+Run a target before or after publishing
+
+Publish to a server using an untrusted certificate
+
+The Kudu service
+
+Additional resources
+
+
+
+# ASP.NET Core directory structure
+
+Article • 07/31/2024
+
+
+Additional resources
+
+
+
+# ASP.NET Core security topics
+
+Article • 11/11/2024
+
+
+ASP.NET Core security features
+
+Authentication vs. Authorization
+
+Common Vulnerabilities in software
+
+Secure authentication flows
+
+Additional resources
+
+
+
+# Overview of ASP.NET Core authentication
+
+Article • 02/14/2024
+
+
+Authentication concepts
+
+DefaultScheme
+
+Authentication scheme
+
+Authentication handler
+
+RemoteAuthenticationHandler<TOptions> vs AuthenticationHandler<TOptions>
+
+Authenticate
+
+Challenge
+
+Forbid
+
+Authentication providers per tenant
+
+Additional resources
+
+
+
+# Choose an identity management solution
+
+Article • 08/30/2023
+
+
+Basic identity management with ASP.NET Core Identity
+
+Determine if an OIDC server is needed
+
+Disconnected scenarios
+
+Decide where user data such as sign-ins are stored
+
+Identity vs OIDC server
+
+
+
+# Introduction to Identity on ASP.NET Core
+
+Article • 08/30/2024
+
+
+Create a Web app with authentication
+
+Apply migrations
+
+Test Register and Login
+
+View the Identity database
+
+Configure Identity services
+
+Scaffold Register, Login, LogOut, and RegisterConfirmation
+
+Examine Register
+
+Disable default account verification
+
+Log in
+
+Log out
+
+Test Identity
+
+Explore Identity
+
+Identity Components
+
+Migrating to ASP.NET Core Identity
+
+Setting password strength
+
+AddDefaultIdentity and AddIdentity
+
+Prevent publish of static Identity assets
+
+
+
+# How to use Identity to secure a Web API backend for SPAs
+
+Article • 09/10/2024
+
+
+Prerequisites
+
+Install NuGet packages
+
+Create an IdentityDbContext
+
+Configure the EF Core context
+
+Add Identity services to the container
+
+Activate Identity APIs
+
+Map Identity routes
+
+Secure selected endpoints
+
+Test the API
+
+Attempt to access a secured endpoint
+
+Test registration
+
+Test login
+
+Retest the secured endpoint
+
+Testing with nonbrowser clients
+
+Use token-based authentication
+
+Log out
+
+The MapIdentityApi<TUser> endpoints
+
+Use the POST /register endpoint
+
+Use the POST /login endpoint
+
+Token-based authentication
+
+Use the POST /refresh endpoint
+
+Use the GET /confirmEmail endpoint
+
+Use the POST /resendConfirmationEmail endpoint
+
+Use the POST /forgotPassword endpoint
+
+Use the POST /resetPassword endpoint
+
+Use the POST /manage/2fa endpoint
+
+Enable 2FA
+
+Log in with 2FA
+
+Reset the recovery codes
+
+Reset the shared key
+
+Forget the machine
+
+Use the GET /manage/info endpoint
+
+Use the POST /manage/info endpoint
+
+See also
+
+
+
 # 
