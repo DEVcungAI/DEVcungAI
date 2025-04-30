@@ -16921,4 +16921,318 @@ See also
 
 
 
+# Scaffold Identity in ASP.NET Core projects
+
+Article • 07/23/2024
+
+
+Blazor Identity scaffolding
+
+Razor Pages and MVC Identity scaffolding
+
+Scaffold Identity into a Blazor project
+
+Client-side Blazor apps (Standalone Blazor WebAssembly)
+
+Scaffold Identity into a Razor project without existing authorization
+
+Migrations, UseAuthentication, and layout
+
+Layout changes
+
+Scaffold Identity into a Razor project with authorization
+
+Scaffold Identity into an MVC project with authorization
+
+Create full Identity UI source
+
+Password configuration
+
+Disable a page
+
+Use another app to add users
+
+Prevent publish of static Identity assets
+
+
+
+# Add, download, and delete custom user data to Identity in an ASP.NET Core project
+
+Article • 05/31/2024
+
+
+Prerequisites
+
+Create a Razor web app
+
+Run the Identity scaffolder
+
+Add custom user data to the Identity DB
+
+Add custom user data to the Identity DB
+
+Update the Account/Register.cshtml page
+
+Update the layout
+
+Add a migration for the custom user data
+
+Test create, view, download, delete custom user data
+
+
+
+# Identity model customization in ASP.NET Core
+
+Article • 10/30/2024
+
+
+Identity and EF Core Migrations
+
+The Identity model
+
+Entity types
+
+Entity type relationships
+
+Default model configuration
+
+Model generic types
+
+Customize the model
+
+Custom user data
+
+Change the primary key type
+
+Add navigation properties
+
+Add all User navigation properties
+
+Add User and Role navigation properties
+
+Add all navigation properties
+
+Use composite keys
+
+Change table/column names and facets
+
+Map to a different schema
+
+Lazy loading
+
+Additional resources
+
+
+
+# Configure ASP.NET Core Identity
+
+Article • 03/12/2024
+
+
+Identity options
+
+Claims Identity
+
+Lockout
+
+Password
+
+Sign-in
+
+Tokens
+
+User
+
+Cookie settings
+
+Password Hasher options
+
+Globally require all users to be authenticated
+
+ISecurityStampValidator and SignOut everywhere
+
+
+
+# Custom storage providers for ASP.NET Core Identity
+
+Article • 10/30/2024
+
+
+Introduction
+
+The ASP.NET Core Identity architecture
+
+ASP.NET Core Identity stores data types
+
+Users
+
+User Claims
+
+User Logins
+
+Roles
+
+The data access layer
+
+Context class
+
+User Storage
+
+Role Storage
+
+UserClaims Storage
+
+UserLogins Storage
+
+UserRole Storage
+
+Customize the user class
+
+Customize the user store
+
+Optional interfaces
+
+Interfaces to implement when customizing user store
+
+IdentityUserClaim, IdentityUserLogin, and IdentityUserRole
+
+Customize the role class
+
+Customize the role store
+
+Reconfigure app to use a new storage provider
+
+References
+
+
+
+# Account confirmation and password recovery in ASP.NET Core
+
+Article • 09/18/2024
+
+
+Prerequisites
+
+Create and test a web app with authentication
+
+Register user with simulated email confirmation
+
+Configure an email provider
+
+Configure SendGrid user secrets
+
+Install SendGrid
+
+Implement IEmailSender
+
+Configure app to support email
+
+Disable default account verification when Account.RegisterConfirmation has been scaffolded
+
+Register, confirm email, and reset password
+
+Test password reset
+
+Resend email confirmation
+
+Change email and activity timeout
+
+Change all data protection token lifespans
+
+Change the email token lifespan
+
+Debug email
+
+Combine social and local login accounts
+
+Enable account confirmation after a site has users
+
+
+
+# Enable QR code generation for TOTP authenticator apps in ASP.NET Core
+
+Article • 12/11/2024
+
+
+Adding QR codes to the 2FA configuration page
+
+Change the site name in the QR code
+
+Using a different QR Code library
+
+TOTP client and server time skew
+
+
+
+# Facebook, Google, and external provider authentication in ASP.NET Core
+
+Article • 09/05/2024
+
+
+Create a New ASP.NET Core Project
+
+Apply migrations
+
+Forward request information with a proxy or load balancer
+
+Use SecretManager to store tokens assigned by login providers
+
+Setup login providers required by your application
+
+Multiple authentication providers
+
+Optionally set password
+
+Additional information
+
+
+
+# Google external login setup in ASP.NET Core
+
+Article • 02/06/2024
+
+
+Create the Google OAuth 2.0 Client ID and secret
+
+Store the Google client ID and secret
+
+Configure Google authentication
+
+Sign in with Google
+
+Forward request information with a proxy or load balancer
+
+Multiple authentication providers
+
+Change the default callback URI
+
+Troubleshooting
+
+
+
+# Facebook external login setup in ASP.NET Core
+
+Article • 02/06/2024
+
+
+Create the app in Facebook
+
+Store the Facebook app ID and secret
+
+Configure Facebook Authentication
+
+Sign in with Facebook
+
+React to cancel authorize external sign-in
+
+Test AccessDeniedPath
+
+Forward request information with a proxy or load balancer
+
+Multiple authentication providers
+
+Troubleshooting
+
+
+
 # 
