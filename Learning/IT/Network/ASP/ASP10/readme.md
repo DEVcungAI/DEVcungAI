@@ -17235,4 +17235,210 @@ Troubleshooting
 
 
 
+# Microsoft Account external login setup with ASP.NET Core
+
+Article • 06/03/2022
+
+
+Create the app in Microsoft Developer Portal
+
+Create client secret
+
+Store the Microsoft client ID and secret
+
+Configure Microsoft Account Authentication
+
+Sign in with Microsoft Account
+
+Multiple authentication providers
+
+Forward request information with a proxy or load balancer
+
+Troubleshooting
+
+
+
+# Twitter external sign-in setup with ASP.NET Core
+
+Article • 09/05/2024
+
+
+Create the app in Twitter
+
+Store the Twitter consumer API key and secret
+
+Configure Twitter Authentication
+
+Multiple authentication providers
+
+Sign in with Twitter
+
+Forward request information with a proxy or load balancer
+
+Troubleshooting
+
+
+
+# External OAuth authentication providers
+
+Article • 09/05/2024
+
+
+Multiple authentication providers
+
+Forward request information with a proxy or load balancer
+
+
+
+# Persist additional claims and tokens from external providers in ASP.NET Core
+
+Article • 09/07/2023
+
+
+Prerequisites
+
+Set the client ID and client secret
+
+Establish the authentication scope
+
+Map user data keys and create claims
+
+Save the access token
+
+How to add additional custom tokens
+
+Create and add claims
+
+Add and update user claims
+
+Remove claim actions and claims
+
+Sample app output
+
+Forward request information with a proxy or load balancer
+
+Additional resources
+
+
+
+# Articles based on ASP.NET Core projects created with individual user accounts
+
+Article • 05/31/2024
+
+
+No Authentication
+
+Windows Authentication
+
+dotnet new webapp authentication options
+
+Visual Studio new webapp authentication options
+
+Additional resources
+
+
+
+# Microsoft Entra ID with ASP.NET Core
+
+Article • 02/06/2024
+
+
+Application Scenarios
+
+Samples
+
+Authentication and authorization for any app
+
+Get started
+
+Microsoft authentication libraries
+
+
+
+# Authentication and authorization in Azure App Service and Azure Functions
+
+Article • 09/27/2024
+
+
+Why use the built-in authentication?
+
+Identity providers
+
+Considerations for using built-in authentication
+
+How it works
+
+Feature architecture
+
+Feature architecture on Windows (non-container deployment)
+
+Feature architecture on Linux and containers
+
+Authentication flow
+
+Authorization behavior
+
+Token store
+
+Logging and tracing
+
+Cross-site request forgery mitigation
+
+Considerations when using Azure Front Door
+
+More resources
+
+
+
+# Web app that signs in users: App registration
+
+Article • 03/25/2024
+
+
+Register an app by using the quickstarts
+
+Register an app by using the Azure portal
+
+Register an app by using PowerShell
+
+
+
+# A web app that calls web APIs: App registration
+
+Article • 10/23/2023
+
+
+Add a client secret or certificate
+
+Add client credentials by using the Azure portal
+
+Add client credentials by using PowerShell
+
+API permissions
+
+
+
+# Protected web API: App registration
+
+Article • 05/28/2024
+
+
+Accepted token version
+
+No redirect URI
+
+Exposed API
+
+Scopes and the Application ID URI
+
+Expose delegated permissions (scopes)
+
+If your web API is called by a service or daemon app
+
+Expose application permissions (app roles)
+
+Restrict access tokens to specific clients apps
+
+
+
 # 
