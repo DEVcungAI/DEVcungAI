@@ -17441,4 +17441,296 @@ Restrict access tokens to specific clients apps
 
 
 
+# A web API that calls web APIs: App registration
+
+Article • 10/23/2023
+
+
+Add a client secret or certificate
+
+Add client credentials by using the Azure portal
+
+Add client credentials by using PowerShell
+
+API permissions
+
+
+
+# Cloud authentication with Azure Active Directory B2C in ASP.NET Core
+
+Article • 10/25/2024
+
+
+Prerequisites
+
+Preparation
+
+Modify the app
+
+Modify the app
+
+
+
+# Enable authentication in your own web API by using Azure AD B2C
+
+Article • 01/11/2024
+
+
+Prerequisites
+
+Overview
+
+Prerequisites
+
+Overview
+
+Step 1: Create a protected web API
+
+Step 2: Install the dependencies
+
+Step 3: Initiate the authentication library
+
+Step 4: Add the endpoints
+
+Step 5: Configure the web server
+
+Step 6: Configure the web API
+
+Step 7: Run and test the web API
+
+Step 8: Call the web API from your app
+
+
+
+# Use cookie authentication without ASP.NET Core Identity
+
+Article • 04/25/2024
+
+
+Add cookie authentication
+
+Cookie Policy Middleware
+
+Create an authentication cookie
+
+Sign out
+
+React to back-end changes
+
+Persistent cookies
+
+Absolute cookie expiration
+
+
+
+# Configure OpenID Connect Web (UI) authentication in ASP.NET Core
+
+Article • 12/02/2024
+
+
+What is an OpenID Connect confidential interactive client
+
+Create an Open ID Connect code flow client using Razor Pages
+
+Add OpenID Connect support
+
+Setup the OpenID Connect client
+
+Setup the configuration properties
+
+Update the ASP.NET Core pipeline method in the program class
+
+Force authorization
+
+Add a new Logout.cshtml and SignedOut.cshtml Razor page to the project
+
+Implement Login Page
+
+Add a login, logout button for the user
+
+Examples with code snippets
+
+Example Using User Info endpoint
+
+Implementing Microsoft identity providers
+
+Using third party OpenID Connect provider clients
+
+Backend for frontend (BFF) security architecture
+
+Advanced features, standards, extending the OIDC client
+
+Logging
+
+OIDC and OAuth Parameter Customization
+
+Map claims from OpenID Connect
+
+Blazor OpenID Connect
+
+Standards
+
+
+
+# Configure certificate authentication in ASP.NET Core
+
+Article • 09/10/2024
+
+
+Proxy and load balancer scenarios
+
+Get started
+
+Configure certificate validation
+
+AllowedCertificateTypes = Chained, SelfSigned, or All (Chained | SelfSigned)
+
+ChainTrustValidationMode
+
+CustomTrustStore
+
+ValidateCertificateUse
+
+ValidateValidityPeriod
+
+RevocationFlag
+
+RevocationMode
+
+Can I configure my app to require a certificate only on certain paths?
+
+Handler events
+
+Configure your server to require certificates
+
+Kestrel
+
+IIS
+
+Azure and custom web proxies
+
+Use certificate authentication in Azure Web Apps
+
+Use certificate authentication in custom web proxies
+
+Implement an HttpClient using a certificate and IHttpClientFactory
+
+Create certificates in PowerShell
+
+Create root CA
+
+Install in the trusted root
+
+Intermediate certificate
+
+Create child certificate from intermediate certificate
+
+Create child certificate from root certificate
+
+Example root - intermediate certificate - certificate
+
+Certificate validation caching
+
+Optional client certificates
+
+Separate Hosts (SNI)
+
+Renegotiation
+
+IIS
+
+HttpSys
+
+Kestrel
+
+
+
+# Configure Windows Authentication in ASP.NET Core
+
+Article • 09/12/2024
+
+
+Proxy and load balancer scenarios
+
+IIS/IIS Express
+
+Launch settings (debugger)
+
+IIS
+
+Kestrel
+
+Kerberos authentication and role-based access control (RBAC)
+
+Windows environment configuration
+
+Kerberos vs NTLM
+
+Windows environment configuration
+
+Kerberos vs NTLM
+
+Linux and macOS environment configuration
+
+HTTP.sys
+
+Authorize users
+
+Disallow anonymous access
+
+Allow anonymous access
+
+Impersonation
+
+Claims transformations
+
+Additional resources
+
+
+
+# Authenticate users with WS-Federation in ASP.NET Core
+
+Article • 06/18/2024
+
+
+Register the app with Active Directory
+
+Active Directory Federation Services
+
+Microsoft Entra ID
+
+Use WS-Federation without ASP.NET Core Identity
+
+Add WS-Federation as an external login provider for ASP.NET Core Identity
+
+Log in with WS-Federation
+
+
+
+# Use social sign-in provider authentication without ASP.NET Core Identity
+
+Article • 06/03/2022
+
+
+Configuration
+
+Apply authorization
+
+Save the access token
+
+Sign out
+
+Additional resources
+
+
+
+# Policy schemes in ASP.NET Core
+
+Article • 06/03/2022
+
+
+Examples
+
+
+
 # 
