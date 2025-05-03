@@ -17733,4 +17733,218 @@ Examples
 
 
 
+# Manage JSON Web Tokens in development with dotnet user-jwts
+
+Article • 09/27/2024
+
+
+Synopsis
+
+Description
+
+Arguments
+
+Commands
+
+Create
+
+Examples
+
+Create a JWT
+
+Display JWT security information
+
+Create a token for a specific user and scope
+
+
+
+# Mapping, customizing, and transforming claims in ASP.NET Core
+
+Article • 08/16/2024
+
+
+Mapping claims using OpenID Connect authentication
+
+Name claim and role claim mapping
+
+Claims namespaces, default namespaces
+
+Extend or add custom claims using IClaimsTransformation
+
+Map claims from external identity providers
+
+
+
+# Community OSS authentication options for ASP.NET Core
+
+Article • 05/06/2024
+
+
+OSS authentication providers [.NET]
+
+OSS authentication provider clients [.NET]
+
+Other OSS authentication providers
+
+
+
+# Identity management solutions for .NET web apps
+
+Article • 10/18/2024
+
+
+
+# Multi-factor authentication in ASP.NET Core
+
+Article • 10/30/2024
+
+
+MFA, 2FA
+
+MFA TOTP (Time-based One-time Password Algorithm)
+
+MFA passkeys/FIDO2 or passwordless
+
+MFA SMS
+
+Configure MFA for administration pages using ASP.NET Core Identity
+
+Extend the login with an MFA claim
+
+Validate the MFA requirement in the administration page
+
+UI logic to toggle user login information
+
+Send MFA sign-in requirement to OpenID Connect server
+
+OpenID Connect ASP.NET Core client
+
+Example OpenID Connect Duende IdentityServer server with ASP.NET Core Identity
+
+Force ASP.NET Core OpenID Connect client to require MFA
+
+OIDC and OAuth Parameter Customization
+
+Additional resources
+
+
+
+# Introduction to authorization in ASP.NET Core
+
+Article • 12/02/2024
+
+
+Authorization types
+
+Namespaces
+
+
+
+# Create an ASP.NET Core web app with user data protected by authorization
+
+Article • 10/04/2024
+
+
+Prerequisites
+
+The starter and completed app
+
+The starter app
+
+Secure user data
+
+Tie the contact data to the user
+
+Add Role services to Identity
+
+Require authenticated users
+
+Configure the test account
+
+Create the test accounts and update the contacts
+
+Create owner, manager, and administrator authorization handlers
+
+Create a manager authorization handler
+
+Create an administrator authorization handler
+
+Register the authorization handlers
+
+Support authorization
+
+Review the contact operations requirements class
+
+Create a base class for the Contacts Razor Pages
+
+Update the CreateModel
+
+Update the IndexModel
+
+Update the EditModel
+
+Update the DeleteModel
+
+Inject the authorization service into the views
+
+Update Details
+
+Update the details page model
+
+Add or remove a user to a role
+
+Differences between Challenge and Forbid
+
+Test the completed app
+
+Create the starter app
+
+Seed the database
+
+Additional resources
+
+
+
+# Razor Pages authorization conventions in ASP.NET Core
+
+Article • 06/03/2022
+
+
+Require authorization to access a page
+
+Require authorization to access a folder of pages
+
+Require authorization to access an area page
+
+Require authorization to access a folder of areas
+
+Allow anonymous access to a page
+
+Allow anonymous access to a folder of pages
+
+Note on combining authorized and anonymous access
+
+Additional resources
+
+
+
+# Simple authorization in ASP.NET Core
+
+Article • 05/02/2024
+
+
+Prerequisites
+
+Use the [Authorize] attribute
+
+Authorize attribute and Razor Pages
+
+
+
+# Custom authorization policies with IAuthorizationRequirementData
+
+Article • 06/16/2023
+
+
+
 # 
