@@ -17947,4 +17947,157 @@ Article • 06/16/2023
 
 
 
+# Role-based authorization in ASP.NET Core
+
+Article • 09/27/2024
+
+
+Add Role services to Identity
+
+Adding role checks
+
+Policy based role checks
+
+
+
+# Claims-based authorization in ASP.NET Core
+
+Article • 11/10/2023
+
+
+Adding claims checks
+
+Add a generic claim check
+
+Multiple Policy Evaluation
+
+
+
+# Policy-based authorization in ASP.NET Core
+
+Article • 08/08/2024
+
+
+IAuthorizationService
+
+Apply policies to MVC controllers
+
+Apply policies to Razor Pages
+
+Apply policies to endpoints
+
+Requirements
+
+Authorization handlers
+
+Use a handler for one requirement
+
+Use a handler for multiple requirements
+
+Handler registration
+
+What should a handler return?
+
+Why would I want multiple handlers for a requirement?
+
+Use a func to fulfill a policy
+
+Access MVC request context in handlers
+
+Globally require all users to be authenticated
+
+Authorization with external service sample
+
+Configure the sample
+
+Additional resources
+
+
+
+# Custom Authorization Policy Providers using IAuthorizationPolicyProvider in ASP.NET Core
+
+Article • 06/03/2022
+
+
+Customize policy retrieval
+
+Parameterized authorize attribute example
+
+Custom Authorization attributes
+
+Custom IAuthorizationPolicyProvider
+
+Multiple authorization policy providers
+
+Default policy
+
+Fallback policy
+
+Use a custom IAuthorizationPolicyProvider
+
+
+
+# Customize the behavior of AuthorizationMiddleware
+
+Article • 06/03/2022
+
+
+
+# Dependency injection in requirement handlers in ASP.NET Core
+
+Article • 06/03/2022
+
+
+
+# Resource-based authorization in ASP.NET Core
+
+Article • 06/18/2024
+
+
+Use imperative authorization
+
+Write a resource-based handler
+
+Operational requirements
+
+Challenge and forbid with an operational resource handler
+
+
+
+# View-based authorization in ASP.NET Core MVC
+
+Article • 09/27/2024
+
+
+
+# Authorize with a specific scheme in ASP.NET Core
+
+Article • 06/03/2022
+
+
+Selecting the scheme with the Authorize attribute
+
+Selecting the scheme with policies
+
+Use multiple authentication schemes
+
+
+
+# ASP.NET Core Data Protection Overview
+
+Article • 06/17/2024
+
+
+Problem statement
+
+Design philosophy
+
+Audience
+
+Package layout
+
+Additional resources
+
+
+
 # 
