@@ -18100,4 +18100,141 @@ Additional resources
 
 
 
+# Get started with the Data Protection APIs in ASP.NET Core
+
+Article • 06/17/2024
+
+
+Use AddOptions to configure custom repository
+
+
+
+# Consumer APIs overview for ASP.NET Core
+
+Article • 06/17/2024
+
+
+IDataProtectionProvider
+
+IDataProtector
+
+Consuming these interfaces
+
+Console app
+
+Web app
+
+
+
+# Purpose strings in ASP.NET Core
+
+Article • 06/17/2024
+
+
+
+# Purpose hierarchy and multi-tenancy in ASP.NET Core
+
+Article • 06/03/2022
+
+
+
+# Hash passwords in ASP.NET Core
+
+Article • 07/19/2022
+
+
+
+# Limit the lifetime of protected payloads in ASP.NET Core
+
+Article • 06/03/2022
+
+
+API usage
+
+
+
+# Unprotect payloads whose keys have been revoked in ASP.NET Core
+
+Article • 09/27/2024
+
+
+IPersistedDataProtector
+
+
+
+# Data Protection configuration in ASP.NET Core
+
+Article • 06/03/2022
+
+
+Configure ASP.NET Core Data Protection
+
+Data Protection key management and lifetime
+
+Data Protection machine-wide policy support
+
+Non-DI aware scenarios for Data Protection in ASP.NET Core
+
+
+
+# Configure ASP.NET Core Data Protection
+
+Article • 11/04/2024
+
+
+ProtectKeysWithAzureKeyVault
+
+PersistKeysToFileSystem
+
+PersistKeysToDbContext
+
+ProtectKeysWith*
+
+UnprotectKeysWithAnyCertificate
+
+SetDefaultKeyLifetime
+
+SetApplicationName
+
+DisableAutomaticKeyGeneration
+
+Per-application isolation
+
+Data Protection and app isolation
+
+Changing algorithms with UseCryptographicAlgorithms
+
+Specifying custom managed algorithms
+
+Specifying custom Windows CNG algorithms
+
+Specifying other custom algorithms
+
+Persisting keys when hosting in a Docker container
+
+Persisting keys with Redis
+
+Logging DataProtection
+
+Additional resources
+
+
+
+# Data Protection key management and lifetime in ASP.NET Core
+
+Article • 08/21/2024
+
+
+Key management
+
+Key lifetime
+
+Default algorithms
+
+Delete keys
+
+Additional resources
+
+
+
 # 
