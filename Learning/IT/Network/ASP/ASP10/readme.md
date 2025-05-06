@@ -18237,4 +18237,142 @@ Additional resources
 
 
 
+# Data Protection machine-wide policy support in ASP.NET Core
+
+Article • 06/17/2024
+
+
+Setting default policy
+
+Encryption types
+
+
+
+# Non-DI aware scenarios for Data Protection in ASP.NET Core
+
+Article • 06/17/2024
+
+
+
+# ASP.NET Core Data Protection extensibility APIs
+
+Article • 06/03/2022
+
+
+
+# Core cryptography extensibility in ASP.NET Core
+
+Article • 09/27/2024
+
+
+IAuthenticatedEncryptor
+
+How to create an IAuthenticatedEncryptor
+
+IAuthenticatedEncryptorDescriptor (ASP.NET Core 2.x only)
+
+XML Serialization
+
+IAuthenticatedEncryptorDescriptorDeserializer
+
+The top-level factory
+
+
+
+# Key management extensibility in ASP.NET Core
+
+Article • 02/06/2024
+
+
+Key
+
+IKeyManager
+
+XmlKeyManager
+
+IXmlRepository
+
+IXmlEncryptor
+
+IXmlDecryptor
+
+IKeyEscrowSink
+
+
+
+# Miscellaneous ASP.NET Core Data Protection APIs
+
+Article • 06/03/2022
+
+
+ISecret
+
+
+
+# ASP.NET Core Data Protection implementation
+
+Article • 06/03/2022
+
+
+Authenticated encryption details
+
+Subkey Derivation and Authenticated Encryption
+
+Context headers
+
+Key Management
+
+Key Storage Providers
+
+Key Encryption At Rest
+
+Key immutability and settings
+
+Key Storage Format
+
+Ephemeral data protection providers
+
+
+
+# Authenticated encryption details in ASP.NET Core
+
+Article • 10/21/2024
+
+
+Protected payload format
+
+
+
+# Subkey derivation and authenticated encryption in ASP.NET Core
+
+Article • 01/04/2023
+
+
+Additional authenticated data and subkey derivation
+
+CBC-mode encryption + HMAC validation
+
+Galois/Counter Mode encryption + validation
+
+
+
+# Context headers in ASP.NET Core
+
+Article • 06/03/2022
+
+
+Background and theory
+
+CBC-mode encryption + HMAC authentication
+
+Example: AES-192-CBC + HMACSHA256
+
+Example: 3DES-192-CBC + HMACSHA1
+
+Galois/Counter Mode encryption + authentication
+
+Example: AES-256-GCM
+
+
+
 # 
