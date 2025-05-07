@@ -18375,4 +18375,187 @@ Example: AES-256-GCM
 
 
 
+# Key management in ASP.NET Core
+
+Article • 09/27/2024
+
+
+Default key selection
+
+Key expiration and rolling
+
+Automatic key ring refresh
+
+Key storage
+
+
+
+# Key storage providers in ASP.NET Core
+
+Article • 10/30/2024
+
+
+File system
+
+Azure Storage
+
+Redis
+
+Registry
+
+Entity Framework Core
+
+Custom key repository
+
+
+
+# Key encryption at rest in Windows and Azure using ASP.NET Core
+
+Article • 03/17/2023
+
+
+Azure Key Vault
+
+Windows DPAPI
+
+X.509 certificate
+
+Windows DPAPI-NG
+
+Certificate-based encryption with Windows DPAPI-NG
+
+Custom key encryption
+
+
+
+# Key immutability and key settings in ASP.NET Core
+
+Article • 06/03/2022
+
+
+The default key lifetime
+
+The key encryption at rest mechanism
+
+The algorithmic information contained within the key
+
+
+
+# Key storage format in ASP.NET Core
+
+Article • 10/21/2024
+
+
+The <key> element
+
+The <descriptor> element
+
+The <encryptedSecret> element
+
+The <revocation> element
+
+
+
+# Ephemeral data protection providers in ASP.NET Core
+
+Article • 02/28/2023
+
+
+
+# Compatibility in ASP.NET Core
+
+Article • 06/03/2022
+
+
+Replacing ASP.NET <machineKey> in ASP.NET Core
+
+
+
+# Replace the ASP.NET machineKey in ASP.NET Core
+
+Article • 06/03/2022
+
+
+Package installation
+
+Package configuration
+
+
+
+# Safe storage of app secrets in development in ASP.NET Core
+
+Article • 11/04/2024
+
+
+Environment variables
+
+Secret Manager
+
+How the Secret Manager tool works
+
+Enable secret storage
+
+Use the CLI
+
+Use Visual Studio
+
+If GenerateAssemblyInfo is false
+
+Set a secret
+
+JSON structure flattening in Visual Studio
+
+Set multiple secrets
+
+Access a secret
+
+Register the user secrets configuration source
+
+Read the secret via the Configuration API
+
+Map secrets to a POCO
+
+String replacement with secrets
+
+List the secrets
+
+Remove a single secret
+
+Remove all secrets
+
+Manage user secrets with Visual Studio
+
+Migrating User Secrets from ASP.NET Framework to ASP.NET Core
+
+User secrets in non-web applications
+
+Additional resources
+
+
+
+# Manage JSON Web Tokens in development with dotnet user-jwts
+
+Article • 09/27/2024
+
+
+Synopsis
+
+Description
+
+Arguments
+
+Commands
+
+Create
+
+Examples
+
+Create a JWT
+
+Display JWT security information
+
+Create a token for a specific user and scope
+
+
+
 # 
