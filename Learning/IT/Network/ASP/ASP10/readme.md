@@ -18558,4 +18558,324 @@ Create a token for a specific user and scope
 
 
 
+# Azure Key Vault configuration provider in ASP.NET Core
+
+Article • 10/30/2024
+
+
+Packages
+
+Sample app
+
+Secret storage in the Development environment
+
+Secret storage in the Production environment with Azure Key Vault
+
+Use Application ID and X.509 certificate for non-Azure-hosted apps
+
+Use managed identities for Azure resources
+
+Configuration options
+
+Use a key name prefix
+
+Bind an array to a class
+
+Reload secrets
+
+Disabled and expired secrets
+
+Troubleshoot
+
+Additional resources
+
+
+
+# Enforce HTTPS in ASP.NET Core
+
+Article • 10/25/2024
+
+
+HTTP redirection to HTTPS causes ERR_INVALID_REDIRECT on the CORS preflight request
+
+Require HTTPS
+
+UseHttpsRedirection
+
+Port configuration
+
+Edge deployments
+
+Deployment scenarios
+
+Options
+
+Configure permanent redirects in production
+
+HTTPS Redirection Middleware alternative approach
+
+HTTP Strict Transport Security Protocol (HSTS)
+
+Opt-out of HTTPS/HSTS on project creation
+
+Trust the ASP.NET Core HTTPS development certificate
+
+How to set up a developer certificate for Docker
+
+Linux-specific considerations
+
+Dependencies
+
+OpenSSL trust
+
+Overrides
+
+Using sudo
+
+Trust HTTPS certificate on Linux with linux-dev-certs
+
+Troubleshoot certificate problems such as certificate not trusted
+
+All platforms - certificate not trusted
+
+dotnet dev-certs https --clean Fails
+
+Docker - certificate not trusted
+
+Windows - certificate not trusted
+
+OS X - certificate not trusted
+
+Linux certificate not trusted
+
+IIS Express SSL certificate used with Visual Studio
+
+Group policy prevents self-signed certificates from being trusted
+
+Additional information
+
+
+
+# Hosting ASP.NET Core images with Docker over HTTPS
+
+Article • 09/10/2024
+
+
+Prerequisites
+
+Certificates
+
+Running pre-built container images with HTTPS
+
+Windows using Linux containers
+
+macOS or Linux
+
+Windows using Windows containers
+
+Developing ASP.NET Core Applications with Docker over HTTPS
+
+
+
+# Hosting ASP.NET Core images with Docker Compose over HTTPS
+
+Article • 09/10/2024
+
+
+Prerequisites
+
+Certificates
+
+Starting a container with https support using docker compose
+
+Windows using Linux containers
+
+macOS or Linux
+
+Windows using Windows containers
+
+
+
+# EU General Data Protection Regulation (GDPR) support in ASP.NET Core
+
+Article • 06/17/2024
+
+
+Customize the cookie consent value
+
+Encryption at rest
+
+Additional resources
+
+
+
+# Prevent Cross-Site Request Forgery (XSRF/CSRF) attacks in ASP.NET Core
+
+Article • 10/21/2024
+
+
+Authentication fundamentals
+
+Cookie-based authentication
+
+Token-based authentication
+
+Multiple apps hosted at one domain
+
+Antiforgery in ASP.NET Core
+
+Antiforgery with AddControllers
+
+Multiple browser tabs and the Synchronizer Token Pattern
+
+Configure antiforgery with AntiforgeryOptions
+
+Generate antiforgery tokens with IAntiforgery
+
+Require antiforgery validation
+
+Automatically validate antiforgery tokens for unsafe HTTP methods only
+
+Override global or controller antiforgery attributes
+
+Refresh tokens after authentication
+
+JavaScript, AJAX, and SPAs
+
+Blazor
+
+JavaScript
+
+Antiforgery with Minimal APIs
+
+Windows authentication and antiforgery cookies
+
+Extend antiforgery
+
+Additional resources
+
+
+
+# Prevent open redirect attacks in ASP.NET Core
+
+Article • 09/27/2024
+
+
+What is an open redirect attack?
+
+An example attack
+
+Protecting against open redirect attacks
+
+LocalRedirect
+
+IsLocalUrl
+
+
+
+# Prevent Cross-Site Scripting (XSS) in ASP.NET Core
+
+Article • 09/27/2024
+
+
+Protecting your application against XSS
+
+HTML Encoding using Razor
+
+JavaScript Encoding using Razor
+
+Accessing encoders in code
+
+Encoding URL Parameters
+
+Customizing the Encoders
+
+Where should encoding take place?
+
+Validation as an XSS prevention technique
+
+
+
+# Enable Cross-Origin Requests (CORS) in ASP.NET Core
+
+Article • 09/21/2024
+
+
+Same origin
+
+Enable CORS
+
+CORS with named policy and middleware
+
+UseCors and UseStaticFiles order
+
+CORS with default policy and middleware
+
+Enable Cors with endpoint routing
+
+Enable CORS with attributes
+
+Disable CORS
+
+CORS policy options
+
+Set the allowed origins
+
+Set the allowed HTTP methods
+
+Set the allowed request headers
+
+Set the exposed response headers
+
+Credentials in cross-origin requests
+
+Preflight requests
+
+Automatic preflight request code
+
+[HttpOptions] attribute for preflight requests
+
+Set the preflight expiration time
+
+Enable CORS on an endpoint
+
+How CORS works
+
+HTTP redirection to HTTPS causes ERR_INVALID_REDIRECT on the CORS preflight request
+
+CORS in IIS
+
+Test CORS
+
+Test CORS with [EnableCors] attribute and RequireCors method
+
+Additional resources
+
+
+
+# Share authentication cookies among ASP.NET apps
+
+Article • 06/17/2024
+
+
+Share authentication cookies with ASP.NET Core Identity
+
+Share authentication cookies without ASP.NET Core Identity
+
+Share cookies across different base paths
+
+Share cookies across subdomains
+
+Encrypt data protection keys at rest
+
+Use a common user database
+
+Application name change
+
+Share authentication cookies between ASP.NET 4.x and ASP.NET Core apps
+
+Additional resources
+
+
+
 # 
