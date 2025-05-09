@@ -18878,4 +18878,300 @@ Additional resources
 
 
 
+# Work with SameSite cookies in ASP.NET Core
+
+Article • 06/17/2024
+
+
+SameSite and Identity
+
+SameSite test sample code
+
+.NET Core support for the sameSite attribute
+
+API usage with SameSite
+
+History and changes
+
+APIs impacted by the change from the 2016 SameSite draft standard to the 2019 draft standard
+
+Supporting older browsers
+
+Test apps for SameSite problems
+
+Test with Chrome
+
+Test with Safari
+
+Test with Firefox
+
+Test with Edge browser
+
+Test with Edge (Chromium)
+
+Test with Electron
+
+Additional resources
+
+
+
+# Client IP safelist for ASP.NET Core
+
+Article • 10/25/2024
+
+
+IP address safelist
+
+Middleware
+
+Action filter
+
+Razor Pages filter
+
+Additional resources
+
+
+
+# ASP.NET Core performance
+
+Article • 09/18/2024
+
+
+ASP.NET Core Blazor performance best practices
+
+ASP.NET Core Best Practices
+
+Overview of caching in ASP.NET Core
+
+Rate limiting middleware in ASP.NET Core
+
+Memory management and patterns in ASP.NET Core
+
+Scaling ASP.NET Core Apps on Azure
+
+Object reuse with ObjectPool in ASP.NET Core
+
+Response compression in ASP.NET Core
+
+Performance Diagnostics Tools
+
+ASP.NET Core load/stress testing
+
+Request timeouts middleware in ASP.NET Core
+
+Short-circuit middleware after routing
+
+
+
+# Overview of caching in ASP.NET Core
+
+Article • 05/21/2024
+
+
+In-memory caching
+
+Distributed Cache
+
+HybridCache
+
+Features
+
+Compatibility
+
+Additional resources
+
+Response caching
+
+Output caching
+
+Cache Tag Helper
+
+Distributed Cache Tag Helper
+
+
+
+# Cache in-memory in ASP.NET Core
+
+Article • 04/23/2024
+
+
+System.Runtime.Caching/MemoryCache
+
+Cache guidelines
+
+Use IMemoryCache
+
+MemoryCacheEntryOptions
+
+Use SetSize, Size, and SizeLimit to limit cache size
+
+MemoryCache.Compact
+
+Cache dependencies
+
+Additional notes
+
+Background cache update
+
+Additional resources
+
+
+
+# Distributed caching in ASP.NET Core
+
+Article • 10/04/2024
+
+
+Prerequisites
+
+IDistributedCache interface
+
+Establish distributed caching services
+
+Distributed Redis Cache
+
+Distributed Memory Cache
+
+Distributed SQL Server Cache
+
+Distributed NCache Cache
+
+Distributed Azure CosmosDB Cache
+
+Reuse an existing client
+
+Create a new client
+
+Use the distributed cache
+
+Recommendations
+
+Additional resources
+
+
+
+# HybridCache library in ASP.NET Core
+
+Article • 12/02/2024
+
+
+Get the library
+
+Register the service
+
+Get and store cache entries
+
+The main GetOrCreateAsync overload
+
+The alternative GetOrCreateAsync overload
+
+The SetAsync method
+
+Remove cache entries by key
+
+Remove cache entries by tag
+
+Options
+
+Limits
+
+Serialization
+
+Cache storage
+
+Optimize performance
+
+Reuse objects
+
+Avoid byte[] allocations
+
+Custom HybridCache implementations
+
+Compatibility
+
+Additional resources
+
+
+
+# Output caching middleware in ASP.NET Core
+
+Article • 07/11/2024
+
+
+Add the middleware to the app
+
+Configure one endpoint or page
+
+Configure multiple endpoints or pages
+
+Default output caching policy
+
+Override the default policy
+
+Alternative default policy override
+
+Specify the cache key
+
+Cache revalidation
+
+Use tags to evict cache entries
+
+Disable resource locking
+
+Limits
+
+Cache storage
+
+Redis cache
+
+IDistributedCache not recommended
+
+
+
+# Response caching in ASP.NET Core
+
+Article • 04/10/2024
+
+
+HTTP-based response caching
+
+HTTP-based caching respects request Cache-Control directives
+
+ResponseCache attribute
+
+Vary
+
+NoStore and Location.None
+
+Location and Duration
+
+Cache profiles
+
+Additional resources
+
+
+
+# Response Caching Middleware in ASP.NET Core
+
+Article • 07/16/2024
+
+
+Configuration
+
+Options
+
+VaryByQueryKeys
+
+HTTP headers used by Response Caching Middleware
+
+Caching respects request Cache-Control directives
+
+Troubleshooting
+
+Conditions for caching
+
+Additional resources
+
+
+
 # 
