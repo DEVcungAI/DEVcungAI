@@ -19174,4 +19174,254 @@ Additional resources
 
 
 
+# Rate limiting middleware in ASP.NET Core
+
+Article • 06/17/2024
+
+
+Rate limiter algorithms
+
+Fixed window limiter
+
+Sliding window limiter
+
+Token bucket limiter
+
+Concurrency limiter
+
+Create chained limiters
+
+EnableRateLimiting and DisableRateLimiting attributes
+
+Applying attributes to Razor Pages
+
+Limiter algorithm comparison
+
+Rate limiter samples
+
+Limiter with OnRejected, RetryAfter, and GlobalLimiter
+
+Limiter with authorization
+
+Limiter with ConcurrencyLimiter, TokenBucketRateLimiter, and authorization
+
+Testing endpoints with rate limiting
+
+Additional resources
+
+
+
+# Request timeouts middleware in ASP.NET Core
+
+Article • 04/10/2024
+
+
+Add the middleware to the app
+
+Configure one endpoint or page
+
+Configure multiple endpoints or pages
+
+Set global default timeout policy
+
+Specify the status code in a policy
+
+Use a delegate in a policy
+
+Disable timeouts
+
+Cancel a timeout
+
+
+
+# Memory management and garbage collection (GC) in ASP.NET Core
+
+Article • 06/17/2024
+
+
+How garbage collection (GC) works in .NET Core
+
+GC.Collect caveats
+
+Analyzing the memory usage of an app
+
+Detecting memory issues
+
+Sample display memory usage app
+
+Transient objects
+
+Workstation GC vs. Server GC
+
+GC using Docker and small containers
+
+Persistent object references
+
+Native memory
+
+Large object heap
+
+HttpClient
+
+Object pooling
+
+Additional resources
+
+
+
+# Deploying and scaling an ASP.NET Core app on Azure Container Apps
+
+Article • 09/18/2024
+
+
+Set up the sample project
+
+Test the app
+
+Deploy the app to Azure Container Apps
+
+Scale and troubleshoot the app
+
+Troubleshooting the error
+
+Create the Azure Services
+
+Create the storage account service
+
+Create the storage container
+
+Create the key vault service
+
+Create the key
+
+Connect the Azure Services
+
+Connect the storage account
+
+Connect the key vault
+
+Configure and redeploy the app
+
+Redeploy the app
+
+Configure roles for local development
+
+Sign-in to your local development environment
+
+Assign roles to your developer account
+
+Reliable web app patterns
+
+
+
+# Object reuse with ObjectPool in ASP.NET Core
+
+Article • 06/17/2024
+
+
+ObjectPool concepts
+
+How to use ObjectPool
+
+ObjectPool sample
+
+
+
+# Response compression in ASP.NET Core
+
+Article • 07/01/2024
+
+
+Compression with HTTPS
+
+When to use Response Compression Middleware
+
+Response compression
+
+Configuration
+
+Providers
+
+Brotli and Gzip compression providers
+
+Custom providers
+
+MIME types
+
+Adding the Vary header
+
+Middleware issue when behind an Nginx reverse proxy
+
+Disabling IIS dynamic compression
+
+Troubleshoot response compression
+
+Azure deployed sample
+
+Additional resources
+
+
+
+# Performance Diagnostic Tools
+
+Article • 06/17/2024
+
+
+Visual Studio Diagnostic Tools
+
+Application Insights
+
+PerfView
+
+Windows Performance Toolkit
+
+PerfCollect
+
+Other Third-party Performance Tools
+
+
+
+# ASP.NET Core load/stress testing
+
+Article • 03/07/2024
+
+
+Third-party tools
+
+Load and stress test with release builds
+
+
+
+# Tutorial: Measure performance using EventCounters in .NET Core
+
+Article • 06/24/2023
+
+
+Prerequisites
+
+Get the source
+
+Implement an EventSource
+
+Add an action filter
+
+Monitor event counter
+
+
+
+# Globalization and localization in ASP.NET Core
+
+Article • 10/25/2024
+
+
+Terms
+
+Language and country/region codes
+
+Tasks to localize an app
+
+Additional resources
+
+
+
 # 
