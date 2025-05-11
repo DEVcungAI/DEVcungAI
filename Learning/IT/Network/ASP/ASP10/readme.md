@@ -19424,4 +19424,362 @@ Additional resources
 
 
 
+# Make an ASP.NET Core app's content localizable
+
+Article • 10/25/2024
+
+
+IStringLocalizer
+
+IHtmlLocalizer
+
+IStringLocalizerFactory
+
+Shared resources
+
+View localization
+
+DataAnnotations localization
+
+How to use one resource string for multiple classes
+
+Configure localization services
+
+Next steps
+
+Additional resources
+
+
+
+# Provide localized resources for languages and cultures in an ASP.NET Core app
+
+Article • 10/25/2024
+
+
+SupportedCultures and SupportedUICultures
+
+Resource files
+
+Resource file naming
+
+RootNamespaceAttribute
+
+Culture fallback behavior
+
+Generate resource files with Visual Studio
+
+Add other cultures
+
+Next steps
+
+Additional resources
+
+
+
+# Implement a strategy to select the language/culture for each request in a localized ASP.NET Core app
+
+Article • 10/25/2024
+
+
+Configure Localization middleware
+
+QueryStringRequestCultureProvider
+
+CookieRequestCultureProvider
+
+The Accept-Language HTTP header
+
+Set the Accept-Language HTTP header in Edge
+
+The Content-Language HTTP header
+
+Apply the RouteDataRequest CultureProvider
+
+Use a custom provider
+
+Change request culture providers order
+
+User override culture
+
+Set the culture programmatically
+
+Model binding route data and query strings
+
+Next steps
+
+Additional resources
+
+
+
+# Configure portable object localization in ASP.NET Core
+
+Article • 08/07/2024
+
+
+What is a PO file?
+
+Example
+
+Configuring PO file support in ASP.NET Core
+
+Referencing the package
+
+Registering the service
+
+Creating a PO file
+
+Testing the application
+
+Pluralization
+
+Creating pluralization PO files
+
+Adding a language using different pluralization forms
+
+Advanced tasks
+
+Using additional arguments
+
+Contextualizing strings
+
+Changing the location of PO files
+
+Implementing a custom logic for finding localization files
+
+Using a different default pluralized language
+
+
+
+# Localization Extensibility
+
+Article • 07/26/2024
+
+
+Extensible Points in Localization APIs
+
+Localization Culture Providers
+
+Use CustomRequestCultureProvider
+
+Use a new implementation of RequestCultureProvider
+
+Localization resources
+
+
+
+# Troubleshoot ASP.NET Core localization
+
+Article • 05/03/2024
+
+
+Localization configuration issues
+
+Resource file naming issues
+
+Missing resources
+
+Resources and class libraries issues
+
+CustomRequestCultureProvider doesn't work as expected
+
+Root namespace issues
+
+Resources and build action
+
+Location override using "Sensors" pane in developer tools
+
+GitHub issues with helpful problem solving tips
+
+
+
+# Model Binding in ASP.NET Core
+
+Article • 09/27/2024
+
+
+What is Model binding
+
+Example
+
+Targets
+
+[BindProperty] attribute
+
+
+[BindProperties] attribute
+
+Model binding for HTTP GET requests
+
+Model binding simple and complex types
+
+Sources
+
+[FromBody] attribute
+
+Additional sources
+
+No source for a model property
+
+Type conversion errors
+
+Simple types
+
+Bind with IParsable<T>.TryParse
+
+Bind with TryParse
+
+Complex types
+
+Prefix = parameter name
+
+Prefix = property name
+
+Custom prefix
+
+Attributes for complex type targets
+
+[Bind] attribute
+
+[ModelBinder] attribute
+
+[BindRequired] attribute
+
+[BindNever] attribute
+
+Collections
+
+Dictionaries
+
+Constructor binding and record types
+
+POCOs without parameterless constructors
+
+Record types with manually authored constructors
+
+Record types, validation and binding metadata
+
+Validation and metadata
+
+TryUpdateModel does not update parameters on a record type
+
+Globalization behavior of model binding route data and query strings
+
+Special data types
+
+IFormFile and IFormFileCollection
+
+CancellationToken
+
+FormCollection
+
+Input formatters
+
+Customize model binding with input formatters
+
+Exclude specified types from model binding
+
+Custom model binders
+
+Manual model binding
+
+[FromServices] attribute
+
+Additional resources
+
+
+
+# Custom Model Binding in ASP.NET Core
+
+Article • 04/05/2024
+
+
+Default model binder limitations
+
+Model binding simple and complex types
+
+Working with the ByteArrayModelBinder
+
+Custom model binder sample
+
+Implementing a ModelBinderProvider
+
+Polymorphic model binding
+
+Recommendations and best practices
+
+
+
+# Model validation in ASP.NET Core MVC and Razor Pages
+
+Article • 08/30/2024
+
+
+Model state
+
+Rerun validation
+
+Validation attributes
+
+Built-in attributes
+
+Error messages
+
+Use JSON property names in validation errors
+
+Non-nullable reference types and [Required] attribute
+
+[Required] validation on the server
+
+[Required] validation on the client
+
+[Remote] attribute
+
+Additional fields
+
+Alternatives to built-in attributes
+
+Custom attributes
+
+IValidatableObject
+
+Custom validation
+
+ValidationResult
+
+Top-level node validation
+
+Maximum errors
+
+Maximum recursion
+
+Automatic short-circuit
+
+Client-side validation
+
+Unobtrusive validation
+
+Add Validation to Dynamic Forms
+
+Add Validation to Dynamic Controls
+
+Custom client-side validation
+
+AttributeAdapter for client-side validation
+
+IClientModelValidator for client-side validation
+
+Disable client-side validation
+
+Problem details
+
+Additional resources
+
+
+
+# Compatibility version for ASP.NET Core MVC
+
+Article • 06/03/2022
+
+
+
 # 
