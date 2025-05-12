@@ -19782,4 +19782,242 @@ Article • 06/03/2022
 
 
 
+# Write custom ASP.NET Core middleware
+
+Article • 07/26/2024
+
+
+Middleware class
+
+Middleware dependencies
+
+Per-request middleware dependencies
+
+Additional resources
+
+
+
+# Request and response operations in ASP.NET Core
+
+Article • 07/26/2024
+
+
+Stream examples
+
+Pipelines
+
+Adapters
+
+StartAsync
+
+Additional resources
+
+
+
+# Request decompression in ASP.NET Core
+
+Article • 09/27/2024
+
+
+Configuration
+
+Default decompression providers
+
+Custom decompression providers
+
+Request size limits
+
+Additional Resources
+
+
+
+# URL Rewriting Middleware in ASP.NET Core
+
+Article • 07/26/2024
+
+
+URL redirect and URL rewrite
+
+URL rewriting sample app
+
+When to use URL rewriting middleware
+
+Extension and options
+
+Redirect non-www to www
+
+URL redirect
+
+URL redirect to a secure endpoint
+
+URL rewrite
+
+Performance tips for URL rewrite and redirect
+
+Apache mod_rewrite
+
+IIS URL Rewrite Module rules
+
+Unsupported features
+
+Supported server variables
+
+Method-based rule
+
+IRule-based rule
+
+Regex examples
+
+Additional resources
+
+
+
+# File Providers in ASP.NET Core
+
+Article • 07/26/2024
+
+
+File Provider interfaces
+
+File Provider implementations
+
+Physical File Provider
+
+Manifest Embedded File Provider
+
+Composite File Provider
+
+Watch for changes
+
+Glob patterns
+
+
+
+# Request Features in ASP.NET Core
+
+Article • 09/17/2024
+
+
+Feature collections
+
+Feature interfaces
+
+Additional resources
+
+
+
+# Access HttpContext in ASP.NET Core
+
+Article • 07/26/2024
+
+
+Access HttpContext from Razor Pages
+
+Access HttpContext from a Razor view in MVC
+
+Access HttpContext from a controller
+
+Access HttpContext from minimal APIs
+
+Access HttpContext from middleware
+
+Access HttpContext from SignalR
+
+Access HttpContext from gRPC methods
+
+Access HttpContext from custom components
+
+HttpContext access from a background thread
+
+IHttpContextAccessor/HttpContext in Razor components (Blazor)
+
+
+
+# Detect changes with change tokens in ASP.NET Core
+
+Article • 07/26/2024
+
+
+IChangeToken interface
+
+ChangeToken class
+
+Example uses of change tokens in ASP.NET Core
+
+Monitor for configuration changes
+
+Simple startup change token
+
+Monitor configuration changes as a service
+
+Monitor cached file changes
+
+CompositeChangeToken class
+
+Additional resources
+
+
+
+# Open Web Interface for .NET (OWIN) with ASP.NET Core
+
+Article • 12/02/2024
+
+
+Running OWIN middleware in the ASP.NET Core pipeline
+
+OWIN environment
+
+OWIN keys
+
+Request data (OWIN v1.0.0)
+
+Request data (OWIN v1.1.0)
+
+Response data (OWIN v1.0.0)
+
+Other data (OWIN v1.0.0)
+
+Common keys
+
+SendFiles v0.3.0
+
+Opaque v0.3.0
+
+WebSocket v0.3.0
+
+Additional resources
+
+
+
+# Background tasks with hosted services in ASP.NET Core
+
+Article • 05/31/2024
+
+
+Worker Service template
+
+Package
+
+IHostedService interface
+
+StartAsync
+
+StopAsync
+
+BackgroundService base class
+
+Timed background tasks
+
+Consuming a scoped service in a background task
+
+Queued background tasks
+
+Asynchronous timed background task
+
+Native AOT
+
+Additional resources
+
+
+
 # 
