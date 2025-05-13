@@ -20020,4 +20020,239 @@ Additional resources
 
 
 
+# Use hosting startup assemblies in ASP.NET Core
+
+Article • 07/26/2024
+
+
+HostingStartup attribute
+
+Discover loaded hosting startup assemblies
+
+Disable automatic loading of hosting startup assemblies
+
+Project
+
+Class library
+
+Console app without an entry point
+
+Configuration provided by the hosting startup
+
+Specify the hosting startup assembly
+
+Activation
+
+Runtime store
+
+NuGet package
+
+Project bin folder
+
+Sample code
+
+
+
+# Use ASP.NET Core APIs in a class library
+
+Article • 06/18/2024
+
+
+Determine which ASP.NET Core versions to support
+
+Use the ASP.NET Core shared framework
+
+Include Blazor extensibility
+
+Support server-side and client-side apps
+
+Support multiple framework versions
+
+Only support server-side consumption
+
+Include MVC extensibility
+
+Razor views or Razor Pages
+
+Tag Helpers
+
+View components
+
+Support multiple ASP.NET Core versions
+
+Use an API that hasn't changed
+
+Use an API that changed
+
+Use an API introduced in 3.1
+
+Use an API removed from the shared framework
+
+Additional resources
+
+
+
+# Microsoft.AspNetCore.App for ASP.NET Core
+
+Article • 07/26/2024
+
+
+
+# Microsoft.AspNetCore.All metapackage for ASP.NET Core 2.0
+
+Article • 07/26/2024
+
+
+Implicit versioning
+
+Migrating from Microsoft.AspNetCore.All to Microsoft.AspNetCore.App
+
+Update ASP.NET Core 2.1
+
+
+
+# High-performance logging in .NET
+
+Article • 04/11/2024
+
+
+Define a logger message
+
+Define logger message scope
+
+Log level guarded optimizations
+
+See also
+
+
+
+# Develop ASP.NET Core apps using a file watcher
+
+Article • 05/31/2024
+
+
+Run .NET CLI commands using dotnet watch
+
+Make changes with dotnet watch
+
+Run tests using dotnet watch
+
+Customize files list to watch
+
+Opt-out of files to be watched
+
+Custom watch projects
+
+dotnet-watch configuration
+
+Browser refresh
+
+Non-ASCII characters
+
+
+
+# Factory-based middleware activation in ASP.NET Core
+
+Article • 07/26/2024
+
+
+IMiddleware
+
+IMiddlewareFactory
+
+Additional resources
+
+
+
+# Middleware activation with a third-party container in ASP.NET Core
+
+Article • 07/26/2024
+
+
+IMiddlewareFactory
+
+IMiddleware
+
+Additional resources
+
+
+
+# Migrate from ASP.NET Core in .NET 8 to ASP.NET Core in .NET 9
+
+Article • 11/06/2024
+
+
+Prerequisites
+
+Update the .NET SDK version in global.json
+
+Update the target framework
+
+Update package references
+
+Replace UseStaticFiles with MapStaticAssets
+
+Blazor
+
+Adopt simplified authentication state serialization for Blazor Web Apps
+
+Additional resources
+
+
+
+# Migrate from ASP.NET Core in .NET 7 to .NET 8
+
+Article • 10/25/2024
+
+
+Prerequisites
+
+Update the .NET SDK version in global.json
+
+Update the target framework
+
+Update package references
+
+Blazor
+
+Update a Blazor Server app
+
+Adopt all Blazor Web App conventions
+
+Convert a Blazor Server app into a Blazor Web App
+
+Update a Blazor WebAssembly app
+
+Convert a hosted Blazor WebAssembly app into a Blazor Web App
+
+Update service and endpoint option configuration
+
+Drop Blazor Server with Yarp routing workaround
+
+Migrate CascadingValue components in layout components
+
+Migrate the BlazorEnableCompression MSBuild property
+
+Migrate the <CascadingAuthenticationState> component to cascading authentication state services
+
+New article on HTTP caching issues
+
+New article on class libraries with static server-side rendering (static SSR)
+
+Discover components from additional assemblies
+
+Drop [Parameter] attribute when the parameter is supplied from a query string
+
+Blazor Server script fallback policy authorization
+
+Docker
+
+Update Docker images
+
+Update Docker port
+
+Review breaking changes
+
+
+
 # 
