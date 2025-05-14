@@ -20255,4 +20255,540 @@ Review breaking changes
 
 
 
+# Migrate from ASP.NET Core 6.0 to 7.0
+
+Article • 11/16/2024
+
+
+Prerequisites
+
+Update .NET Core SDK version in global.json
+
+Update the target framework
+
+Update package references
+
+Blazor
+
+Adopt .NET 7 features
+
+Simplify component parameter binding
+
+Migrate unmarshalled JavaScript interop
+
+Blazor WebAssembly authentication uses history state for redirects
+
+.NET WebAssembly build tools for .NET 6 projects
+
+Update Docker images
+
+Review breaking changes
+
+
+
+# Migrate from ASP.NET Core 5.0 to 6.0
+
+Article • 10/18/2024
+
+
+Prerequisites
+
+Update .NET SDK version in global.json
+
+Update the target framework
+
+Update package references
+
+New hosting model
+
+Apps migrating to or using 6.0 and later don't need to use the new minimal hosting model
+
+Use Startup with the new minimal hosting model
+
+Differences between the ASP.NET Core 5 and 6 hosting models
+
+Building libraries for ASP.NET Core 6
+
+Frequently asked questions (FAQ)
+
+Blazor
+
+Migrating SPA projects
+
+Migrating Angular apps from SPA extensions
+
+Migrating React apps from SPA extensions
+
+Update Docker images
+
+Changes to the ASP.NET Core Razor SDK
+
+Project templates use Duende Identity Server
+
+Code samples migrated to ASP.NET Core 6.0
+
+Review breaking changes
+
+Nullable reference types (NRTs) and .NET compiler null-state static analysis
+
+ASP.NET Core Module (ANCM)
+
+Application name change
+
+Additional resources
+
+
+
+# Code samples migrated to the new minimal hosting model in ASP.NET Core 6.0
+
+Article • 07/14/2023
+
+
+Middleware
+
+Routing
+
+Change the content root, app name, and environment
+
+ASP.NET Core 5
+
+ASP.NET Core 6
+
+Change the content root, app name, and environment by environment variables or command line
+
+Add configuration providers
+
+ASP.NET Core 5
+
+ASP.NET Core 6
+
+Add logging providers
+
+ASP.NET Core 5
+
+ASP.NET Core 6
+
+Add services
+
+ASP.NET Core 5
+
+ASP.NET Core 6
+
+Customize IHostBuilder or IWebHostBuilder
+
+Customize IHostBuilder
+
+ASP.NET Core 5
+
+ASP.NET Core 6
+
+Customize IWebHostBuilder
+
+ASP.NET Core 5
+
+ASP.NET Core 6
+
+Change the web root
+
+ASP.NET Core 5
+
+ASP.NET Core 6
+
+Custom dependency injection (DI) container
+
+ASP.NET Core 5
+
+ASP.NET Core 6
+
+Access additional services
+
+ASP.NET Core 5
+
+ASP.NET Core 6
+
+Test with WebApplicationFactory or TestServer
+
+ASP.NET Core 5
+
+WebApplicationFactory
+
+TestServer
+
+ASP.NET Core 5 code
+
+With TestServer
+
+With WebApplicationFactory
+
+ASP.NET Core 6
+
+Project file (.csproj)
+
+
+
+# Migrate from ASP.NET Core 3.1 to 6.0
+
+Article • 06/04/2022
+
+
+Prerequisites
+
+Update .NET SDK version in global.json
+
+Update the target framework
+
+Update package references
+
+Delete bin and obj folders
+
+Minimal hosting model
+
+Update Razor class libraries (RCLs)
+
+Blazor
+
+Update Docker images
+
+Model binding changes in ASP.NET Core MVC and Razor Pages
+
+DateTime values are model bound as UTC times
+
+ComplexObjectModelBinderProvider\ ComplexObjectModelBinder replace ComplexTypeModelBinderProvider\ComplexTypeModelBinder
+
+UseDatabaseErrorPage obsolete
+
+ASP.NET Core Module (ANCM)
+
+Application name change
+
+Review breaking changes
+
+
+
+# Migrate from ASP.NET Core 3.1 to 5.0
+
+Article • 10/08/2024
+
+
+Prerequisites
+
+Update .NET Core SDK version in global.json
+
+Update the target framework
+
+Delete bin and obj folders
+
+Changes to Blazor app routing logic in 5.0.1 and further 5.x releases up to 6.0
+
+Old behavior
+
+New behavior
+
+Reason for change
+
+Recommended action
+
+Update Blazor WebAssembly and Blazor Server projects
+
+Update Blazor WebAssembly projects
+
+Standalone Blazor WebAssembly app with Microsoft Accounts
+
+Standalone Blazor WebAssembly app with Microsoft Entra ID (ME-ID)
+
+Standalone Blazor WebAssembly app with Azure Active Directory (AAD) B2C
+
+Hosted Blazor WebAssembly app with Microsoft Entra ID (ME-ID) or AAD B2C
+
+Update the Server project of a hosted Blazor solution
+
+Clean and rebuild the solution
+
+Troubleshoot
+
+Unauthorized client for Microsoft Entra ID (ME-ID)
+
+Update a Blazor Progressive Web Application (PWA)
+
+Remove preview CSS isolation stylesheet link
+
+Update Razor class libraries (RCLs)
+
+Update package references
+
+Update Docker images
+
+Model binding changes in ASP.NET Core MVC and Razor Pages
+
+DateTime values are model bound as UTC times
+
+ComplexObjectModelBinderProvider\ComplexObjectModelBinder replace ComplexTypeModelBinderProvider\ComplexTypeModelBinder
+
+UseDatabaseErrorPage obsolete
+
+ASP.NET Core Module (ANCM)
+
+Package reference changes affecting some NuGet packages
+
+Migrate Microsoft.Identity.Web
+
+Review breaking changes
+
+
+
+# Migrate from ASP.NET Core 3.0 to 3.1
+
+Article • 06/18/2024
+
+
+Prerequisites
+
+Update .NET Core SDK version in global.json
+
+Update the target framework
+
+Update package references
+
+Update Docker images
+
+React to SameSite cookie changes
+
+Publish with Visual Studio
+
+Review breaking changes
+
+Optional changes
+
+Use the Component Tag Helper
+
+ASP.NET Core Module (ANCM)
+
+
+
+# Migrate from ASP.NET Core 2.2 to 3.0
+
+Article • 08/30/2024
+
+
+Prerequisites
+
+Update .NET Core SDK version in global.json
+
+Update the project file
+
+Update the Target Framework
+
+Remove obsolete package references
+
+Review breaking changes
+
+Framework reference
+
+Framework-dependent builds using Docker
+
+Add package references for removed assemblies
+
+Startup changes
+
+Analyzer support
+
+Razor class library
+
+In-process hosting model
+
+Kestrel
+
+Configuration
+
+Connection Middleware replaces Connection Adapters
+
+Transport abstractions moved and made public
+
+Kestrel Request trailer headers
+
+AllowSynchronousIO disabled
+
+Output formatter buffering
+
+Microsoft.AspNetCore.Server.Kestrel.Https assembly removed
+
+Newtonsoft.Json (Json.NET) support
+
+Use Newtonsoft.Json in an ASP.NET Core 3.0 SignalR project
+
+Use Newtonsoft.Json in an ASP.NET Core 3.0 MVC project
+
+MVC service registration
+
+Routing startup code
+
+Migrate Startup.Configure
+
+Health Checks
+
+Security middleware guidance
+
+CORS
+
+Authorization
+
+Authorization for specific endpoints
+
+Custom authorization handlers
+
+SignalR
+
+SignalR assemblies in shared framework
+
+MVC controllers
+
+Async suffix removal from controller action names
+
+Changes to link generation
+
+Razor Pages
+
+Use MVC without Endpoint Routing
+
+Health checks
+
+HostBuilder replaces WebHostBuilder
+
+AddAuthorization moved to a different assembly
+
+Identity UI
+
+SignalR
+
+System.Text.Json is the default protocol
+
+Switch to Newtonsoft.Json
+
+Redis distributed caches
+
+Opt in to runtime compilation
+
+Migrate libraries via multi-targeting
+
+Miscellaneous changes
+
+Publish
+
+TestServer
+
+Breaking API changes
+
+Endpoint routing with catch-all parameter
+
+.NET Core 3.0 on Azure App Service
+
+ASP.NET Core Module (ANCM)
+
+
+
+# Migrate from ASP.NET Core 2.1 to 2.2
+
+Article • 06/18/2024
+
+
+Prerequisites
+
+Update Target Framework Moniker (TFM)
+
+Adopt the IIS in-process hosting model
+
+Update a custom web.config file
+
+Update package references
+
+Update .NET Core SDK version in global.json
+
+Update launch settings
+
+Update Kestrel configuration
+
+Update compatibility version
+
+Update CORS policy
+
+Update Docker images
+
+Build manually in Visual Studio when using IIS in-process hosting
+
+Update logging code
+
+ASP.NET Core Module (ANCM)
+
+Additional resources
+
+
+
+# Migrate from Microsoft.Extensions.Logging 2.1 to 2.2 or 3.0
+
+Article • 06/03/2022
+
+
+2.1 to 2.2
+
+2.1 to 3.0
+
+Additional resources
+
+
+
+# Migrate from ASP.NET Core 2.0 to 2.1
+
+Article • 08/30/2024
+
+
+Update the project file to use 2.1 versions
+
+Rules for projects targeting the shared framework
+
+Update to the 2.1 Docker images
+
+Changes to take advantage of the new code-based idioms that are recommended in ASP.NET Core 2.1
+
+Changes to Main
+
+Changes to Startup
+
+Changes to authentication code
+
+Update Identity to version 2.1
+
+Replace Identity 2.0 UI with the Identity 2.1 Razor class library
+
+Update after scaffolding Identity
+
+Changes to Razor Pages projects Razor files
+
+The layout file
+
+_ValidationScriptsPartial.cshtml
+
+New files
+
+Changes to MVC projects Razor files
+
+The layout file
+
+_ValidationScriptsPartial.cshtml
+
+New files and action methods
+
+Changes to the launchSettings.json file
+
+Breaking changes
+
+FileResult Range header
+
+ControllerBase.File and PhysicalFile Range header
+
+ASP.NET Core Module (ANCM)
+
+Additional changes
+
+
+
 # 
