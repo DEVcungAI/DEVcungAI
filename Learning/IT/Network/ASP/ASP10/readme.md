@@ -20791,4 +20791,199 @@ Additional changes
 
 
 
+# Migrate from ASP.NET Core 1.x to 2.0
+
+Article • 06/18/2024
+
+
+Prerequisites
+
+Update Target Framework Moniker (TFM)
+
+Update .NET Core SDK version in global.json
+
+Update package references
+
+Update .NET CLI tools
+
+Rename Package Target Fallback property
+
+Update Main method in Program.cs
+
+Add configuration providers
+
+Move database initialization code
+
+Review Razor view compilation setting
+
+Rely on Application Insights "light-up" features
+
+Adopt authentication/Identity improvements
+
+Additional resources
+
+
+
+# Migrate authentication and Identity to ASP.NET Core 2.0
+
+Article • 06/18/2024
+
+
+Update namespaces
+
+Authentication Middleware and services
+
+Cookie-based authentication
+
+JWT Bearer Authentication
+
+OpenID Connect (OIDC) authentication
+
+Facebook authentication
+
+Google authentication
+
+Microsoft Account authentication
+
+Twitter authentication
+
+Setting default authentication schemes
+
+Use HttpContext authentication extensions
+
+Windows Authentication (HTTP.sys/IISIntegration)
+
+IdentityCookieOptions instances
+
+Add IdentityUser POCO navigation properties
+
+Replace GetExternalAuthenticationSchemes
+
+ManageLoginsViewModel property change
+
+Additional resources
+
+
+
+# Upgrade from ASP.NET Framework to ASP.NET Core
+
+Article • 04/13/2023
+
+
+Why upgrade to the latest .NET
+
+ASP.NET Framework update approaches
+
+Reliable web app patterns
+
+URI decoding differences between ASP.NET to ASP.NET Core
+
+Migrating User Secrets from ASP.NET Framework to ASP.NET Core
+
+
+
+# Incremental ASP.NET to ASP.NET Core update
+
+Article • 01/11/2024
+
+
+App migration to ASP.NET Core
+
+System.Web Adapters
+
+Additional Resources
+
+
+
+# Get started with incremental ASP.NET to ASP.NET Core migration
+
+Article • 01/11/2024
+
+
+Set up ASP.NET Core Project
+
+Upgrade supporting libraries
+
+Enable Session Support
+
+Enable shared authentication support
+
+General Usage Guidance
+
+
+
+# System.Web adapters
+
+Article • 01/11/2024
+
+
+ASP.NET Framework
+
+ASP.NET Core
+
+See also
+
+
+
+# Remote app setup
+
+Article • 01/11/2024
+
+
+Configuration
+
+ASP.NET app configuration
+
+ASP.NET Core app
+
+Securing the remote app connection
+
+
+
+# Usage Guidance
+
+Article • 08/30/2024
+
+
+HttpContext lifetime
+
+Conversion to HttpContext
+
+CurrentCulture is not set by default
+
+CurrentPrincipal
+
+Request thread does not exist in ASP.NET Core
+
+Request may need to be prebuffered
+
+Response may require buffering
+
+Shared session state
+
+Remote session exposes additional endpoint for application
+
+Virtual directories must be identical for framework and core applications
+
+
+
+# Wrapped ASP.NET Core session state
+
+Article • 01/11/2024
+
+
+
+# ASP.NET to ASP.NET Core incremental session state migration
+
+Article • 01/11/2024
+
+
+Session State
+
+Serialization
+
+Implementations
+
+
+
 # 
