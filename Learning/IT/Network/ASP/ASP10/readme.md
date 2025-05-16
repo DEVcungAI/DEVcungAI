@@ -20986,4 +20986,143 @@ Implementations
 
 
 
+# ASP.NET to ASP.NET Core incremental IHttpModule migration
+
+Article • 03/23/2024
+
+
+IHttpModule Example
+
+Global.asax migration
+
+Authentication/Authorization events
+
+HTTP Module pooling
+
+Additional resources
+
+
+
+# Remote app session state
+
+Article • 01/11/2024
+
+
+HttpSessionState serialization
+
+Configuration
+
+Protocol
+
+Readonly
+
+Writeable
+
+
+
+# Remote Authentication
+
+Article • 01/11/2024
+
+
+Configuration
+
+ASP.NET app configuration
+
+ASP.NET Core app configuration
+
+Design
+
+Known limitations
+
+Alternatives
+
+
+
+# Unit Testing
+
+Article • 01/11/2024
+
+
+
+# A/B Testing endpoints during migration
+
+Article • 01/11/2024
+
+
+Conditional endpoint selection
+
+
+
+# Upgrade from ASP.NET MVC and Web API to ASP.NET Core MVC
+
+Article • 07/18/2023
+
+
+Upgrade using the .NET Upgrade Assistant
+
+Incremental update
+
+
+
+# Upgrade an ASP.NET Framework Web Forms app to ASP.NET Core MVC
+
+Article • 01/18/2024
+
+
+Incremental update
+
+
+
+# Migrate from ASP.NET Web API to ASP.NET Core
+
+Article • 06/18/2024
+
+
+Prerequisites
+
+Create the new ASP.NET Core Web API project
+
+Remove the WeatherForecast template files
+
+The configuration for ASP.NET Core Web API
+
+Copy the Product model
+
+Copy the ProductsController
+
+Routing
+
+Routing in the migrated ProductsController
+
+Additional resources
+
+
+
+# Migrate configuration to ASP.NET Core
+
+Article • 10/04/2024
+
+
+Setup configuration
+
+Migrate configuration settings from web.config
+
+Summary
+
+
+
+# Migrate Authentication and Identity to ASP.NET Core
+
+Article • 10/30/2024
+
+
+Configure Identity and Membership
+
+Migrate registration and login logic
+
+Summary
+
+
+
 # 
