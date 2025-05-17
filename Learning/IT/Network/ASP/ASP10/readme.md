@@ -21125,4 +21125,65 @@ Summary
 
 
 
-# 
+# Migrate from ClaimsPrincipal.Current
+
+Article • 06/18/2024
+
+
+Context-specific state instead of static state
+
+Retrieve the current user in an ASP.NET Core app
+
+
+
+# Migrate from ASP.NET Membership authentication to ASP.NET Core 2.0 Identity
+
+Article • 10/30/2024
+
+
+Review of Membership schema
+
+ASP.NET Core Identity 2.0 schema
+
+Migrate the schema
+
+Users
+
+Roles
+
+User Roles
+
+Next steps
+
+
+
+# Migrate HTTP handlers and modules to ASP.NET Core middleware
+
+Article • 03/23/2024
+
+
+Modules and handlers revisited
+
+From handlers and modules to middleware
+
+Migrating module code to middleware
+
+Migrating module insertion into the request pipeline
+
+Migrating handler code to middleware
+
+Migrating handler insertion into the request pipeline
+
+Loading middleware options using the options pattern
+
+Loading middleware options through direct injection
+
+Migrating to the new HttpContext
+
+HttpContext
+
+HttpContext.Request
+
+HttpContext.Response
+
+Additional resources
